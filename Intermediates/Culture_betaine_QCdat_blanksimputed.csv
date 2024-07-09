@@ -1,0 +1,1231 @@
+SampID,Batch,Organism,Compound,Area,min.area.flag,blk.flag,smp.remove
+220111_Smp_DSS3_A_pos,Bacteria,DSS3,beta-Alaninebetaine,138925,NA,Flag,Smp_Remove
+220111_Smp_DSS3_B_pos,Bacteria,DSS3,beta-Alaninebetaine,138925,NA,Flag,Smp_Remove
+220111_Smp_DSS3_C_pos,Bacteria,DSS3,beta-Alaninebetaine,138925,Flag,Flag,Smp_Remove
+220111_Smp_Och_A_pos,Bacteria,OCh114,beta-Alaninebetaine,138925,NA,Flag,Smp_Remove
+220111_Smp_Och_B_pos,Bacteria,OCh114,beta-Alaninebetaine,138925,NA,Flag,Smp_Remove
+220111_Smp_Och_C_pos,Bacteria,OCh114,beta-Alaninebetaine,138925,NA,Flag,Smp_Remove
+220111_Smp_SA7_A_pos,Bacteria,SA7,beta-Alaninebetaine,138925,NA,Flag,Smp_Remove
+220111_Smp_SA7_B_pos,Bacteria,SA7,beta-Alaninebetaine,138925,NA,Flag,Smp_Remove
+220111_Smp_SA7_C_pos,Bacteria,SA7,beta-Alaninebetaine,138925,NA,Flag,Smp_Remove
+220111_Smp_SA11_A_pos,Bacteria,SA11,beta-Alaninebetaine,49546208,NA,NA,NA
+220111_Smp_SA11_B_pos,Bacteria,SA11,beta-Alaninebetaine,62852056,NA,NA,NA
+220111_Smp_SA11_C_pos,Bacteria,SA11,beta-Alaninebetaine,54846476,NA,NA,NA
+220111_Smp_SA16_A_pos,Bacteria,SA16,beta-Alaninebetaine,61411708,NA,NA,NA
+220111_Smp_SA16_B_pos,Bacteria,SA16,beta-Alaninebetaine,64696944,NA,NA,NA
+220111_Smp_SA16_C_pos,Bacteria,SA16,beta-Alaninebetaine,62978200,NA,NA,NA
+220111_Smp_SA36_A_pos,Bacteria,SA36,beta-Alaninebetaine,138925,NA,Flag,Smp_Remove
+220111_Smp_SA36_B_pos,Bacteria,SA36,beta-Alaninebetaine,853696,NA,NA,NA
+220111_Smp_SA36_C_pos,Bacteria,SA36,beta-Alaninebetaine,138925,NA,Flag,Smp_Remove
+220111_Smp_SA42_A_pos,Bacteria,SA42,beta-Alaninebetaine,138925,NA,Flag,Smp_Remove
+220111_Smp_SA44_B_pos,Bacteria,SA44,beta-Alaninebetaine,2144493,NA,NA,NA
+220111_Smp_SA44_C_pos,Bacteria,SA44,beta-Alaninebetaine,1416174,NA,NA,NA
+220111_Smp_SA48_A_pos,Bacteria,SA48,beta-Alaninebetaine,138925,NA,Flag,NA
+220111_Smp_SA48_B_pos,Bacteria,SA48,beta-Alaninebetaine,7615039,NA,NA,NA
+220111_Smp_SA48_C_pos,Bacteria,SA48,beta-Alaninebetaine,14552081,NA,NA,NA
+220111_Smp_SA53_A_pos,Bacteria,SA53,beta-Alaninebetaine,20850154,NA,NA,NA
+220111_Smp_SA53_B_pos,Bacteria,SA53,beta-Alaninebetaine,25834806,NA,NA,NA
+220111_Smp_SA53_C_pos,Bacteria,SA53,beta-Alaninebetaine,26119642,NA,NA,NA
+220111_Smp_SA55_A_pos,Bacteria,SA55,beta-Alaninebetaine,138925,Flag,Flag,Smp_Remove
+220111_Smp_SA55_B_pos,Bacteria,SA55,beta-Alaninebetaine,138925,Flag,Flag,Smp_Remove
+220111_Smp_SA55_C_pos,Bacteria,SA55,beta-Alaninebetaine,138925,Flag,Flag,Smp_Remove
+220111_Smp_SA59_A_pos,Bacteria,SA59,beta-Alaninebetaine,4010718,NA,NA,NA
+220111_Smp_SA59_B_pos,Bacteria,SA59,beta-Alaninebetaine,2668013,NA,NA,NA
+220111_Smp_SA59_C_pos,Bacteria,SA59,beta-Alaninebetaine,2713063,NA,NA,NA
+220111_Smp_SA60_A_pos,Bacteria,SA60,beta-Alaninebetaine,138925,NA,Flag,Smp_Remove
+220111_Smp_SA60_B_pos,Bacteria,SA60,beta-Alaninebetaine,138925,NA,Flag,Smp_Remove
+220111_Smp_SCM1_Exp1_pos,Bacteria,Nmar,beta-Alaninebetaine,113465.75,NA,Flag,Smp_Remove
+220111_Smp_SCM1_Exp2_pos,Bacteria,Nmar,beta-Alaninebetaine,113465.75,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp3_pos,Bacteria,Nmar,beta-Alaninebetaine,113465.75,NA,Flag,Smp_Remove
+220111_Smp_SCM1_St1_pos,Bacteria,Nmar,beta-Alaninebetaine,113465.75,NA,Flag,Smp_Remove
+220111_Smp_SCM1_St2_pos,Bacteria,Nmar,beta-Alaninebetaine,113465.75,NA,Flag,Smp_Remove
+220111_Smp_SCM1_St3_pos,Bacteria,Nmar,beta-Alaninebetaine,113465.75,NA,Flag,Smp_Remove
+220111_Smp_SCM1_St4_pos,Bacteria,Nmar,beta-Alaninebetaine,113465.75,Flag,Flag,Smp_Remove
+220111_Smp_DSS3_A_pos,Bacteria,DSS3,Betonicine,669400,NA,NA,NA
+220111_Smp_DSS3_B_pos,Bacteria,DSS3,Betonicine,1742117,NA,NA,NA
+220111_Smp_DSS3_C_pos,Bacteria,DSS3,Betonicine,2233332,NA,NA,NA
+220111_Smp_Och_A_pos,Bacteria,OCh114,Betonicine,0,Flag,Flag,Smp_Remove
+220111_Smp_Och_B_pos,Bacteria,OCh114,Betonicine,0,Flag,Flag,Smp_Remove
+220111_Smp_Och_C_pos,Bacteria,OCh114,Betonicine,0,Flag,Flag,Smp_Remove
+220111_Smp_SA7_A_pos,Bacteria,SA7,Betonicine,0,Flag,NA,Smp_Remove
+220111_Smp_SA7_B_pos,Bacteria,SA7,Betonicine,0,Flag,Flag,Smp_Remove
+220111_Smp_SA7_C_pos,Bacteria,SA7,Betonicine,0,Flag,NA,Smp_Remove
+220111_Smp_SA11_A_pos,Bacteria,SA11,Betonicine,516455,NA,NA,NA
+220111_Smp_SA11_B_pos,Bacteria,SA11,Betonicine,619950,NA,NA,NA
+220111_Smp_SA11_C_pos,Bacteria,SA11,Betonicine,188098,NA,NA,NA
+220111_Smp_SA16_A_pos,Bacteria,SA16,Betonicine,0,Flag,NA,NA
+220111_Smp_SA16_B_pos,Bacteria,SA16,Betonicine,64841,NA,NA,NA
+220111_Smp_SA16_C_pos,Bacteria,SA16,Betonicine,112086,NA,NA,NA
+220111_Smp_SA36_A_pos,Bacteria,SA36,Betonicine,0,Flag,Flag,Smp_Remove
+220111_Smp_SA36_B_pos,Bacteria,SA36,Betonicine,47816,NA,NA,NA
+220111_Smp_SA36_C_pos,Bacteria,SA36,Betonicine,0,Flag,Flag,Smp_Remove
+220111_Smp_SA42_A_pos,Bacteria,SA42,Betonicine,0,Flag,Flag,Smp_Remove
+220111_Smp_SA44_B_pos,Bacteria,SA44,Betonicine,0,Flag,Flag,Smp_Remove
+220111_Smp_SA44_C_pos,Bacteria,SA44,Betonicine,0,Flag,Flag,Smp_Remove
+220111_Smp_SA48_A_pos,Bacteria,SA48,Betonicine,0,Flag,NA,Smp_Remove
+220111_Smp_SA48_B_pos,Bacteria,SA48,Betonicine,0,Flag,NA,Smp_Remove
+220111_Smp_SA48_C_pos,Bacteria,SA48,Betonicine,209146,NA,NA,NA
+220111_Smp_SA53_A_pos,Bacteria,SA53,Betonicine,283854,NA,NA,NA
+220111_Smp_SA53_B_pos,Bacteria,SA53,Betonicine,423326,NA,NA,NA
+220111_Smp_SA53_C_pos,Bacteria,SA53,Betonicine,276310,NA,NA,NA
+220111_Smp_SA55_A_pos,Bacteria,SA55,Betonicine,0,Flag,Flag,Smp_Remove
+220111_Smp_SA55_B_pos,Bacteria,SA55,Betonicine,0,Flag,Flag,Smp_Remove
+220111_Smp_SA55_C_pos,Bacteria,SA55,Betonicine,0,Flag,NA,Smp_Remove
+220111_Smp_SA59_A_pos,Bacteria,SA59,Betonicine,0,Flag,NA,Smp_Remove
+220111_Smp_SA59_B_pos,Bacteria,SA59,Betonicine,0,Flag,Flag,Smp_Remove
+220111_Smp_SA59_C_pos,Bacteria,SA59,Betonicine,0,Flag,Flag,Smp_Remove
+220111_Smp_SA60_A_pos,Bacteria,SA60,Betonicine,0,Flag,NA,Smp_Remove
+220111_Smp_SA60_B_pos,Bacteria,SA60,Betonicine,0,Flag,NA,Smp_Remove
+220111_Smp_SCM1_Exp1_pos,Bacteria,Nmar,Betonicine,445732,NA,NA,NA
+220111_Smp_SCM1_Exp2_pos,Bacteria,Nmar,Betonicine,322151,NA,NA,NA
+220111_Smp_SCM1_Exp3_pos,Bacteria,Nmar,Betonicine,97995,NA,NA,NA
+220111_Smp_SCM1_St1_pos,Bacteria,Nmar,Betonicine,719039,NA,NA,NA
+220111_Smp_SCM1_St2_pos,Bacteria,Nmar,Betonicine,1907398,NA,NA,NA
+220111_Smp_SCM1_St3_pos,Bacteria,Nmar,Betonicine,72509,NA,NA,NA
+220111_Smp_SCM1_St4_pos,Bacteria,Nmar,Betonicine,1286512,NA,NA,NA
+220111_Smp_DSS3_A_pos,Bacteria,DSS3,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_DSS3_B_pos,Bacteria,DSS3,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_DSS3_C_pos,Bacteria,DSS3,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_Och_A_pos,Bacteria,OCh114,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_Och_B_pos,Bacteria,OCh114,Dimethylsulfonioacetate,0,Flag,NA,Smp_Remove
+220111_Smp_Och_C_pos,Bacteria,OCh114,Dimethylsulfonioacetate,0,Flag,NA,Smp_Remove
+220111_Smp_SA7_A_pos,Bacteria,SA7,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA7_B_pos,Bacteria,SA7,Dimethylsulfonioacetate,0,Flag,NA,Smp_Remove
+220111_Smp_SA7_C_pos,Bacteria,SA7,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA11_A_pos,Bacteria,SA11,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA11_B_pos,Bacteria,SA11,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA11_C_pos,Bacteria,SA11,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA16_A_pos,Bacteria,SA16,Dimethylsulfonioacetate,0,Flag,NA,Smp_Remove
+220111_Smp_SA16_B_pos,Bacteria,SA16,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA16_C_pos,Bacteria,SA16,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA36_A_pos,Bacteria,SA36,Dimethylsulfonioacetate,0,Flag,NA,Smp_Remove
+220111_Smp_SA36_B_pos,Bacteria,SA36,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA36_C_pos,Bacteria,SA36,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA42_A_pos,Bacteria,SA42,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA44_B_pos,Bacteria,SA44,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA44_C_pos,Bacteria,SA44,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA48_A_pos,Bacteria,SA48,Dimethylsulfonioacetate,0,Flag,NA,Smp_Remove
+220111_Smp_SA48_B_pos,Bacteria,SA48,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA48_C_pos,Bacteria,SA48,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA53_A_pos,Bacteria,SA53,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA53_B_pos,Bacteria,SA53,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA53_C_pos,Bacteria,SA53,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA55_A_pos,Bacteria,SA55,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA55_B_pos,Bacteria,SA55,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA55_C_pos,Bacteria,SA55,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA59_A_pos,Bacteria,SA59,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA59_B_pos,Bacteria,SA59,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA59_C_pos,Bacteria,SA59,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA60_A_pos,Bacteria,SA60,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA60_B_pos,Bacteria,SA60,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp1_pos,Bacteria,Nmar,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp2_pos,Bacteria,Nmar,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp3_pos,Bacteria,Nmar,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St1_pos,Bacteria,Nmar,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St2_pos,Bacteria,Nmar,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St3_pos,Bacteria,Nmar,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St4_pos,Bacteria,Nmar,Dimethylsulfonioacetate,0,Flag,NA,Smp_Remove
+220111_Smp_DSS3_A_pos,Bacteria,DSS3,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_DSS3_B_pos,Bacteria,DSS3,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_DSS3_C_pos,Bacteria,DSS3,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_Och_A_pos,Bacteria,OCh114,Dimethylsulfoniopropionate,0,Flag,NA,Smp_Remove
+220111_Smp_Och_B_pos,Bacteria,OCh114,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_Och_C_pos,Bacteria,OCh114,Dimethylsulfoniopropionate,0,Flag,NA,Smp_Remove
+220111_Smp_SA7_A_pos,Bacteria,SA7,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA7_B_pos,Bacteria,SA7,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA7_C_pos,Bacteria,SA7,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA11_A_pos,Bacteria,SA11,Dimethylsulfoniopropionate,347411,NA,NA,NA
+220111_Smp_SA11_B_pos,Bacteria,SA11,Dimethylsulfoniopropionate,1385408,NA,NA,NA
+220111_Smp_SA11_C_pos,Bacteria,SA11,Dimethylsulfoniopropionate,811460,NA,NA,NA
+220111_Smp_SA16_A_pos,Bacteria,SA16,Dimethylsulfoniopropionate,859303,NA,NA,NA
+220111_Smp_SA16_B_pos,Bacteria,SA16,Dimethylsulfoniopropionate,637153,NA,NA,NA
+220111_Smp_SA16_C_pos,Bacteria,SA16,Dimethylsulfoniopropionate,622752,NA,NA,NA
+220111_Smp_SA36_A_pos,Bacteria,SA36,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA36_B_pos,Bacteria,SA36,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA36_C_pos,Bacteria,SA36,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA42_A_pos,Bacteria,SA42,Dimethylsulfoniopropionate,268200944,NA,NA,NA
+220111_Smp_SA44_B_pos,Bacteria,SA44,Dimethylsulfoniopropionate,45527,NA,NA,NA
+220111_Smp_SA44_C_pos,Bacteria,SA44,Dimethylsulfoniopropionate,0,Flag,NA,Smp_Remove
+220111_Smp_SA48_A_pos,Bacteria,SA48,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA48_B_pos,Bacteria,SA48,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA48_C_pos,Bacteria,SA48,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA53_A_pos,Bacteria,SA53,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA53_B_pos,Bacteria,SA53,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA53_C_pos,Bacteria,SA53,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA55_A_pos,Bacteria,SA55,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA55_B_pos,Bacteria,SA55,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA55_C_pos,Bacteria,SA55,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA59_A_pos,Bacteria,SA59,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA59_B_pos,Bacteria,SA59,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA59_C_pos,Bacteria,SA59,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA60_A_pos,Bacteria,SA60,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SA60_B_pos,Bacteria,SA60,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp1_pos,Bacteria,Nmar,Dimethylsulfoniopropionate,0,Flag,NA,Smp_Remove
+220111_Smp_SCM1_Exp2_pos,Bacteria,Nmar,Dimethylsulfoniopropionate,0,Flag,NA,Smp_Remove
+220111_Smp_SCM1_Exp3_pos,Bacteria,Nmar,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St1_pos,Bacteria,Nmar,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St2_pos,Bacteria,Nmar,Dimethylsulfoniopropionate,146851,NA,NA,NA
+220111_Smp_SCM1_St3_pos,Bacteria,Nmar,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St4_pos,Bacteria,Nmar,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+220111_Smp_DSS3_A_pos,Bacteria,DSS3,Glycine betaine,1117720448,NA,NA,NA
+220111_Smp_DSS3_B_pos,Bacteria,DSS3,Glycine betaine,1207003648,NA,NA,NA
+220111_Smp_DSS3_C_pos,Bacteria,DSS3,Glycine betaine,974537152,NA,NA,NA
+220111_Smp_Och_A_pos,Bacteria,OCh114,Glycine betaine,23133964,NA,Flag,Smp_Remove
+220111_Smp_Och_B_pos,Bacteria,OCh114,Glycine betaine,23133964,NA,Flag,Smp_Remove
+220111_Smp_Och_C_pos,Bacteria,OCh114,Glycine betaine,23133964,NA,Flag,Smp_Remove
+220111_Smp_SA7_A_pos,Bacteria,SA7,Glycine betaine,396224448,NA,NA,NA
+220111_Smp_SA7_B_pos,Bacteria,SA7,Glycine betaine,696945088,NA,NA,NA
+220111_Smp_SA7_C_pos,Bacteria,SA7,Glycine betaine,303200608,NA,NA,NA
+220111_Smp_SA11_A_pos,Bacteria,SA11,Glycine betaine,23133964,NA,Flag,Smp_Remove
+220111_Smp_SA11_B_pos,Bacteria,SA11,Glycine betaine,23133964,NA,Flag,Smp_Remove
+220111_Smp_SA11_C_pos,Bacteria,SA11,Glycine betaine,23133964,NA,Flag,Smp_Remove
+220111_Smp_SA16_A_pos,Bacteria,SA16,Glycine betaine,208842032,NA,NA,NA
+220111_Smp_SA16_B_pos,Bacteria,SA16,Glycine betaine,211861824,NA,NA,NA
+220111_Smp_SA16_C_pos,Bacteria,SA16,Glycine betaine,196305456,NA,NA,NA
+220111_Smp_SA36_A_pos,Bacteria,SA36,Glycine betaine,231300832,NA,NA,NA
+220111_Smp_SA36_B_pos,Bacteria,SA36,Glycine betaine,256981648,NA,NA,NA
+220111_Smp_SA36_C_pos,Bacteria,SA36,Glycine betaine,244863040,NA,NA,NA
+220111_Smp_SA42_A_pos,Bacteria,SA42,Glycine betaine,23133964,NA,Flag,Smp_Remove
+220111_Smp_SA44_B_pos,Bacteria,SA44,Glycine betaine,295314304,NA,NA,NA
+220111_Smp_SA44_C_pos,Bacteria,SA44,Glycine betaine,312232896,NA,NA,NA
+220111_Smp_SA48_A_pos,Bacteria,SA48,Glycine betaine,23133964,NA,Flag,Smp_Remove
+220111_Smp_SA48_B_pos,Bacteria,SA48,Glycine betaine,23133964,NA,Flag,Smp_Remove
+220111_Smp_SA48_C_pos,Bacteria,SA48,Glycine betaine,23133964,NA,Flag,Smp_Remove
+220111_Smp_SA53_A_pos,Bacteria,SA53,Glycine betaine,176763872,NA,NA,NA
+220111_Smp_SA53_B_pos,Bacteria,SA53,Glycine betaine,205155056,NA,NA,NA
+220111_Smp_SA53_C_pos,Bacteria,SA53,Glycine betaine,202899008,NA,NA,NA
+220111_Smp_SA55_A_pos,Bacteria,SA55,Glycine betaine,717338624,NA,NA,NA
+220111_Smp_SA55_B_pos,Bacteria,SA55,Glycine betaine,809690752,NA,NA,NA
+220111_Smp_SA55_C_pos,Bacteria,SA55,Glycine betaine,457473184,NA,NA,NA
+220111_Smp_SA59_A_pos,Bacteria,SA59,Glycine betaine,354192832,NA,NA,NA
+220111_Smp_SA59_B_pos,Bacteria,SA59,Glycine betaine,310742592,NA,NA,NA
+220111_Smp_SA59_C_pos,Bacteria,SA59,Glycine betaine,364465504,NA,NA,NA
+220111_Smp_SA60_A_pos,Bacteria,SA60,Glycine betaine,23133964,NA,Flag,Smp_Remove
+220111_Smp_SA60_B_pos,Bacteria,SA60,Glycine betaine,23133964,NA,Flag,Smp_Remove
+220111_Smp_SCM1_Exp1_pos,Bacteria,Nmar,Glycine betaine,19495374.5,NA,Flag,Smp_Remove
+220111_Smp_SCM1_Exp2_pos,Bacteria,Nmar,Glycine betaine,19495374.5,NA,Flag,Smp_Remove
+220111_Smp_SCM1_Exp3_pos,Bacteria,Nmar,Glycine betaine,19495374.5,NA,Flag,Smp_Remove
+220111_Smp_SCM1_St1_pos,Bacteria,Nmar,Glycine betaine,19495374.5,NA,Flag,Smp_Remove
+220111_Smp_SCM1_St2_pos,Bacteria,Nmar,Glycine betaine,19495374.5,NA,Flag,Smp_Remove
+220111_Smp_SCM1_St3_pos,Bacteria,Nmar,Glycine betaine,19495374.5,NA,Flag,Smp_Remove
+220111_Smp_SCM1_St4_pos,Bacteria,Nmar,Glycine betaine,19495374.5,NA,Flag,Smp_Remove
+220111_Smp_DSS3_A_pos,Bacteria,DSS3,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_DSS3_B_pos,Bacteria,DSS3,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_DSS3_C_pos,Bacteria,DSS3,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_Och_A_pos,Bacteria,OCh114,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_Och_B_pos,Bacteria,OCh114,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_Och_C_pos,Bacteria,OCh114,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA7_A_pos,Bacteria,SA7,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA7_B_pos,Bacteria,SA7,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA7_C_pos,Bacteria,SA7,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA11_A_pos,Bacteria,SA11,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA11_B_pos,Bacteria,SA11,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA11_C_pos,Bacteria,SA11,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA16_A_pos,Bacteria,SA16,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA16_B_pos,Bacteria,SA16,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA16_C_pos,Bacteria,SA16,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA36_A_pos,Bacteria,SA36,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA36_B_pos,Bacteria,SA36,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA36_C_pos,Bacteria,SA36,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA42_A_pos,Bacteria,SA42,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA44_B_pos,Bacteria,SA44,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA44_C_pos,Bacteria,SA44,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA48_A_pos,Bacteria,SA48,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA48_B_pos,Bacteria,SA48,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA48_C_pos,Bacteria,SA48,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA53_A_pos,Bacteria,SA53,Gonyol,0,Flag,NA,Smp_Remove
+220111_Smp_SA53_B_pos,Bacteria,SA53,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA53_C_pos,Bacteria,SA53,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA55_A_pos,Bacteria,SA55,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA55_B_pos,Bacteria,SA55,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA55_C_pos,Bacteria,SA55,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA59_A_pos,Bacteria,SA59,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA59_B_pos,Bacteria,SA59,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA59_C_pos,Bacteria,SA59,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA60_A_pos,Bacteria,SA60,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SA60_B_pos,Bacteria,SA60,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp1_pos,Bacteria,Nmar,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp2_pos,Bacteria,Nmar,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp3_pos,Bacteria,Nmar,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St1_pos,Bacteria,Nmar,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St2_pos,Bacteria,Nmar,Gonyol,0,Flag,NA,Smp_Remove
+220111_Smp_SCM1_St3_pos,Bacteria,Nmar,Gonyol,0,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St4_pos,Bacteria,Nmar,Gonyol,0,Flag,NA,Smp_Remove
+220111_Smp_DSS3_A_pos,Bacteria,DSS3,Homarine,180672,NA,NA,NA
+220111_Smp_DSS3_B_pos,Bacteria,DSS3,Homarine,105627,NA,NA,NA
+220111_Smp_DSS3_C_pos,Bacteria,DSS3,Homarine,2847.5,Flag,Flag,NA
+220111_Smp_Och_A_pos,Bacteria,OCh114,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_Och_B_pos,Bacteria,OCh114,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_Och_C_pos,Bacteria,OCh114,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA7_A_pos,Bacteria,SA7,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA7_B_pos,Bacteria,SA7,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA7_C_pos,Bacteria,SA7,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA11_A_pos,Bacteria,SA11,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA11_B_pos,Bacteria,SA11,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA11_C_pos,Bacteria,SA11,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA16_A_pos,Bacteria,SA16,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA16_B_pos,Bacteria,SA16,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA16_C_pos,Bacteria,SA16,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA36_A_pos,Bacteria,SA36,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA36_B_pos,Bacteria,SA36,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA36_C_pos,Bacteria,SA36,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA42_A_pos,Bacteria,SA42,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA44_B_pos,Bacteria,SA44,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA44_C_pos,Bacteria,SA44,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA48_A_pos,Bacteria,SA48,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA48_B_pos,Bacteria,SA48,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA48_C_pos,Bacteria,SA48,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA53_A_pos,Bacteria,SA53,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA53_B_pos,Bacteria,SA53,Homarine,48419,NA,NA,NA
+220111_Smp_SA53_C_pos,Bacteria,SA53,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA55_A_pos,Bacteria,SA55,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA55_B_pos,Bacteria,SA55,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA55_C_pos,Bacteria,SA55,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA59_A_pos,Bacteria,SA59,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA59_B_pos,Bacteria,SA59,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA59_C_pos,Bacteria,SA59,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA60_A_pos,Bacteria,SA60,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SA60_B_pos,Bacteria,SA60,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp1_pos,Bacteria,Nmar,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp2_pos,Bacteria,Nmar,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp3_pos,Bacteria,Nmar,Homarine,71264,NA,NA,NA
+220111_Smp_SCM1_St1_pos,Bacteria,Nmar,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St2_pos,Bacteria,Nmar,Homarine,2847.5,Flag,NA,Smp_Remove
+220111_Smp_SCM1_St3_pos,Bacteria,Nmar,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St4_pos,Bacteria,Nmar,Homarine,2847.5,Flag,Flag,Smp_Remove
+220111_Smp_DSS3_A_pos,Bacteria,DSS3,Proline betaine,405051,NA,NA,NA
+220111_Smp_DSS3_B_pos,Bacteria,DSS3,Proline betaine,312119,NA,NA,NA
+220111_Smp_DSS3_C_pos,Bacteria,DSS3,Proline betaine,644170,NA,NA,NA
+220111_Smp_Och_A_pos,Bacteria,OCh114,Proline betaine,6122,Flag,Flag,Smp_Remove
+220111_Smp_Och_B_pos,Bacteria,OCh114,Proline betaine,6122,Flag,Flag,Smp_Remove
+220111_Smp_Och_C_pos,Bacteria,OCh114,Proline betaine,6122,Flag,Flag,Smp_Remove
+220111_Smp_SA7_A_pos,Bacteria,SA7,Proline betaine,47104,NA,NA,NA
+220111_Smp_SA7_B_pos,Bacteria,SA7,Proline betaine,6122,Flag,Flag,Smp_Remove
+220111_Smp_SA7_C_pos,Bacteria,SA7,Proline betaine,6122,Flag,Flag,Smp_Remove
+220111_Smp_SA11_A_pos,Bacteria,SA11,Proline betaine,571851,NA,NA,NA
+220111_Smp_SA11_B_pos,Bacteria,SA11,Proline betaine,881154,NA,NA,NA
+220111_Smp_SA11_C_pos,Bacteria,SA11,Proline betaine,288845,NA,NA,NA
+220111_Smp_SA16_A_pos,Bacteria,SA16,Proline betaine,4116702,NA,NA,NA
+220111_Smp_SA16_B_pos,Bacteria,SA16,Proline betaine,924024,NA,NA,NA
+220111_Smp_SA16_C_pos,Bacteria,SA16,Proline betaine,1462420,NA,NA,NA
+220111_Smp_SA36_A_pos,Bacteria,SA36,Proline betaine,659350,NA,NA,NA
+220111_Smp_SA36_B_pos,Bacteria,SA36,Proline betaine,1147878,NA,NA,NA
+220111_Smp_SA36_C_pos,Bacteria,SA36,Proline betaine,1036763,NA,NA,NA
+220111_Smp_SA42_A_pos,Bacteria,SA42,Proline betaine,1527795,NA,NA,NA
+220111_Smp_SA44_B_pos,Bacteria,SA44,Proline betaine,3795679,NA,NA,NA
+220111_Smp_SA44_C_pos,Bacteria,SA44,Proline betaine,3312564,NA,NA,NA
+220111_Smp_SA48_A_pos,Bacteria,SA48,Proline betaine,427959,NA,NA,NA
+220111_Smp_SA48_B_pos,Bacteria,SA48,Proline betaine,502875,NA,NA,NA
+220111_Smp_SA48_C_pos,Bacteria,SA48,Proline betaine,952978,NA,NA,NA
+220111_Smp_SA53_A_pos,Bacteria,SA53,Proline betaine,1771178,NA,NA,NA
+220111_Smp_SA53_B_pos,Bacteria,SA53,Proline betaine,2142556,NA,NA,NA
+220111_Smp_SA53_C_pos,Bacteria,SA53,Proline betaine,2064764,NA,NA,NA
+220111_Smp_SA55_A_pos,Bacteria,SA55,Proline betaine,125202,NA,NA,NA
+220111_Smp_SA55_B_pos,Bacteria,SA55,Proline betaine,162245,NA,NA,NA
+220111_Smp_SA55_C_pos,Bacteria,SA55,Proline betaine,6122,Flag,Flag,NA
+220111_Smp_SA59_A_pos,Bacteria,SA59,Proline betaine,98658,NA,NA,NA
+220111_Smp_SA59_B_pos,Bacteria,SA59,Proline betaine,455722,NA,NA,NA
+220111_Smp_SA59_C_pos,Bacteria,SA59,Proline betaine,145591,NA,NA,NA
+220111_Smp_SA60_A_pos,Bacteria,SA60,Proline betaine,6122,Flag,Flag,Smp_Remove
+220111_Smp_SA60_B_pos,Bacteria,SA60,Proline betaine,6122,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp1_pos,Bacteria,Nmar,Proline betaine,1992.25,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp2_pos,Bacteria,Nmar,Proline betaine,1992.25,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp3_pos,Bacteria,Nmar,Proline betaine,1992.25,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St1_pos,Bacteria,Nmar,Proline betaine,1992.25,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St2_pos,Bacteria,Nmar,Proline betaine,1992.25,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St3_pos,Bacteria,Nmar,Proline betaine,1992.25,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St4_pos,Bacteria,Nmar,Proline betaine,1992.25,Flag,NA,Smp_Remove
+220111_Smp_DSS3_A_pos,Bacteria,DSS3,Trigonelline,183076,NA,NA,NA
+220111_Smp_DSS3_B_pos,Bacteria,DSS3,Trigonelline,153706,NA,NA,NA
+220111_Smp_DSS3_C_pos,Bacteria,DSS3,Trigonelline,133939,NA,NA,NA
+220111_Smp_Och_A_pos,Bacteria,OCh114,Trigonelline,6263.25,Flag,Flag,Smp_Remove
+220111_Smp_Och_B_pos,Bacteria,OCh114,Trigonelline,6263.25,Flag,Flag,Smp_Remove
+220111_Smp_Och_C_pos,Bacteria,OCh114,Trigonelline,6263.25,Flag,Flag,Smp_Remove
+220111_Smp_SA7_A_pos,Bacteria,SA7,Trigonelline,164258,NA,NA,NA
+220111_Smp_SA7_B_pos,Bacteria,SA7,Trigonelline,197543,NA,NA,NA
+220111_Smp_SA7_C_pos,Bacteria,SA7,Trigonelline,375196,NA,NA,NA
+220111_Smp_SA11_A_pos,Bacteria,SA11,Trigonelline,219121,NA,NA,NA
+220111_Smp_SA11_B_pos,Bacteria,SA11,Trigonelline,488014,NA,NA,NA
+220111_Smp_SA11_C_pos,Bacteria,SA11,Trigonelline,52134,NA,NA,NA
+220111_Smp_SA16_A_pos,Bacteria,SA16,Trigonelline,49045,NA,NA,NA
+220111_Smp_SA16_B_pos,Bacteria,SA16,Trigonelline,148252,NA,NA,NA
+220111_Smp_SA16_C_pos,Bacteria,SA16,Trigonelline,177322,NA,NA,NA
+220111_Smp_SA36_A_pos,Bacteria,SA36,Trigonelline,117875,NA,NA,NA
+220111_Smp_SA36_B_pos,Bacteria,SA36,Trigonelline,303971,NA,NA,NA
+220111_Smp_SA36_C_pos,Bacteria,SA36,Trigonelline,6142941,NA,NA,NA
+220111_Smp_SA42_A_pos,Bacteria,SA42,Trigonelline,3117552,NA,NA,NA
+220111_Smp_SA44_B_pos,Bacteria,SA44,Trigonelline,4919396,NA,NA,NA
+220111_Smp_SA44_C_pos,Bacteria,SA44,Trigonelline,10935980,NA,NA,NA
+220111_Smp_SA48_A_pos,Bacteria,SA48,Trigonelline,6263.25,Flag,Flag,NA
+220111_Smp_SA48_B_pos,Bacteria,SA48,Trigonelline,54217,NA,NA,NA
+220111_Smp_SA48_C_pos,Bacteria,SA48,Trigonelline,55504,NA,NA,NA
+220111_Smp_SA53_A_pos,Bacteria,SA53,Trigonelline,6263.25,Flag,Flag,Smp_Remove
+220111_Smp_SA53_B_pos,Bacteria,SA53,Trigonelline,6263.25,Flag,Flag,Smp_Remove
+220111_Smp_SA53_C_pos,Bacteria,SA53,Trigonelline,6263.25,Flag,Flag,Smp_Remove
+220111_Smp_SA55_A_pos,Bacteria,SA55,Trigonelline,2755684,NA,NA,NA
+220111_Smp_SA55_B_pos,Bacteria,SA55,Trigonelline,3495846,NA,NA,NA
+220111_Smp_SA55_C_pos,Bacteria,SA55,Trigonelline,435846,NA,NA,NA
+220111_Smp_SA59_A_pos,Bacteria,SA59,Trigonelline,172834,NA,NA,NA
+220111_Smp_SA59_B_pos,Bacteria,SA59,Trigonelline,96039,NA,NA,NA
+220111_Smp_SA59_C_pos,Bacteria,SA59,Trigonelline,394047,NA,NA,NA
+220111_Smp_SA60_A_pos,Bacteria,SA60,Trigonelline,562418,NA,NA,NA
+220111_Smp_SA60_B_pos,Bacteria,SA60,Trigonelline,199827,NA,NA,NA
+220111_Smp_SCM1_Exp1_pos,Bacteria,Nmar,Trigonelline,10897,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp2_pos,Bacteria,Nmar,Trigonelline,10897,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp3_pos,Bacteria,Nmar,Trigonelline,72656,NA,NA,NA
+220111_Smp_SCM1_St1_pos,Bacteria,Nmar,Trigonelline,10897,NA,Flag,Smp_Remove
+220111_Smp_SCM1_St2_pos,Bacteria,Nmar,Trigonelline,10897,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St3_pos,Bacteria,Nmar,Trigonelline,70084,NA,NA,NA
+220111_Smp_SCM1_St4_pos,Bacteria,Nmar,Trigonelline,10897,Flag,Flag,Smp_Remove
+220111_Smp_DSS3_A_pos,Bacteria,DSS3,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_DSS3_B_pos,Bacteria,DSS3,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_DSS3_C_pos,Bacteria,DSS3,Trimethylamine N-oxide,107538,NA,NA,NA
+220111_Smp_Och_A_pos,Bacteria,OCh114,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_Och_B_pos,Bacteria,OCh114,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_Och_C_pos,Bacteria,OCh114,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA7_A_pos,Bacteria,SA7,Trimethylamine N-oxide,1975.75,Flag,NA,Smp_Remove
+220111_Smp_SA7_B_pos,Bacteria,SA7,Trimethylamine N-oxide,1975.75,Flag,NA,Smp_Remove
+220111_Smp_SA7_C_pos,Bacteria,SA7,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA11_A_pos,Bacteria,SA11,Trimethylamine N-oxide,1975.75,Flag,NA,Smp_Remove
+220111_Smp_SA11_B_pos,Bacteria,SA11,Trimethylamine N-oxide,1975.75,Flag,NA,Smp_Remove
+220111_Smp_SA11_C_pos,Bacteria,SA11,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA16_A_pos,Bacteria,SA16,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA16_B_pos,Bacteria,SA16,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA16_C_pos,Bacteria,SA16,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA36_A_pos,Bacteria,SA36,Trimethylamine N-oxide,1975.75,Flag,NA,Smp_Remove
+220111_Smp_SA36_B_pos,Bacteria,SA36,Trimethylamine N-oxide,1975.75,Flag,NA,Smp_Remove
+220111_Smp_SA36_C_pos,Bacteria,SA36,Trimethylamine N-oxide,1975.75,Flag,NA,Smp_Remove
+220111_Smp_SA42_A_pos,Bacteria,SA42,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA44_B_pos,Bacteria,SA44,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA44_C_pos,Bacteria,SA44,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA48_A_pos,Bacteria,SA48,Trimethylamine N-oxide,1975.75,Flag,NA,Smp_Remove
+220111_Smp_SA48_B_pos,Bacteria,SA48,Trimethylamine N-oxide,1975.75,Flag,NA,Smp_Remove
+220111_Smp_SA48_C_pos,Bacteria,SA48,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA53_A_pos,Bacteria,SA53,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA53_B_pos,Bacteria,SA53,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA53_C_pos,Bacteria,SA53,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA55_A_pos,Bacteria,SA55,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA55_B_pos,Bacteria,SA55,Trimethylamine N-oxide,1975.75,Flag,NA,Smp_Remove
+220111_Smp_SA55_C_pos,Bacteria,SA55,Trimethylamine N-oxide,1975.75,Flag,NA,Smp_Remove
+220111_Smp_SA59_A_pos,Bacteria,SA59,Trimethylamine N-oxide,1975.75,Flag,NA,Smp_Remove
+220111_Smp_SA59_B_pos,Bacteria,SA59,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA59_C_pos,Bacteria,SA59,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA60_A_pos,Bacteria,SA60,Trimethylamine N-oxide,1975.75,Flag,Flag,Smp_Remove
+220111_Smp_SA60_B_pos,Bacteria,SA60,Trimethylamine N-oxide,1975.75,Flag,NA,Smp_Remove
+220111_Smp_SCM1_Exp1_pos,Bacteria,Nmar,Trimethylamine N-oxide,19469.25,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp2_pos,Bacteria,Nmar,Trimethylamine N-oxide,19469.25,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_Exp3_pos,Bacteria,Nmar,Trimethylamine N-oxide,19469.25,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St1_pos,Bacteria,Nmar,Trimethylamine N-oxide,19469.25,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St2_pos,Bacteria,Nmar,Trimethylamine N-oxide,19469.25,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St3_pos,Bacteria,Nmar,Trimethylamine N-oxide,19469.25,Flag,Flag,Smp_Remove
+220111_Smp_SCM1_St4_pos,Bacteria,Nmar,Trimethylamine N-oxide,19469.25,Flag,Flag,Smp_Remove
+211221_Smp_1314P_A_pos,Cyano,1314P,beta-Alaninebetaine,11129.5,Flag,Flag,Smp_Remove
+211221_Smp_1314P_B_pos,Cyano,1314P,beta-Alaninebetaine,11129.5,Flag,Flag,Smp_Remove
+211221_Smp_1314P_C_pos,Cyano,1314P,beta-Alaninebetaine,11129.5,Flag,Flag,Smp_Remove
+211221_Smp_7803_B_pos,Cyano,7803,beta-Alaninebetaine,69378,NA,NA,NA
+211221_Smp_7803_F_pos,Cyano,7803,beta-Alaninebetaine,1176674,NA,NA,NA
+211221_Smp_8102_A_pos,Cyano,8102,beta-Alaninebetaine,0,Flag,Flag,Smp_Remove
+211221_Smp_8102_F_pos,Cyano,8102,beta-Alaninebetaine,0,Flag,Flag,Smp_Remove
+211221_Smp_8501_B_pos,Cyano,WH8501,beta-Alaninebetaine,7267,Flag,Flag,Smp_Remove
+211221_Smp_8501_C_pos,Cyano,WH8501,beta-Alaninebetaine,7267,Flag,Flag,Smp_Remove
+211221_Smp_8501_D_pos,Cyano,WH8501,beta-Alaninebetaine,107155,NA,NA,NA
+211221_Smp_As9601_A_pos,Cyano,As9601,beta-Alaninebetaine,0,Flag,Flag,Smp_Remove
+211221_Smp_As9601_B_pos,Cyano,As9601,beta-Alaninebetaine,0,Flag,NA,Smp_Remove
+211221_Smp_As9601_C_pos,Cyano,As9601,beta-Alaninebetaine,0,Flag,NA,Smp_Remove
+211221_Smp_MED4_D_pos,Cyano,MED4,beta-Alaninebetaine,0,Flag,Flag,Smp_Remove
+211221_Smp_MED4_E_pos,Cyano,MED4,beta-Alaninebetaine,0,Flag,Flag,Smp_Remove
+211221_Smp_MED4_F_pos,Cyano,MED4,beta-Alaninebetaine,0,Flag,Flag,Smp_Remove
+211221_Smp_Nat_A_pos,Cyano,NATL2A,beta-Alaninebetaine,0,Flag,NA,Smp_Remove
+211221_Smp_Nat_B_pos,Cyano,NATL2A,beta-Alaninebetaine,0,Flag,Flag,Smp_Remove
+211221_Smp_Nat_C_pos,Cyano,NATL2A,beta-Alaninebetaine,161262,NA,NA,NA
+211221_Smp_1314P_A_pos,Cyano,1314P,Betonicine,1887,Flag,Flag,Smp_Remove
+211221_Smp_1314P_B_pos,Cyano,1314P,Betonicine,1887,Flag,Flag,Smp_Remove
+211221_Smp_1314P_C_pos,Cyano,1314P,Betonicine,1887,Flag,Flag,Smp_Remove
+211221_Smp_7803_B_pos,Cyano,7803,Betonicine,2676,Flag,Flag,Smp_Remove
+211221_Smp_7803_F_pos,Cyano,7803,Betonicine,2676,Flag,Flag,Smp_Remove
+211221_Smp_8102_A_pos,Cyano,8102,Betonicine,2676,Flag,Flag,Smp_Remove
+211221_Smp_8102_F_pos,Cyano,8102,Betonicine,2676,Flag,NA,Smp_Remove
+211221_Smp_8501_B_pos,Cyano,WH8501,Betonicine,0,Flag,NA,Smp_Remove
+211221_Smp_8501_C_pos,Cyano,WH8501,Betonicine,0,Flag,NA,Smp_Remove
+211221_Smp_8501_D_pos,Cyano,WH8501,Betonicine,0,Flag,Flag,Smp_Remove
+211221_Smp_As9601_A_pos,Cyano,As9601,Betonicine,2436.5,Flag,Flag,Smp_Remove
+211221_Smp_As9601_B_pos,Cyano,As9601,Betonicine,2436.5,Flag,Flag,Smp_Remove
+211221_Smp_As9601_C_pos,Cyano,As9601,Betonicine,2436.5,Flag,Flag,Smp_Remove
+211221_Smp_MED4_D_pos,Cyano,MED4,Betonicine,2676,Flag,Flag,Smp_Remove
+211221_Smp_MED4_E_pos,Cyano,MED4,Betonicine,2676,Flag,Flag,Smp_Remove
+211221_Smp_MED4_F_pos,Cyano,MED4,Betonicine,2676,Flag,NA,Smp_Remove
+211221_Smp_Nat_A_pos,Cyano,NATL2A,Betonicine,3627,Flag,Flag,Smp_Remove
+211221_Smp_Nat_B_pos,Cyano,NATL2A,Betonicine,3627,Flag,Flag,Smp_Remove
+211221_Smp_Nat_C_pos,Cyano,NATL2A,Betonicine,3627,Flag,Flag,Smp_Remove
+211221_Smp_1314P_A_pos,Cyano,1314P,Dimethylsulfonioacetate,3346,Flag,Flag,Smp_Remove
+211221_Smp_1314P_B_pos,Cyano,1314P,Dimethylsulfonioacetate,3346,Flag,Flag,Smp_Remove
+211221_Smp_1314P_C_pos,Cyano,1314P,Dimethylsulfonioacetate,3346,Flag,Flag,Smp_Remove
+211221_Smp_7803_B_pos,Cyano,7803,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_7803_F_pos,Cyano,7803,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_8102_A_pos,Cyano,8102,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_8102_F_pos,Cyano,8102,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_8501_B_pos,Cyano,WH8501,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_8501_C_pos,Cyano,WH8501,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_8501_D_pos,Cyano,WH8501,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_As9601_A_pos,Cyano,As9601,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_As9601_B_pos,Cyano,As9601,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_As9601_C_pos,Cyano,As9601,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_MED4_D_pos,Cyano,MED4,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_MED4_E_pos,Cyano,MED4,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_MED4_F_pos,Cyano,MED4,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_Nat_A_pos,Cyano,NATL2A,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_Nat_B_pos,Cyano,NATL2A,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_Nat_C_pos,Cyano,NATL2A,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211221_Smp_1314P_A_pos,Cyano,1314P,Dimethylsulfoniopropionate,64457,NA,NA,NA
+211221_Smp_1314P_B_pos,Cyano,1314P,Dimethylsulfoniopropionate,0,Flag,Flag,NA
+211221_Smp_1314P_C_pos,Cyano,1314P,Dimethylsulfoniopropionate,40880,NA,NA,NA
+211221_Smp_7803_B_pos,Cyano,7803,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+211221_Smp_7803_F_pos,Cyano,7803,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+211221_Smp_8102_A_pos,Cyano,8102,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+211221_Smp_8102_F_pos,Cyano,8102,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+211221_Smp_8501_B_pos,Cyano,WH8501,Dimethylsulfoniopropionate,6865.5,Flag,Flag,Smp_Remove
+211221_Smp_8501_C_pos,Cyano,WH8501,Dimethylsulfoniopropionate,4495409,NA,NA,NA
+211221_Smp_8501_D_pos,Cyano,WH8501,Dimethylsulfoniopropionate,6865.5,Flag,Flag,Smp_Remove
+211221_Smp_As9601_A_pos,Cyano,As9601,Dimethylsulfoniopropionate,16239,Flag,Flag,Smp_Remove
+211221_Smp_As9601_B_pos,Cyano,As9601,Dimethylsulfoniopropionate,16239,Flag,Flag,Smp_Remove
+211221_Smp_As9601_C_pos,Cyano,As9601,Dimethylsulfoniopropionate,16239,NA,Flag,Smp_Remove
+211221_Smp_MED4_D_pos,Cyano,MED4,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+211221_Smp_MED4_E_pos,Cyano,MED4,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+211221_Smp_MED4_F_pos,Cyano,MED4,Dimethylsulfoniopropionate,0,Flag,NA,Smp_Remove
+211221_Smp_Nat_A_pos,Cyano,NATL2A,Dimethylsulfoniopropionate,75994,NA,NA,NA
+211221_Smp_Nat_B_pos,Cyano,NATL2A,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+211221_Smp_Nat_C_pos,Cyano,NATL2A,Dimethylsulfoniopropionate,0,Flag,Flag,Smp_Remove
+211221_Smp_1314P_A_pos,Cyano,1314P,Glycine betaine,25409234,NA,Flag,Smp_Remove
+211221_Smp_1314P_B_pos,Cyano,1314P,Glycine betaine,25409234,NA,Flag,Smp_Remove
+211221_Smp_1314P_C_pos,Cyano,1314P,Glycine betaine,25409234,NA,Flag,Smp_Remove
+211221_Smp_7803_B_pos,Cyano,7803,Glycine betaine,62598537216,NA,NA,NA
+211221_Smp_7803_F_pos,Cyano,7803,Glycine betaine,59570786304,NA,NA,NA
+211221_Smp_8102_A_pos,Cyano,8102,Glycine betaine,45215076352,NA,NA,NA
+211221_Smp_8102_F_pos,Cyano,8102,Glycine betaine,40666533888,NA,NA,NA
+211221_Smp_8501_B_pos,Cyano,WH8501,Glycine betaine,459332352,NA,NA,NA
+211221_Smp_8501_C_pos,Cyano,WH8501,Glycine betaine,651821632,NA,NA,NA
+211221_Smp_8501_D_pos,Cyano,WH8501,Glycine betaine,534677024,NA,NA,NA
+211221_Smp_As9601_A_pos,Cyano,As9601,Glycine betaine,47565704,NA,Flag,Smp_Remove
+211221_Smp_As9601_B_pos,Cyano,As9601,Glycine betaine,47565704,NA,Flag,Smp_Remove
+211221_Smp_As9601_C_pos,Cyano,As9601,Glycine betaine,47565704,NA,Flag,Smp_Remove
+211221_Smp_MED4_D_pos,Cyano,MED4,Glycine betaine,54611912,NA,Flag,Smp_Remove
+211221_Smp_MED4_E_pos,Cyano,MED4,Glycine betaine,54611912,NA,Flag,Smp_Remove
+211221_Smp_MED4_F_pos,Cyano,MED4,Glycine betaine,54611912,NA,Flag,Smp_Remove
+211221_Smp_Nat_A_pos,Cyano,NATL2A,Glycine betaine,60877664,NA,Flag,Smp_Remove
+211221_Smp_Nat_B_pos,Cyano,NATL2A,Glycine betaine,60877664,NA,Flag,Smp_Remove
+211221_Smp_Nat_C_pos,Cyano,NATL2A,Glycine betaine,60877664,NA,Flag,Smp_Remove
+211221_Smp_1314P_A_pos,Cyano,1314P,Gonyol,70540,Flag,Flag,Smp_Remove
+211221_Smp_1314P_B_pos,Cyano,1314P,Gonyol,70540,Flag,Flag,Smp_Remove
+211221_Smp_1314P_C_pos,Cyano,1314P,Gonyol,70540,Flag,Flag,Smp_Remove
+211221_Smp_7803_B_pos,Cyano,7803,Gonyol,0,Flag,Flag,Smp_Remove
+211221_Smp_7803_F_pos,Cyano,7803,Gonyol,0,Flag,Flag,Smp_Remove
+211221_Smp_8102_A_pos,Cyano,8102,Gonyol,0,Flag,Flag,Smp_Remove
+211221_Smp_8102_F_pos,Cyano,8102,Gonyol,0,Flag,Flag,Smp_Remove
+211221_Smp_8501_B_pos,Cyano,WH8501,Gonyol,0,Flag,Flag,Smp_Remove
+211221_Smp_8501_C_pos,Cyano,WH8501,Gonyol,0,Flag,Flag,Smp_Remove
+211221_Smp_8501_D_pos,Cyano,WH8501,Gonyol,0,Flag,Flag,Smp_Remove
+211221_Smp_As9601_A_pos,Cyano,As9601,Gonyol,46370.5,NA,Flag,Smp_Remove
+211221_Smp_As9601_B_pos,Cyano,As9601,Gonyol,46370.5,NA,Flag,Smp_Remove
+211221_Smp_As9601_C_pos,Cyano,As9601,Gonyol,46370.5,Flag,Flag,Smp_Remove
+211221_Smp_MED4_D_pos,Cyano,MED4,Gonyol,0,Flag,Flag,Smp_Remove
+211221_Smp_MED4_E_pos,Cyano,MED4,Gonyol,0,Flag,Flag,Smp_Remove
+211221_Smp_MED4_F_pos,Cyano,MED4,Gonyol,0,Flag,Flag,Smp_Remove
+211221_Smp_Nat_A_pos,Cyano,NATL2A,Gonyol,39604.5,NA,Flag,Smp_Remove
+211221_Smp_Nat_B_pos,Cyano,NATL2A,Gonyol,39604.5,NA,Flag,Smp_Remove
+211221_Smp_Nat_C_pos,Cyano,NATL2A,Gonyol,39604.5,Flag,Flag,Smp_Remove
+211221_Smp_1314P_A_pos,Cyano,1314P,Homarine,15061,Flag,Flag,Smp_Remove
+211221_Smp_1314P_B_pos,Cyano,1314P,Homarine,15061,Flag,Flag,Smp_Remove
+211221_Smp_1314P_C_pos,Cyano,1314P,Homarine,15061,NA,Flag,Smp_Remove
+211221_Smp_7803_B_pos,Cyano,7803,Homarine,830968512,NA,NA,NA
+211221_Smp_7803_F_pos,Cyano,7803,Homarine,934457664,NA,NA,NA
+211221_Smp_8102_A_pos,Cyano,8102,Homarine,50622697472,NA,NA,NA
+211221_Smp_8102_F_pos,Cyano,8102,Homarine,48383385600,NA,NA,NA
+211221_Smp_8501_B_pos,Cyano,WH8501,Homarine,37103924,NA,NA,NA
+211221_Smp_8501_C_pos,Cyano,WH8501,Homarine,9860037,NA,NA,NA
+211221_Smp_8501_D_pos,Cyano,WH8501,Homarine,2497887,NA,NA,NA
+211221_Smp_As9601_A_pos,Cyano,As9601,Homarine,21683.5,Flag,Flag,Smp_Remove
+211221_Smp_As9601_B_pos,Cyano,As9601,Homarine,21683.5,Flag,Flag,Smp_Remove
+211221_Smp_As9601_C_pos,Cyano,As9601,Homarine,21683.5,Flag,Flag,Smp_Remove
+211221_Smp_MED4_D_pos,Cyano,MED4,Homarine,64727,NA,NA,NA
+211221_Smp_MED4_E_pos,Cyano,MED4,Homarine,44860,NA,NA,NA
+211221_Smp_MED4_F_pos,Cyano,MED4,Homarine,131341,NA,NA,NA
+211221_Smp_Nat_A_pos,Cyano,NATL2A,Homarine,3335,Flag,Flag,Smp_Remove
+211221_Smp_Nat_B_pos,Cyano,NATL2A,Homarine,3335,Flag,Flag,Smp_Remove
+211221_Smp_Nat_C_pos,Cyano,NATL2A,Homarine,126317,NA,NA,NA
+211221_Smp_1314P_A_pos,Cyano,1314P,Proline betaine,16960.5,Flag,Flag,Smp_Remove
+211221_Smp_1314P_B_pos,Cyano,1314P,Proline betaine,16960.5,Flag,Flag,Smp_Remove
+211221_Smp_1314P_C_pos,Cyano,1314P,Proline betaine,16960.5,Flag,Flag,Smp_Remove
+211221_Smp_7803_B_pos,Cyano,7803,Proline betaine,444633,NA,NA,NA
+211221_Smp_7803_F_pos,Cyano,7803,Proline betaine,336516,NA,NA,NA
+211221_Smp_8102_A_pos,Cyano,8102,Proline betaine,48421,NA,Flag,Smp_Remove
+211221_Smp_8102_F_pos,Cyano,8102,Proline betaine,48421,NA,Flag,Smp_Remove
+211221_Smp_8501_B_pos,Cyano,WH8501,Proline betaine,6567694,NA,NA,NA
+211221_Smp_8501_C_pos,Cyano,WH8501,Proline betaine,10552407,NA,NA,NA
+211221_Smp_8501_D_pos,Cyano,WH8501,Proline betaine,8152022,NA,NA,NA
+211221_Smp_As9601_A_pos,Cyano,As9601,Proline betaine,9859,Flag,Flag,Smp_Remove
+211221_Smp_As9601_B_pos,Cyano,As9601,Proline betaine,9859,Flag,Flag,Smp_Remove
+211221_Smp_As9601_C_pos,Cyano,As9601,Proline betaine,9859,Flag,Flag,Smp_Remove
+211221_Smp_MED4_D_pos,Cyano,MED4,Proline betaine,48421,Flag,Flag,Smp_Remove
+211221_Smp_MED4_E_pos,Cyano,MED4,Proline betaine,48421,Flag,Flag,Smp_Remove
+211221_Smp_MED4_F_pos,Cyano,MED4,Proline betaine,48421,Flag,Flag,Smp_Remove
+211221_Smp_Nat_A_pos,Cyano,NATL2A,Proline betaine,9157.5,Flag,Flag,Smp_Remove
+211221_Smp_Nat_B_pos,Cyano,NATL2A,Proline betaine,9157.5,Flag,Flag,Smp_Remove
+211221_Smp_Nat_C_pos,Cyano,NATL2A,Proline betaine,9157.5,Flag,Flag,Smp_Remove
+211221_Smp_1314P_A_pos,Cyano,1314P,Trigonelline,9609,Flag,Flag,Smp_Remove
+211221_Smp_1314P_B_pos,Cyano,1314P,Trigonelline,9609,Flag,Flag,Smp_Remove
+211221_Smp_1314P_C_pos,Cyano,1314P,Trigonelline,87856,NA,NA,NA
+211221_Smp_7803_B_pos,Cyano,7803,Trigonelline,1829295,NA,NA,NA
+211221_Smp_7803_F_pos,Cyano,7803,Trigonelline,1603141,NA,NA,NA
+211221_Smp_8102_A_pos,Cyano,8102,Trigonelline,1472175,NA,NA,NA
+211221_Smp_8102_F_pos,Cyano,8102,Trigonelline,68465936,NA,NA,NA
+211221_Smp_8501_B_pos,Cyano,WH8501,Trigonelline,449612,NA,NA,NA
+211221_Smp_8501_C_pos,Cyano,WH8501,Trigonelline,389405,NA,NA,NA
+211221_Smp_8501_D_pos,Cyano,WH8501,Trigonelline,25420,NA,Flag,NA
+211221_Smp_As9601_A_pos,Cyano,As9601,Trigonelline,41453,NA,Flag,Smp_Remove
+211221_Smp_As9601_B_pos,Cyano,As9601,Trigonelline,41453,NA,Flag,Smp_Remove
+211221_Smp_As9601_C_pos,Cyano,As9601,Trigonelline,41453,NA,Flag,Smp_Remove
+211221_Smp_MED4_D_pos,Cyano,MED4,Trigonelline,130729,NA,NA,NA
+211221_Smp_MED4_E_pos,Cyano,MED4,Trigonelline,16452,Flag,Flag,Smp_Remove
+211221_Smp_MED4_F_pos,Cyano,MED4,Trigonelline,16452,NA,Flag,Smp_Remove
+211221_Smp_Nat_A_pos,Cyano,NATL2A,Trigonelline,25205,Flag,Flag,Smp_Remove
+211221_Smp_Nat_B_pos,Cyano,NATL2A,Trigonelline,25205,Flag,Flag,Smp_Remove
+211221_Smp_Nat_C_pos,Cyano,NATL2A,Trigonelline,25205,NA,Flag,Smp_Remove
+211221_Smp_1314P_A_pos,Cyano,1314P,Trimethylamine N-oxide,9840,Flag,Flag,Smp_Remove
+211221_Smp_1314P_B_pos,Cyano,1314P,Trimethylamine N-oxide,9840,Flag,Flag,Smp_Remove
+211221_Smp_1314P_C_pos,Cyano,1314P,Trimethylamine N-oxide,9840,Flag,Flag,Smp_Remove
+211221_Smp_7803_B_pos,Cyano,7803,Trimethylamine N-oxide,2363,Flag,Flag,Smp_Remove
+211221_Smp_7803_F_pos,Cyano,7803,Trimethylamine N-oxide,2363,Flag,Flag,Smp_Remove
+211221_Smp_8102_A_pos,Cyano,8102,Trimethylamine N-oxide,2363,Flag,Flag,Smp_Remove
+211221_Smp_8102_F_pos,Cyano,8102,Trimethylamine N-oxide,2363,Flag,Flag,Smp_Remove
+211221_Smp_8501_B_pos,Cyano,WH8501,Trimethylamine N-oxide,37379.5,Flag,Flag,Smp_Remove
+211221_Smp_8501_C_pos,Cyano,WH8501,Trimethylamine N-oxide,37379.5,Flag,Flag,Smp_Remove
+211221_Smp_8501_D_pos,Cyano,WH8501,Trimethylamine N-oxide,37379.5,Flag,Flag,Smp_Remove
+211221_Smp_As9601_A_pos,Cyano,As9601,Trimethylamine N-oxide,42156.5,Flag,Flag,Smp_Remove
+211221_Smp_As9601_B_pos,Cyano,As9601,Trimethylamine N-oxide,42156.5,NA,Flag,Smp_Remove
+211221_Smp_As9601_C_pos,Cyano,As9601,Trimethylamine N-oxide,42156.5,Flag,Flag,Smp_Remove
+211221_Smp_MED4_D_pos,Cyano,MED4,Trimethylamine N-oxide,2363,Flag,Flag,Smp_Remove
+211221_Smp_MED4_E_pos,Cyano,MED4,Trimethylamine N-oxide,2363,Flag,Flag,Smp_Remove
+211221_Smp_MED4_F_pos,Cyano,MED4,Trimethylamine N-oxide,2363,Flag,NA,Smp_Remove
+211221_Smp_Nat_A_pos,Cyano,NATL2A,Trimethylamine N-oxide,12696.5,Flag,Flag,Smp_Remove
+211221_Smp_Nat_B_pos,Cyano,NATL2A,Trimethylamine N-oxide,12696.5,NA,Flag,Smp_Remove
+211221_Smp_Nat_C_pos,Cyano,NATL2A,Trimethylamine N-oxide,12696.5,Flag,Flag,Smp_Remove
+211215_Smp_Cy_A_pos,Diatom,Cy,beta-Alaninebetaine,11764466,NA,NA,NA
+211215_Smp_Cy_B_pos,Diatom,Cy,beta-Alaninebetaine,9971075,NA,NA,NA
+211215_Smp_Cy_C_pos,Diatom,Cy,beta-Alaninebetaine,11936727,NA,NA,NA
+211215_Smp_Fc_A_pos,Diatom,Fc,beta-Alaninebetaine,60329,NA,Flag,Smp_Remove
+211215_Smp_Fc_B_pos,Diatom,Fc,beta-Alaninebetaine,60329,NA,Flag,Smp_Remove
+211215_Smp_Fc_C_pos,Diatom,Fc,beta-Alaninebetaine,60329,NA,Flag,Smp_Remove
+211215_Smp_Np_A_pos,Diatom,Np,beta-Alaninebetaine,30029.5,NA,Flag,Smp_Remove
+211215_Smp_Np_C_pos,Diatom,Np,beta-Alaninebetaine,579302,NA,NA,NA
+211215_Smp_Np_F_pos,Diatom,Np,beta-Alaninebetaine,30029.5,NA,Flag,Smp_Remove
+211215_Smp_Pc55x_A_pos,Diatom,Pc55x,beta-Alaninebetaine,290905,NA,NA,NA
+211215_Smp_Pc55x_B_pos,Diatom,Pc55x,beta-Alaninebetaine,119132,NA,NA,NA
+211215_Smp_Pc55x_C_pos,Diatom,Pc55x,beta-Alaninebetaine,180605,NA,NA,NA
+211215_Smp_Pt_C_pos,Diatom,Pt,beta-Alaninebetaine,625918,NA,NA,NA
+211215_Smp_Pt_F_pos,Diatom,Pt,beta-Alaninebetaine,30029.5,NA,Flag,Smp_Remove
+211215_Smp_To_A_pos,Diatom,To,beta-Alaninebetaine,100901,NA,NA,NA
+211215_Smp_To_B_pos,Diatom,To,beta-Alaninebetaine,10423.5,NA,Flag,NA
+211215_Smp_To_C_pos,Diatom,To,beta-Alaninebetaine,129612,NA,NA,NA
+211215_Smp_Tp_A_pos,Diatom,Tp,beta-Alaninebetaine,7823571,NA,NA,NA
+211215_Smp_Tp_E_pos,Diatom,Tp,beta-Alaninebetaine,4520384,NA,NA,NA
+211215_Smp_Tp_F_pos,Diatom,Tp,beta-Alaninebetaine,5263190,NA,NA,NA
+211215_Smp_Cy_A_pos,Diatom,Cy,Betonicine,55400,NA,NA,NA
+211215_Smp_Cy_B_pos,Diatom,Cy,Betonicine,7824,NA,Flag,Smp_Remove
+211215_Smp_Cy_C_pos,Diatom,Cy,Betonicine,7824,NA,Flag,Smp_Remove
+211215_Smp_Fc_A_pos,Diatom,Fc,Betonicine,0,Flag,NA,Smp_Remove
+211215_Smp_Fc_B_pos,Diatom,Fc,Betonicine,0,Flag,NA,Smp_Remove
+211215_Smp_Fc_C_pos,Diatom,Fc,Betonicine,0,Flag,Flag,Smp_Remove
+211215_Smp_Np_A_pos,Diatom,Np,Betonicine,0,Flag,NA,Smp_Remove
+211215_Smp_Np_C_pos,Diatom,Np,Betonicine,0,Flag,NA,Smp_Remove
+211215_Smp_Np_F_pos,Diatom,Np,Betonicine,49543,NA,NA,NA
+211215_Smp_Pc55x_A_pos,Diatom,Pc55x,Betonicine,4578309,NA,NA,NA
+211215_Smp_Pc55x_B_pos,Diatom,Pc55x,Betonicine,5329917,NA,NA,NA
+211215_Smp_Pc55x_C_pos,Diatom,Pc55x,Betonicine,3465305,NA,NA,NA
+211215_Smp_Pt_C_pos,Diatom,Pt,Betonicine,28086876,NA,NA,NA
+211215_Smp_Pt_F_pos,Diatom,Pt,Betonicine,25237876,NA,NA,NA
+211215_Smp_To_A_pos,Diatom,To,Betonicine,123071,NA,NA,NA
+211215_Smp_To_B_pos,Diatom,To,Betonicine,407445,NA,NA,NA
+211215_Smp_To_C_pos,Diatom,To,Betonicine,400618,NA,NA,NA
+211215_Smp_Tp_A_pos,Diatom,Tp,Betonicine,0,Flag,NA,Smp_Remove
+211215_Smp_Tp_E_pos,Diatom,Tp,Betonicine,0,Flag,NA,Smp_Remove
+211215_Smp_Tp_F_pos,Diatom,Tp,Betonicine,0,Flag,NA,Smp_Remove
+211215_Smp_Cy_A_pos,Diatom,Cy,Dimethylsulfonioacetate,43475612,NA,NA,NA
+211215_Smp_Cy_B_pos,Diatom,Cy,Dimethylsulfonioacetate,36717196,NA,NA,NA
+211215_Smp_Cy_C_pos,Diatom,Cy,Dimethylsulfonioacetate,51551808,NA,NA,NA
+211215_Smp_Fc_A_pos,Diatom,Fc,Dimethylsulfonioacetate,0,Flag,NA,Smp_Remove
+211215_Smp_Fc_B_pos,Diatom,Fc,Dimethylsulfonioacetate,0,Flag,NA,Smp_Remove
+211215_Smp_Fc_C_pos,Diatom,Fc,Dimethylsulfonioacetate,69176,NA,NA,NA
+211215_Smp_Np_A_pos,Diatom,Np,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211215_Smp_Np_C_pos,Diatom,Np,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211215_Smp_Np_F_pos,Diatom,Np,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211215_Smp_Pc55x_A_pos,Diatom,Pc55x,Dimethylsulfonioacetate,697698,NA,NA,NA
+211215_Smp_Pc55x_B_pos,Diatom,Pc55x,Dimethylsulfonioacetate,862136,NA,NA,NA
+211215_Smp_Pc55x_C_pos,Diatom,Pc55x,Dimethylsulfonioacetate,345736,NA,NA,NA
+211215_Smp_Pt_C_pos,Diatom,Pt,Dimethylsulfonioacetate,51195,NA,NA,NA
+211215_Smp_Pt_F_pos,Diatom,Pt,Dimethylsulfonioacetate,81422,NA,NA,NA
+211215_Smp_To_A_pos,Diatom,To,Dimethylsulfonioacetate,100055,NA,NA,NA
+211215_Smp_To_B_pos,Diatom,To,Dimethylsulfonioacetate,794618,NA,NA,NA
+211215_Smp_To_C_pos,Diatom,To,Dimethylsulfonioacetate,714535,NA,NA,NA
+211215_Smp_Tp_A_pos,Diatom,Tp,Dimethylsulfonioacetate,769775,NA,NA,NA
+211215_Smp_Tp_E_pos,Diatom,Tp,Dimethylsulfonioacetate,504273,NA,NA,NA
+211215_Smp_Tp_F_pos,Diatom,Tp,Dimethylsulfonioacetate,555352,NA,NA,NA
+211215_Smp_Cy_A_pos,Diatom,Cy,Dimethylsulfoniopropionate,50977869824,NA,NA,NA
+211215_Smp_Cy_B_pos,Diatom,Cy,Dimethylsulfoniopropionate,43698958336,NA,NA,NA
+211215_Smp_Cy_C_pos,Diatom,Cy,Dimethylsulfoniopropionate,50909278208,NA,NA,NA
+211215_Smp_Fc_A_pos,Diatom,Fc,Dimethylsulfoniopropionate,15987819520,NA,NA,NA
+211215_Smp_Fc_B_pos,Diatom,Fc,Dimethylsulfoniopropionate,16926451712,NA,NA,NA
+211215_Smp_Fc_C_pos,Diatom,Fc,Dimethylsulfoniopropionate,14714609664,NA,NA,NA
+211215_Smp_Np_A_pos,Diatom,Np,Dimethylsulfoniopropionate,1264736,NA,NA,NA
+211215_Smp_Np_C_pos,Diatom,Np,Dimethylsulfoniopropionate,151984,NA,NA,NA
+211215_Smp_Np_F_pos,Diatom,Np,Dimethylsulfoniopropionate,24153.5,Flag,Flag,NA
+211215_Smp_Pc55x_A_pos,Diatom,Pc55x,Dimethylsulfoniopropionate,726709952,NA,NA,NA
+211215_Smp_Pc55x_B_pos,Diatom,Pc55x,Dimethylsulfoniopropionate,809906432,NA,NA,NA
+211215_Smp_Pc55x_C_pos,Diatom,Pc55x,Dimethylsulfoniopropionate,543829952,NA,NA,NA
+211215_Smp_Pt_C_pos,Diatom,Pt,Dimethylsulfoniopropionate,16185366528,NA,NA,NA
+211215_Smp_Pt_F_pos,Diatom,Pt,Dimethylsulfoniopropionate,11604172800,NA,NA,NA
+211215_Smp_To_A_pos,Diatom,To,Dimethylsulfoniopropionate,993385792,NA,NA,NA
+211215_Smp_To_B_pos,Diatom,To,Dimethylsulfoniopropionate,1053760448,NA,NA,NA
+211215_Smp_To_C_pos,Diatom,To,Dimethylsulfoniopropionate,856118592,NA,NA,NA
+211215_Smp_Tp_A_pos,Diatom,Tp,Dimethylsulfoniopropionate,4085111552,NA,NA,NA
+211215_Smp_Tp_E_pos,Diatom,Tp,Dimethylsulfoniopropionate,2338236160,NA,NA,NA
+211215_Smp_Tp_F_pos,Diatom,Tp,Dimethylsulfoniopropionate,2778877696,NA,NA,NA
+211215_Smp_Cy_A_pos,Diatom,Cy,Glycine betaine,54456856576,NA,NA,NA
+211215_Smp_Cy_B_pos,Diatom,Cy,Glycine betaine,45915512832,NA,NA,NA
+211215_Smp_Cy_C_pos,Diatom,Cy,Glycine betaine,53194207232,NA,NA,NA
+211215_Smp_Fc_A_pos,Diatom,Fc,Glycine betaine,19285016576,NA,NA,NA
+211215_Smp_Fc_B_pos,Diatom,Fc,Glycine betaine,20149667840,NA,NA,NA
+211215_Smp_Fc_C_pos,Diatom,Fc,Glycine betaine,17895311360,NA,NA,NA
+211215_Smp_Np_A_pos,Diatom,Np,Glycine betaine,30304968,NA,Flag,Smp_Remove
+211215_Smp_Np_C_pos,Diatom,Np,Glycine betaine,30304968,NA,Flag,Smp_Remove
+211215_Smp_Np_F_pos,Diatom,Np,Glycine betaine,30304968,NA,Flag,Smp_Remove
+211215_Smp_Pc55x_A_pos,Diatom,Pc55x,Glycine betaine,8050200576,NA,NA,NA
+211215_Smp_Pc55x_B_pos,Diatom,Pc55x,Glycine betaine,9645495296,NA,NA,NA
+211215_Smp_Pc55x_C_pos,Diatom,Pc55x,Glycine betaine,6130478592,NA,NA,NA
+211215_Smp_Pt_C_pos,Diatom,Pt,Glycine betaine,75324473344,NA,NA,NA
+211215_Smp_Pt_F_pos,Diatom,Pt,Glycine betaine,67542069248,NA,NA,NA
+211215_Smp_To_A_pos,Diatom,To,Glycine betaine,16890181632,NA,NA,NA
+211215_Smp_To_B_pos,Diatom,To,Glycine betaine,17222750208,NA,NA,NA
+211215_Smp_To_C_pos,Diatom,To,Glycine betaine,16387003392,NA,NA,NA
+211215_Smp_Tp_A_pos,Diatom,Tp,Glycine betaine,45504282624,NA,NA,NA
+211215_Smp_Tp_E_pos,Diatom,Tp,Glycine betaine,36474576896,NA,NA,NA
+211215_Smp_Tp_F_pos,Diatom,Tp,Glycine betaine,38890016768,NA,NA,NA
+211215_Smp_Cy_A_pos,Diatom,Cy,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_Cy_B_pos,Diatom,Cy,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_Cy_C_pos,Diatom,Cy,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_Fc_A_pos,Diatom,Fc,Gonyol,3099,Flag,Flag,Smp_Remove
+211215_Smp_Fc_B_pos,Diatom,Fc,Gonyol,3099,Flag,Flag,Smp_Remove
+211215_Smp_Fc_C_pos,Diatom,Fc,Gonyol,3099,Flag,Flag,Smp_Remove
+211215_Smp_Np_A_pos,Diatom,Np,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_Np_C_pos,Diatom,Np,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_Np_F_pos,Diatom,Np,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_Pc55x_A_pos,Diatom,Pc55x,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_Pc55x_B_pos,Diatom,Pc55x,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_Pc55x_C_pos,Diatom,Pc55x,Gonyol,40884,NA,NA,NA
+211215_Smp_Pt_C_pos,Diatom,Pt,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_Pt_F_pos,Diatom,Pt,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_To_A_pos,Diatom,To,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_To_B_pos,Diatom,To,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_To_C_pos,Diatom,To,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_Tp_A_pos,Diatom,Tp,Gonyol,47855,NA,NA,NA
+211215_Smp_Tp_E_pos,Diatom,Tp,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_Tp_F_pos,Diatom,Tp,Gonyol,0,Flag,Flag,Smp_Remove
+211215_Smp_Cy_A_pos,Diatom,Cy,Homarine,29067038720,NA,NA,NA
+211215_Smp_Cy_B_pos,Diatom,Cy,Homarine,24947228672,NA,NA,NA
+211215_Smp_Cy_C_pos,Diatom,Cy,Homarine,28143636480,NA,NA,NA
+211215_Smp_Fc_A_pos,Diatom,Fc,Homarine,14911909888,NA,NA,NA
+211215_Smp_Fc_B_pos,Diatom,Fc,Homarine,16373026816,NA,NA,NA
+211215_Smp_Fc_C_pos,Diatom,Fc,Homarine,14532635648,NA,NA,NA
+211215_Smp_Np_A_pos,Diatom,Np,Homarine,90415,NA,NA,NA
+211215_Smp_Np_C_pos,Diatom,Np,Homarine,13888,Flag,Flag,Smp_Remove
+211215_Smp_Np_F_pos,Diatom,Np,Homarine,13888,Flag,Flag,Smp_Remove
+211215_Smp_Pc55x_A_pos,Diatom,Pc55x,Homarine,887580544,NA,NA,NA
+211215_Smp_Pc55x_B_pos,Diatom,Pc55x,Homarine,965469888,NA,NA,NA
+211215_Smp_Pc55x_C_pos,Diatom,Pc55x,Homarine,708905600,NA,NA,NA
+211215_Smp_Pt_C_pos,Diatom,Pt,Homarine,487894,NA,NA,NA
+211215_Smp_Pt_F_pos,Diatom,Pt,Homarine,360106,NA,NA,NA
+211215_Smp_To_A_pos,Diatom,To,Homarine,499283360,NA,NA,NA
+211215_Smp_To_B_pos,Diatom,To,Homarine,547452096,NA,NA,NA
+211215_Smp_To_C_pos,Diatom,To,Homarine,598787392,NA,NA,NA
+211215_Smp_Tp_A_pos,Diatom,Tp,Homarine,6833534464,NA,NA,NA
+211215_Smp_Tp_E_pos,Diatom,Tp,Homarine,3401115392,NA,NA,NA
+211215_Smp_Tp_F_pos,Diatom,Tp,Homarine,4138140416,NA,NA,NA
+211215_Smp_Cy_A_pos,Diatom,Cy,Proline betaine,13864750,NA,NA,NA
+211215_Smp_Cy_B_pos,Diatom,Cy,Proline betaine,12812536,NA,NA,NA
+211215_Smp_Cy_C_pos,Diatom,Cy,Proline betaine,17309332,NA,NA,NA
+211215_Smp_Fc_A_pos,Diatom,Fc,Proline betaine,40767.5,NA,Flag,Smp_Remove
+211215_Smp_Fc_B_pos,Diatom,Fc,Proline betaine,40767.5,NA,Flag,Smp_Remove
+211215_Smp_Fc_C_pos,Diatom,Fc,Proline betaine,40767.5,NA,Flag,Smp_Remove
+211215_Smp_Np_A_pos,Diatom,Np,Proline betaine,467144,NA,NA,NA
+211215_Smp_Np_C_pos,Diatom,Np,Proline betaine,73406.5,NA,Flag,Smp_Remove
+211215_Smp_Np_F_pos,Diatom,Np,Proline betaine,73406.5,NA,Flag,Smp_Remove
+211215_Smp_Pc55x_A_pos,Diatom,Pc55x,Proline betaine,583675,NA,NA,NA
+211215_Smp_Pc55x_B_pos,Diatom,Pc55x,Proline betaine,482108,NA,NA,NA
+211215_Smp_Pc55x_C_pos,Diatom,Pc55x,Proline betaine,48482,NA,Flag,NA
+211215_Smp_Pt_C_pos,Diatom,Pt,Proline betaine,8020738,NA,NA,NA
+211215_Smp_Pt_F_pos,Diatom,Pt,Proline betaine,7270267,NA,NA,NA
+211215_Smp_To_A_pos,Diatom,To,Proline betaine,7879172,NA,NA,NA
+211215_Smp_To_B_pos,Diatom,To,Proline betaine,8988289,NA,NA,NA
+211215_Smp_To_C_pos,Diatom,To,Proline betaine,9078003,NA,NA,NA
+211215_Smp_Tp_A_pos,Diatom,Tp,Proline betaine,14417125,NA,NA,NA
+211215_Smp_Tp_E_pos,Diatom,Tp,Proline betaine,9528542,NA,NA,NA
+211215_Smp_Tp_F_pos,Diatom,Tp,Proline betaine,11798021,NA,NA,NA
+211215_Smp_Cy_A_pos,Diatom,Cy,Trigonelline,461428576,NA,NA,NA
+211215_Smp_Cy_B_pos,Diatom,Cy,Trigonelline,465137888,NA,NA,NA
+211215_Smp_Cy_C_pos,Diatom,Cy,Trigonelline,535974784,NA,NA,NA
+211215_Smp_Fc_A_pos,Diatom,Fc,Trigonelline,270580.5,NA,Flag,Smp_Remove
+211215_Smp_Fc_B_pos,Diatom,Fc,Trigonelline,2000474,NA,NA,NA
+211215_Smp_Fc_C_pos,Diatom,Fc,Trigonelline,270580.5,NA,Flag,Smp_Remove
+211215_Smp_Np_A_pos,Diatom,Np,Trigonelline,44264.5,NA,Flag,Smp_Remove
+211215_Smp_Np_C_pos,Diatom,Np,Trigonelline,44264.5,NA,Flag,Smp_Remove
+211215_Smp_Np_F_pos,Diatom,Np,Trigonelline,44264.5,NA,Flag,Smp_Remove
+211215_Smp_Pc55x_A_pos,Diatom,Pc55x,Trigonelline,447169,NA,NA,NA
+211215_Smp_Pc55x_B_pos,Diatom,Pc55x,Trigonelline,582038,NA,NA,NA
+211215_Smp_Pc55x_C_pos,Diatom,Pc55x,Trigonelline,44502,NA,Flag,NA
+211215_Smp_Pt_C_pos,Diatom,Pt,Trigonelline,7088844288,NA,NA,NA
+211215_Smp_Pt_F_pos,Diatom,Pt,Trigonelline,6614989312,NA,NA,NA
+211215_Smp_To_A_pos,Diatom,To,Trigonelline,5652928,NA,NA,NA
+211215_Smp_To_B_pos,Diatom,To,Trigonelline,686932,NA,NA,NA
+211215_Smp_To_C_pos,Diatom,To,Trigonelline,5512607,NA,NA,NA
+211215_Smp_Tp_A_pos,Diatom,Tp,Trigonelline,1228255872,NA,NA,NA
+211215_Smp_Tp_E_pos,Diatom,Tp,Trigonelline,815100160,NA,NA,NA
+211215_Smp_Tp_F_pos,Diatom,Tp,Trigonelline,899840448,NA,NA,NA
+211215_Smp_Cy_A_pos,Diatom,Cy,Trimethylamine N-oxide,4833,Flag,Flag,NA
+211215_Smp_Cy_B_pos,Diatom,Cy,Trimethylamine N-oxide,40962,NA,NA,NA
+211215_Smp_Cy_C_pos,Diatom,Cy,Trimethylamine N-oxide,49374,NA,NA,NA
+211215_Smp_Fc_A_pos,Diatom,Fc,Trimethylamine N-oxide,2762878,NA,NA,NA
+211215_Smp_Fc_B_pos,Diatom,Fc,Trimethylamine N-oxide,3225521,NA,NA,NA
+211215_Smp_Fc_C_pos,Diatom,Fc,Trimethylamine N-oxide,2344920,NA,NA,NA
+211215_Smp_Np_A_pos,Diatom,Np,Trimethylamine N-oxide,13261,Flag,Flag,Smp_Remove
+211215_Smp_Np_C_pos,Diatom,Np,Trimethylamine N-oxide,13261,Flag,Flag,Smp_Remove
+211215_Smp_Np_F_pos,Diatom,Np,Trimethylamine N-oxide,13261,Flag,Flag,Smp_Remove
+211215_Smp_Pc55x_A_pos,Diatom,Pc55x,Trimethylamine N-oxide,52664,NA,NA,NA
+211215_Smp_Pc55x_B_pos,Diatom,Pc55x,Trimethylamine N-oxide,7615.5,Flag,Flag,Smp_Remove
+211215_Smp_Pc55x_C_pos,Diatom,Pc55x,Trimethylamine N-oxide,7615.5,Flag,Flag,Smp_Remove
+211215_Smp_Pt_C_pos,Diatom,Pt,Trimethylamine N-oxide,338624,NA,NA,NA
+211215_Smp_Pt_F_pos,Diatom,Pt,Trimethylamine N-oxide,2090993,NA,NA,NA
+211215_Smp_To_A_pos,Diatom,To,Trimethylamine N-oxide,41415,NA,NA,NA
+211215_Smp_To_B_pos,Diatom,To,Trimethylamine N-oxide,1991,Flag,NA,Smp_Remove
+211215_Smp_To_C_pos,Diatom,To,Trimethylamine N-oxide,1991,Flag,Flag,Smp_Remove
+211215_Smp_Tp_A_pos,Diatom,Tp,Trimethylamine N-oxide,13261,Flag,Flag,Smp_Remove
+211215_Smp_Tp_E_pos,Diatom,Tp,Trimethylamine N-oxide,13261,Flag,Flag,Smp_Remove
+211215_Smp_Tp_F_pos,Diatom,Tp,Trimethylamine N-oxide,13261,Flag,Flag,Smp_Remove
+211218_Smp_449_A_pos,Dino_Green,449,beta-Alaninebetaine,8012406,NA,NA,NA
+211218_Smp_449_B_pos,Dino_Green,449,beta-Alaninebetaine,12011890,NA,NA,NA
+211218_Smp_449_C_pos,Dino_Green,449,beta-Alaninebetaine,10262347,NA,NA,NA
+211218_Smp_1314_A_pos,Dino_Green,1314,beta-Alaninebetaine,4573238,NA,NA,NA
+211218_Smp_1314_B_pos,Dino_Green,1314,beta-Alaninebetaine,3448858,NA,NA,NA
+211218_Smp_1314_C_pos,Dino_Green,1314,beta-Alaninebetaine,3652605,NA,NA,NA
+211218_Smp_1545_A_pos,Dino_Green,1545,beta-Alaninebetaine,140101,NA,NA,NA
+211218_Smp_1545_B_pos,Dino_Green,1545,beta-Alaninebetaine,17486.25,Flag,Flag,Smp_Remove
+211218_Smp_1545_C_pos,Dino_Green,1545,beta-Alaninebetaine,17486.25,Flag,Flag,Smp_Remove
+211218_Smp_1771_A_pos,Dino_Green,1771,beta-Alaninebetaine,961060608,NA,NA,NA
+211218_Smp_1771_B_pos,Dino_Green,1771,beta-Alaninebetaine,1168215168,NA,NA,NA
+211218_Smp_1771_C_pos,Dino_Green,1771,beta-Alaninebetaine,867073280,NA,NA,NA
+211218_Smp_2021_A_pos,Dino_Green,2021,beta-Alaninebetaine,15506355,NA,NA,NA
+211218_Smp_2021_B_pos,Dino_Green,2021,beta-Alaninebetaine,13579259,NA,NA,NA
+211218_Smp_2021_C_pos,Dino_Green,2021,beta-Alaninebetaine,7381270,NA,NA,NA
+211218_Smp_3430_A_pos,Dino_Green,3430,beta-Alaninebetaine,115035,NA,NA,NA
+211218_Smp_3430_B_pos,Dino_Green,3430,beta-Alaninebetaine,54588,NA,NA,NA
+211218_Smp_3430_C_pos,Dino_Green,3430,beta-Alaninebetaine,105624,NA,NA,NA
+211218_Smp_449_A_pos,Dino_Green,449,Betonicine,2530,Flag,Flag,Smp_Remove
+211218_Smp_449_B_pos,Dino_Green,449,Betonicine,2530,Flag,Flag,Smp_Remove
+211218_Smp_449_C_pos,Dino_Green,449,Betonicine,2530,Flag,Flag,Smp_Remove
+211218_Smp_1314_A_pos,Dino_Green,1314,Betonicine,2064.5,Flag,Flag,Smp_Remove
+211218_Smp_1314_B_pos,Dino_Green,1314,Betonicine,2064.5,Flag,Flag,Smp_Remove
+211218_Smp_1314_C_pos,Dino_Green,1314,Betonicine,2064.5,Flag,Flag,Smp_Remove
+211218_Smp_1545_A_pos,Dino_Green,1545,Betonicine,2064.5,Flag,Flag,Smp_Remove
+211218_Smp_1545_B_pos,Dino_Green,1545,Betonicine,2064.5,Flag,Flag,Smp_Remove
+211218_Smp_1545_C_pos,Dino_Green,1545,Betonicine,2064.5,Flag,Flag,Smp_Remove
+211218_Smp_1771_A_pos,Dino_Green,1771,Betonicine,3019.5,Flag,Flag,Smp_Remove
+211218_Smp_1771_B_pos,Dino_Green,1771,Betonicine,3019.5,Flag,Flag,Smp_Remove
+211218_Smp_1771_C_pos,Dino_Green,1771,Betonicine,3019.5,Flag,Flag,Smp_Remove
+211218_Smp_2021_A_pos,Dino_Green,2021,Betonicine,2689.5,Flag,Flag,Smp_Remove
+211218_Smp_2021_B_pos,Dino_Green,2021,Betonicine,2689.5,Flag,Flag,Smp_Remove
+211218_Smp_2021_C_pos,Dino_Green,2021,Betonicine,2689.5,Flag,Flag,Smp_Remove
+211218_Smp_3430_A_pos,Dino_Green,3430,Betonicine,0,Flag,NA,Smp_Remove
+211218_Smp_3430_B_pos,Dino_Green,3430,Betonicine,0,Flag,NA,Smp_Remove
+211218_Smp_3430_C_pos,Dino_Green,3430,Betonicine,0,Flag,NA,Smp_Remove
+211218_Smp_449_A_pos,Dino_Green,449,Dimethylsulfonioacetate,1921.5,Flag,Flag,Smp_Remove
+211218_Smp_449_B_pos,Dino_Green,449,Dimethylsulfonioacetate,1921.5,Flag,Flag,Smp_Remove
+211218_Smp_449_C_pos,Dino_Green,449,Dimethylsulfonioacetate,1921.5,Flag,Flag,Smp_Remove
+211218_Smp_1314_A_pos,Dino_Green,1314,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_1314_B_pos,Dino_Green,1314,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_1314_C_pos,Dino_Green,1314,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_1545_A_pos,Dino_Green,1545,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_1545_B_pos,Dino_Green,1545,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_1545_C_pos,Dino_Green,1545,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_1771_A_pos,Dino_Green,1771,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_1771_B_pos,Dino_Green,1771,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_1771_C_pos,Dino_Green,1771,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_2021_A_pos,Dino_Green,2021,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_2021_B_pos,Dino_Green,2021,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_2021_C_pos,Dino_Green,2021,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_3430_A_pos,Dino_Green,3430,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_3430_B_pos,Dino_Green,3430,Dimethylsulfonioacetate,0,Flag,NA,Smp_Remove
+211218_Smp_3430_C_pos,Dino_Green,3430,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+211218_Smp_449_A_pos,Dino_Green,449,Dimethylsulfoniopropionate,16133916672,NA,NA,NA
+211218_Smp_449_B_pos,Dino_Green,449,Dimethylsulfoniopropionate,18599479296,NA,NA,NA
+211218_Smp_449_C_pos,Dino_Green,449,Dimethylsulfoniopropionate,20637323264,NA,NA,NA
+211218_Smp_1314_A_pos,Dino_Green,1314,Dimethylsulfoniopropionate,11317018624,NA,NA,NA
+211218_Smp_1314_B_pos,Dino_Green,1314,Dimethylsulfoniopropionate,14735832064,NA,NA,NA
+211218_Smp_1314_C_pos,Dino_Green,1314,Dimethylsulfoniopropionate,9452946432,NA,NA,NA
+211218_Smp_1545_A_pos,Dino_Green,1545,Dimethylsulfoniopropionate,3403277056,NA,NA,NA
+211218_Smp_1545_B_pos,Dino_Green,1545,Dimethylsulfoniopropionate,3743290368,NA,NA,NA
+211218_Smp_1545_C_pos,Dino_Green,1545,Dimethylsulfoniopropionate,3282130688,NA,NA,NA
+211218_Smp_1771_A_pos,Dino_Green,1771,Dimethylsulfoniopropionate,11403720704,NA,NA,NA
+211218_Smp_1771_B_pos,Dino_Green,1771,Dimethylsulfoniopropionate,12885195776,NA,NA,NA
+211218_Smp_1771_C_pos,Dino_Green,1771,Dimethylsulfoniopropionate,10546988032,NA,NA,NA
+211218_Smp_2021_A_pos,Dino_Green,2021,Dimethylsulfoniopropionate,1639726848,NA,NA,NA
+211218_Smp_2021_B_pos,Dino_Green,2021,Dimethylsulfoniopropionate,2723354880,NA,NA,NA
+211218_Smp_2021_C_pos,Dino_Green,2021,Dimethylsulfoniopropionate,415437248,NA,NA,NA
+211218_Smp_3430_A_pos,Dino_Green,3430,Dimethylsulfoniopropionate,3913508608,NA,NA,NA
+211218_Smp_3430_B_pos,Dino_Green,3430,Dimethylsulfoniopropionate,3798640640,NA,NA,NA
+211218_Smp_3430_C_pos,Dino_Green,3430,Dimethylsulfoniopropionate,4179633408,NA,NA,NA
+211218_Smp_449_A_pos,Dino_Green,449,Glycine betaine,303848416,NA,NA,NA
+211218_Smp_449_B_pos,Dino_Green,449,Glycine betaine,374853408,NA,NA,NA
+211218_Smp_449_C_pos,Dino_Green,449,Glycine betaine,342020352,NA,NA,NA
+211218_Smp_1314_A_pos,Dino_Green,1314,Glycine betaine,30440615,NA,Flag,Smp_Remove
+211218_Smp_1314_B_pos,Dino_Green,1314,Glycine betaine,30440615,NA,Flag,Smp_Remove
+211218_Smp_1314_C_pos,Dino_Green,1314,Glycine betaine,30440615,NA,Flag,Smp_Remove
+211218_Smp_1545_A_pos,Dino_Green,1545,Glycine betaine,30440615,NA,Flag,Smp_Remove
+211218_Smp_1545_B_pos,Dino_Green,1545,Glycine betaine,30440615,NA,Flag,Smp_Remove
+211218_Smp_1545_C_pos,Dino_Green,1545,Glycine betaine,30440615,NA,Flag,Smp_Remove
+211218_Smp_1771_A_pos,Dino_Green,1771,Glycine betaine,46397832,NA,Flag,Smp_Remove
+211218_Smp_1771_B_pos,Dino_Green,1771,Glycine betaine,46397832,NA,Flag,Smp_Remove
+211218_Smp_1771_C_pos,Dino_Green,1771,Glycine betaine,46397832,NA,Flag,Smp_Remove
+211218_Smp_2021_A_pos,Dino_Green,2021,Glycine betaine,360377856,NA,NA,NA
+211218_Smp_2021_B_pos,Dino_Green,2021,Glycine betaine,403162304,NA,NA,NA
+211218_Smp_2021_C_pos,Dino_Green,2021,Glycine betaine,49690368,NA,Flag,NA
+211218_Smp_3430_A_pos,Dino_Green,3430,Glycine betaine,4566244352,NA,NA,NA
+211218_Smp_3430_B_pos,Dino_Green,3430,Glycine betaine,4427250688,NA,NA,NA
+211218_Smp_3430_C_pos,Dino_Green,3430,Glycine betaine,4697174016,NA,NA,NA
+211218_Smp_449_A_pos,Dino_Green,449,Gonyol,2862883584,NA,NA,NA
+211218_Smp_449_B_pos,Dino_Green,449,Gonyol,4114515712,NA,NA,NA
+211218_Smp_449_C_pos,Dino_Green,449,Gonyol,2900568064,NA,NA,NA
+211218_Smp_1314_A_pos,Dino_Green,1314,Gonyol,5936882688,NA,NA,NA
+211218_Smp_1314_B_pos,Dino_Green,1314,Gonyol,5761606144,NA,NA,NA
+211218_Smp_1314_C_pos,Dino_Green,1314,Gonyol,5593911296,NA,NA,NA
+211218_Smp_1545_A_pos,Dino_Green,1545,Gonyol,221254.25,NA,Flag,Smp_Remove
+211218_Smp_1545_B_pos,Dino_Green,1545,Gonyol,221254.25,NA,Flag,Smp_Remove
+211218_Smp_1545_C_pos,Dino_Green,1545,Gonyol,221254.25,NA,Flag,Smp_Remove
+211218_Smp_1771_A_pos,Dino_Green,1771,Gonyol,1725681152,NA,NA,NA
+211218_Smp_1771_B_pos,Dino_Green,1771,Gonyol,1815919872,NA,NA,NA
+211218_Smp_1771_C_pos,Dino_Green,1771,Gonyol,1338824576,NA,NA,NA
+211218_Smp_2021_A_pos,Dino_Green,2021,Gonyol,30000859136,NA,NA,NA
+211218_Smp_2021_B_pos,Dino_Green,2021,Gonyol,31457906688,NA,NA,NA
+211218_Smp_2021_C_pos,Dino_Green,2021,Gonyol,17295108096,NA,NA,NA
+211218_Smp_3430_A_pos,Dino_Green,3430,Gonyol,0,Flag,Flag,Smp_Remove
+211218_Smp_3430_B_pos,Dino_Green,3430,Gonyol,0,Flag,Flag,Smp_Remove
+211218_Smp_3430_C_pos,Dino_Green,3430,Gonyol,0,Flag,Flag,Smp_Remove
+211218_Smp_449_A_pos,Dino_Green,449,Homarine,0,Flag,Flag,Smp_Remove
+211218_Smp_449_B_pos,Dino_Green,449,Homarine,0,Flag,Flag,Smp_Remove
+211218_Smp_449_C_pos,Dino_Green,449,Homarine,0,Flag,Flag,Smp_Remove
+211218_Smp_1314_A_pos,Dino_Green,1314,Homarine,1726,Flag,Flag,Smp_Remove
+211218_Smp_1314_B_pos,Dino_Green,1314,Homarine,1726,Flag,Flag,Smp_Remove
+211218_Smp_1314_C_pos,Dino_Green,1314,Homarine,1726,Flag,Flag,Smp_Remove
+211218_Smp_1545_A_pos,Dino_Green,1545,Homarine,1726,Flag,Flag,Smp_Remove
+211218_Smp_1545_B_pos,Dino_Green,1545,Homarine,1726,Flag,Flag,Smp_Remove
+211218_Smp_1545_C_pos,Dino_Green,1545,Homarine,1726,Flag,Flag,Smp_Remove
+211218_Smp_1771_A_pos,Dino_Green,1771,Homarine,0,Flag,Flag,Smp_Remove
+211218_Smp_1771_B_pos,Dino_Green,1771,Homarine,0,Flag,Flag,Smp_Remove
+211218_Smp_1771_C_pos,Dino_Green,1771,Homarine,0,Flag,Flag,Smp_Remove
+211218_Smp_2021_A_pos,Dino_Green,2021,Homarine,777731,NA,NA,NA
+211218_Smp_2021_B_pos,Dino_Green,2021,Homarine,632293,NA,NA,NA
+211218_Smp_2021_C_pos,Dino_Green,2021,Homarine,178547,NA,NA,NA
+211218_Smp_3430_A_pos,Dino_Green,3430,Homarine,3247.5,Flag,Flag,Smp_Remove
+211218_Smp_3430_B_pos,Dino_Green,3430,Homarine,3247.5,Flag,Flag,Smp_Remove
+211218_Smp_3430_C_pos,Dino_Green,3430,Homarine,3247.5,Flag,Flag,Smp_Remove
+211218_Smp_449_A_pos,Dino_Green,449,Proline betaine,9793183,NA,NA,NA
+211218_Smp_449_B_pos,Dino_Green,449,Proline betaine,11913770,NA,NA,NA
+211218_Smp_449_C_pos,Dino_Green,449,Proline betaine,10527072,NA,NA,NA
+211218_Smp_1314_A_pos,Dino_Green,1314,Proline betaine,9322514,NA,NA,NA
+211218_Smp_1314_B_pos,Dino_Green,1314,Proline betaine,8965923,NA,NA,NA
+211218_Smp_1314_C_pos,Dino_Green,1314,Proline betaine,8685807,NA,NA,NA
+211218_Smp_1545_A_pos,Dino_Green,1545,Proline betaine,4370.25,Flag,Flag,Smp_Remove
+211218_Smp_1545_B_pos,Dino_Green,1545,Proline betaine,4370.25,Flag,Flag,Smp_Remove
+211218_Smp_1545_C_pos,Dino_Green,1545,Proline betaine,4370.25,Flag,Flag,Smp_Remove
+211218_Smp_1771_A_pos,Dino_Green,1771,Proline betaine,671633,NA,NA,NA
+211218_Smp_1771_B_pos,Dino_Green,1771,Proline betaine,742362,NA,NA,NA
+211218_Smp_1771_C_pos,Dino_Green,1771,Proline betaine,982288,NA,NA,NA
+211218_Smp_2021_A_pos,Dino_Green,2021,Proline betaine,317818944,NA,NA,NA
+211218_Smp_2021_B_pos,Dino_Green,2021,Proline betaine,331031936,NA,NA,NA
+211218_Smp_2021_C_pos,Dino_Green,2021,Proline betaine,155804144,NA,NA,NA
+211218_Smp_3430_A_pos,Dino_Green,3430,Proline betaine,822864,NA,NA,NA
+211218_Smp_3430_B_pos,Dino_Green,3430,Proline betaine,980600,NA,NA,NA
+211218_Smp_3430_C_pos,Dino_Green,3430,Proline betaine,1074576,NA,NA,NA
+211218_Smp_449_A_pos,Dino_Green,449,Trigonelline,57820520,NA,NA,NA
+211218_Smp_449_B_pos,Dino_Green,449,Trigonelline,67935000,NA,NA,NA
+211218_Smp_449_C_pos,Dino_Green,449,Trigonelline,61436328,NA,NA,NA
+211218_Smp_1314_A_pos,Dino_Green,1314,Trigonelline,58885168,NA,NA,NA
+211218_Smp_1314_B_pos,Dino_Green,1314,Trigonelline,59622268,NA,NA,NA
+211218_Smp_1314_C_pos,Dino_Green,1314,Trigonelline,47771324,NA,NA,NA
+211218_Smp_1545_A_pos,Dino_Green,1545,Trigonelline,498285664,NA,NA,NA
+211218_Smp_1545_B_pos,Dino_Green,1545,Trigonelline,587033024,NA,NA,NA
+211218_Smp_1545_C_pos,Dino_Green,1545,Trigonelline,541082688,NA,NA,NA
+211218_Smp_1771_A_pos,Dino_Green,1771,Trigonelline,857061056,NA,NA,NA
+211218_Smp_1771_B_pos,Dino_Green,1771,Trigonelline,1019593728,NA,NA,NA
+211218_Smp_1771_C_pos,Dino_Green,1771,Trigonelline,767783616,NA,NA,NA
+211218_Smp_2021_A_pos,Dino_Green,2021,Trigonelline,22249902,NA,NA,NA
+211218_Smp_2021_B_pos,Dino_Green,2021,Trigonelline,27040800,NA,NA,NA
+211218_Smp_2021_C_pos,Dino_Green,2021,Trigonelline,11131157,NA,NA,NA
+211218_Smp_3430_A_pos,Dino_Green,3430,Trigonelline,826825,NA,NA,NA
+211218_Smp_3430_B_pos,Dino_Green,3430,Trigonelline,856673,NA,NA,NA
+211218_Smp_3430_C_pos,Dino_Green,3430,Trigonelline,971268,NA,NA,NA
+211218_Smp_449_A_pos,Dino_Green,449,Trimethylamine N-oxide,35053,Flag,Flag,Smp_Remove
+211218_Smp_449_B_pos,Dino_Green,449,Trimethylamine N-oxide,35053,Flag,Flag,Smp_Remove
+211218_Smp_449_C_pos,Dino_Green,449,Trimethylamine N-oxide,35053,Flag,Flag,Smp_Remove
+211218_Smp_1314_A_pos,Dino_Green,1314,Trimethylamine N-oxide,264938,NA,Flag,Smp_Remove
+211218_Smp_1314_B_pos,Dino_Green,1314,Trimethylamine N-oxide,264938,Flag,Flag,Smp_Remove
+211218_Smp_1314_C_pos,Dino_Green,1314,Trimethylamine N-oxide,264938,Flag,Flag,Smp_Remove
+211218_Smp_1545_A_pos,Dino_Green,1545,Trimethylamine N-oxide,264938,NA,Flag,Smp_Remove
+211218_Smp_1545_B_pos,Dino_Green,1545,Trimethylamine N-oxide,264938,Flag,Flag,Smp_Remove
+211218_Smp_1545_C_pos,Dino_Green,1545,Trimethylamine N-oxide,264938,Flag,Flag,Smp_Remove
+211218_Smp_1771_A_pos,Dino_Green,1771,Trimethylamine N-oxide,12856.5,Flag,Flag,Smp_Remove
+211218_Smp_1771_B_pos,Dino_Green,1771,Trimethylamine N-oxide,12856.5,Flag,Flag,Smp_Remove
+211218_Smp_1771_C_pos,Dino_Green,1771,Trimethylamine N-oxide,12856.5,Flag,Flag,Smp_Remove
+211218_Smp_2021_A_pos,Dino_Green,2021,Trimethylamine N-oxide,116183,NA,NA,NA
+211218_Smp_2021_B_pos,Dino_Green,2021,Trimethylamine N-oxide,9799.5,Flag,Flag,Smp_Remove
+211218_Smp_2021_C_pos,Dino_Green,2021,Trimethylamine N-oxide,9799.5,Flag,Flag,Smp_Remove
+211218_Smp_3430_A_pos,Dino_Green,3430,Trimethylamine N-oxide,22248.5,Flag,Flag,Smp_Remove
+211218_Smp_3430_B_pos,Dino_Green,3430,Trimethylamine N-oxide,22248.5,Flag,Flag,Smp_Remove
+211218_Smp_3430_C_pos,Dino_Green,3430,Trimethylamine N-oxide,22248.5,Flag,Flag,Smp_Remove
+220104_Smp_116-1_A_pos,Haptophyte,116,beta-Alaninebetaine,37979,Flag,Flag,Smp_Remove
+220104_Smp_116-1_B_pos,Haptophyte,116,beta-Alaninebetaine,37979,NA,Flag,Smp_Remove
+220104_Smp_116-1_C_pos,Haptophyte,116,beta-Alaninebetaine,37979,NA,Flag,Smp_Remove
+220104_Smp_371_A_pos,Haptophyte,371,beta-Alaninebetaine,19360348,NA,NA,NA
+220104_Smp_371_B_pos,Haptophyte,371,beta-Alaninebetaine,26861864,NA,NA,NA
+220104_Smp_371_C_pos,Haptophyte,371,beta-Alaninebetaine,2385060,NA,NA,NA
+220104_Smp_2090_A_pos,Haptophyte,2090,beta-Alaninebetaine,435673,NA,NA,NA
+220104_Smp_2090_B_pos,Haptophyte,2090,beta-Alaninebetaine,93753,NA,NA,NA
+220104_Smp_2090_C_pos,Haptophyte,2090,beta-Alaninebetaine,699448,NA,NA,NA
+220104_Smp_Ca_A_pos,Haptophyte,Ca,beta-Alaninebetaine,560209664,NA,NA,NA
+220104_Smp_Ca_B_pos,Haptophyte,Ca,beta-Alaninebetaine,590788352,NA,NA,NA
+220104_Smp_Ca_C_pos,Haptophyte,Ca,beta-Alaninebetaine,537765312,NA,NA,NA
+220104_Smp_Cr_A_pos,Haptophyte,Cr,beta-Alaninebetaine,243338416,NA,NA,NA
+220104_Smp_Cr_B_pos,Haptophyte,Cr,beta-Alaninebetaine,222019264,NA,NA,NA
+220104_Smp_Cr_C_pos,Haptophyte,Cr,beta-Alaninebetaine,219277808,NA,NA,NA
+220104_Smp_Cs_A_pos,Haptophyte,Cs,beta-Alaninebetaine,549645376,NA,NA,NA
+220104_Smp_Cs_B_pos,Haptophyte,Cs,beta-Alaninebetaine,571201728,NA,NA,NA
+220104_Smp_Cs_C_pos,Haptophyte,Cs,beta-Alaninebetaine,553819520,NA,NA,NA
+220104_Smp_P3_A_pos,Haptophyte,P3,beta-Alaninebetaine,439108,NA,NA,NA
+220104_Smp_P3_B_pos,Haptophyte,P3,beta-Alaninebetaine,37979,NA,Flag,NA
+220104_Smp_P3_C_pos,Haptophyte,P3,beta-Alaninebetaine,559785,NA,NA,NA
+220104_Smp_P5-5_A_pos,Haptophyte,P5,beta-Alaninebetaine,37979,NA,Flag,Smp_Remove
+220104_Smp_P5-5_B_pos,Haptophyte,P5,beta-Alaninebetaine,37979,NA,Flag,Smp_Remove
+220104_Smp_P5-5_C_pos,Haptophyte,P5,beta-Alaninebetaine,37979,Flag,Flag,Smp_Remove
+220104_Smp_116-1_A_pos,Haptophyte,116,Betonicine,2175.5,Flag,Flag,Smp_Remove
+220104_Smp_116-1_B_pos,Haptophyte,116,Betonicine,2175.5,Flag,Flag,Smp_Remove
+220104_Smp_116-1_C_pos,Haptophyte,116,Betonicine,2175.5,Flag,NA,Smp_Remove
+220104_Smp_371_A_pos,Haptophyte,371,Betonicine,0,Flag,NA,Smp_Remove
+220104_Smp_371_B_pos,Haptophyte,371,Betonicine,0,Flag,Flag,Smp_Remove
+220104_Smp_371_C_pos,Haptophyte,371,Betonicine,0,Flag,Flag,Smp_Remove
+220104_Smp_2090_A_pos,Haptophyte,2090,Betonicine,0,Flag,NA,Smp_Remove
+220104_Smp_2090_B_pos,Haptophyte,2090,Betonicine,0,Flag,NA,Smp_Remove
+220104_Smp_2090_C_pos,Haptophyte,2090,Betonicine,0,Flag,Flag,Smp_Remove
+220104_Smp_Ca_A_pos,Haptophyte,Ca,Betonicine,2545.5,Flag,Flag,Smp_Remove
+220104_Smp_Ca_B_pos,Haptophyte,Ca,Betonicine,2545.5,Flag,Flag,Smp_Remove
+220104_Smp_Ca_C_pos,Haptophyte,Ca,Betonicine,2545.5,Flag,NA,Smp_Remove
+220104_Smp_Cr_A_pos,Haptophyte,Cr,Betonicine,2545.5,Flag,Flag,Smp_Remove
+220104_Smp_Cr_B_pos,Haptophyte,Cr,Betonicine,2545.5,Flag,Flag,Smp_Remove
+220104_Smp_Cr_C_pos,Haptophyte,Cr,Betonicine,2545.5,Flag,Flag,Smp_Remove
+220104_Smp_Cs_A_pos,Haptophyte,Cs,Betonicine,2545.5,Flag,NA,Smp_Remove
+220104_Smp_Cs_B_pos,Haptophyte,Cs,Betonicine,2545.5,Flag,NA,Smp_Remove
+220104_Smp_Cs_C_pos,Haptophyte,Cs,Betonicine,2545.5,Flag,NA,Smp_Remove
+220104_Smp_P3_A_pos,Haptophyte,P3,Betonicine,2175.5,Flag,Flag,Smp_Remove
+220104_Smp_P3_B_pos,Haptophyte,P3,Betonicine,2175.5,Flag,Flag,Smp_Remove
+220104_Smp_P3_C_pos,Haptophyte,P3,Betonicine,2175.5,Flag,Flag,Smp_Remove
+220104_Smp_P5-5_A_pos,Haptophyte,P5,Betonicine,2175.5,Flag,Flag,Smp_Remove
+220104_Smp_P5-5_B_pos,Haptophyte,P5,Betonicine,2175.5,Flag,Flag,Smp_Remove
+220104_Smp_P5-5_C_pos,Haptophyte,P5,Betonicine,2175.5,Flag,Flag,Smp_Remove
+220104_Smp_116-1_A_pos,Haptophyte,116,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220104_Smp_116-1_B_pos,Haptophyte,116,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220104_Smp_116-1_C_pos,Haptophyte,116,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220104_Smp_371_A_pos,Haptophyte,371,Dimethylsulfonioacetate,293720,NA,NA,NA
+220104_Smp_371_B_pos,Haptophyte,371,Dimethylsulfonioacetate,404927,NA,NA,NA
+220104_Smp_371_C_pos,Haptophyte,371,Dimethylsulfonioacetate,226257,NA,NA,NA
+220104_Smp_2090_A_pos,Haptophyte,2090,Dimethylsulfonioacetate,1012878,NA,NA,NA
+220104_Smp_2090_B_pos,Haptophyte,2090,Dimethylsulfonioacetate,951936,NA,NA,NA
+220104_Smp_2090_C_pos,Haptophyte,2090,Dimethylsulfonioacetate,1453172,NA,NA,NA
+220104_Smp_Ca_A_pos,Haptophyte,Ca,Dimethylsulfonioacetate,3845109248,NA,NA,NA
+220104_Smp_Ca_B_pos,Haptophyte,Ca,Dimethylsulfonioacetate,4049544448,NA,NA,NA
+220104_Smp_Ca_C_pos,Haptophyte,Ca,Dimethylsulfonioacetate,3898840320,NA,NA,NA
+220104_Smp_Cr_A_pos,Haptophyte,Cr,Dimethylsulfonioacetate,23034859520,NA,NA,NA
+220104_Smp_Cr_B_pos,Haptophyte,Cr,Dimethylsulfonioacetate,20875915264,NA,NA,NA
+220104_Smp_Cr_C_pos,Haptophyte,Cr,Dimethylsulfonioacetate,20696705024,NA,NA,NA
+220104_Smp_Cs_A_pos,Haptophyte,Cs,Dimethylsulfonioacetate,12946665472,NA,NA,NA
+220104_Smp_Cs_B_pos,Haptophyte,Cs,Dimethylsulfonioacetate,14104602624,NA,NA,NA
+220104_Smp_Cs_C_pos,Haptophyte,Cs,Dimethylsulfonioacetate,12516449280,NA,NA,NA
+220104_Smp_P3_A_pos,Haptophyte,P3,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220104_Smp_P3_B_pos,Haptophyte,P3,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220104_Smp_P3_C_pos,Haptophyte,P3,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220104_Smp_P5-5_A_pos,Haptophyte,P5,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220104_Smp_P5-5_B_pos,Haptophyte,P5,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220104_Smp_P5-5_C_pos,Haptophyte,P5,Dimethylsulfonioacetate,0,Flag,Flag,Smp_Remove
+220104_Smp_116-1_A_pos,Haptophyte,116,Dimethylsulfoniopropionate,14324432,NA,NA,NA
+220104_Smp_116-1_B_pos,Haptophyte,116,Dimethylsulfoniopropionate,16544530,NA,NA,NA
+220104_Smp_116-1_C_pos,Haptophyte,116,Dimethylsulfoniopropionate,15394201,NA,NA,NA
+220104_Smp_371_A_pos,Haptophyte,371,Dimethylsulfoniopropionate,6553033216,NA,NA,NA
+220104_Smp_371_B_pos,Haptophyte,371,Dimethylsulfoniopropionate,7073311232,NA,NA,NA
+220104_Smp_371_C_pos,Haptophyte,371,Dimethylsulfoniopropionate,6244733952,NA,NA,NA
+220104_Smp_2090_A_pos,Haptophyte,2090,Dimethylsulfoniopropionate,7251799552,NA,NA,NA
+220104_Smp_2090_B_pos,Haptophyte,2090,Dimethylsulfoniopropionate,6775423488,NA,NA,NA
+220104_Smp_2090_C_pos,Haptophyte,2090,Dimethylsulfoniopropionate,10800405504,NA,NA,NA
+220104_Smp_Ca_A_pos,Haptophyte,Ca,Dimethylsulfoniopropionate,17248520192,NA,NA,NA
+220104_Smp_Ca_B_pos,Haptophyte,Ca,Dimethylsulfoniopropionate,17906595840,NA,NA,NA
+220104_Smp_Ca_C_pos,Haptophyte,Ca,Dimethylsulfoniopropionate,16866591744,NA,NA,NA
+220104_Smp_Cr_A_pos,Haptophyte,Cr,Dimethylsulfoniopropionate,7014387712,NA,NA,NA
+220104_Smp_Cr_B_pos,Haptophyte,Cr,Dimethylsulfoniopropionate,5802485760,NA,NA,NA
+220104_Smp_Cr_C_pos,Haptophyte,Cr,Dimethylsulfoniopropionate,5690189312,NA,NA,NA
+220104_Smp_Cs_A_pos,Haptophyte,Cs,Dimethylsulfoniopropionate,9219011584,NA,NA,NA
+220104_Smp_Cs_B_pos,Haptophyte,Cs,Dimethylsulfoniopropionate,11563655168,NA,NA,NA
+220104_Smp_Cs_C_pos,Haptophyte,Cs,Dimethylsulfoniopropionate,8879650816,NA,NA,NA
+220104_Smp_P3_A_pos,Haptophyte,P3,Dimethylsulfoniopropionate,1456210,NA,NA,NA
+220104_Smp_P3_B_pos,Haptophyte,P3,Dimethylsulfoniopropionate,1349698,NA,NA,NA
+220104_Smp_P3_C_pos,Haptophyte,P3,Dimethylsulfoniopropionate,1206048,NA,NA,NA
+220104_Smp_P5-5_A_pos,Haptophyte,P5,Dimethylsulfoniopropionate,11865828,NA,NA,NA
+220104_Smp_P5-5_B_pos,Haptophyte,P5,Dimethylsulfoniopropionate,11634210,NA,NA,NA
+220104_Smp_P5-5_C_pos,Haptophyte,P5,Dimethylsulfoniopropionate,11873518,NA,NA,NA
+220104_Smp_116-1_A_pos,Haptophyte,116,Glycine betaine,34669548,NA,Flag,Smp_Remove
+220104_Smp_116-1_B_pos,Haptophyte,116,Glycine betaine,34669548,NA,Flag,Smp_Remove
+220104_Smp_116-1_C_pos,Haptophyte,116,Glycine betaine,34669548,NA,Flag,Smp_Remove
+220104_Smp_371_A_pos,Haptophyte,371,Glycine betaine,1039812352,NA,NA,NA
+220104_Smp_371_B_pos,Haptophyte,371,Glycine betaine,1124901504,NA,NA,NA
+220104_Smp_371_C_pos,Haptophyte,371,Glycine betaine,915043456,NA,NA,NA
+220104_Smp_2090_A_pos,Haptophyte,2090,Glycine betaine,3421453824,NA,NA,NA
+220104_Smp_2090_B_pos,Haptophyte,2090,Glycine betaine,3139203328,NA,NA,NA
+220104_Smp_2090_C_pos,Haptophyte,2090,Glycine betaine,5085138944,NA,NA,NA
+220104_Smp_Ca_A_pos,Haptophyte,Ca,Glycine betaine,42219432,NA,Flag,Smp_Remove
+220104_Smp_Ca_B_pos,Haptophyte,Ca,Glycine betaine,42219432,NA,Flag,Smp_Remove
+220104_Smp_Ca_C_pos,Haptophyte,Ca,Glycine betaine,42219432,NA,Flag,Smp_Remove
+220104_Smp_Cr_A_pos,Haptophyte,Cr,Glycine betaine,4118577664,NA,NA,NA
+220104_Smp_Cr_B_pos,Haptophyte,Cr,Glycine betaine,3884602880,NA,NA,NA
+220104_Smp_Cr_C_pos,Haptophyte,Cr,Glycine betaine,3830477568,NA,NA,NA
+220104_Smp_Cs_A_pos,Haptophyte,Cs,Glycine betaine,17460539392,NA,NA,NA
+220104_Smp_Cs_B_pos,Haptophyte,Cs,Glycine betaine,19101120512,NA,NA,NA
+220104_Smp_Cs_C_pos,Haptophyte,Cs,Glycine betaine,17641113600,NA,NA,NA
+220104_Smp_P3_A_pos,Haptophyte,P3,Glycine betaine,34669548,NA,Flag,Smp_Remove
+220104_Smp_P3_B_pos,Haptophyte,P3,Glycine betaine,34669548,NA,Flag,Smp_Remove
+220104_Smp_P3_C_pos,Haptophyte,P3,Glycine betaine,34669548,NA,Flag,Smp_Remove
+220104_Smp_P5-5_A_pos,Haptophyte,P5,Glycine betaine,34669548,NA,Flag,Smp_Remove
+220104_Smp_P5-5_B_pos,Haptophyte,P5,Glycine betaine,34669548,NA,Flag,Smp_Remove
+220104_Smp_P5-5_C_pos,Haptophyte,P5,Glycine betaine,34669548,NA,Flag,Smp_Remove
+220104_Smp_116-1_A_pos,Haptophyte,116,Gonyol,252585808,NA,NA,NA
+220104_Smp_116-1_B_pos,Haptophyte,116,Gonyol,271166304,NA,NA,NA
+220104_Smp_116-1_C_pos,Haptophyte,116,Gonyol,268489728,NA,NA,NA
+220104_Smp_371_A_pos,Haptophyte,371,Gonyol,301965056,NA,NA,NA
+220104_Smp_371_B_pos,Haptophyte,371,Gonyol,363304672,NA,NA,NA
+220104_Smp_371_C_pos,Haptophyte,371,Gonyol,237643344,NA,NA,NA
+220104_Smp_2090_A_pos,Haptophyte,2090,Gonyol,387165600,NA,NA,NA
+220104_Smp_2090_B_pos,Haptophyte,2090,Gonyol,342963360,NA,NA,NA
+220104_Smp_2090_C_pos,Haptophyte,2090,Gonyol,500744032,NA,NA,NA
+220104_Smp_Ca_A_pos,Haptophyte,Ca,Gonyol,1030475968,NA,NA,NA
+220104_Smp_Ca_B_pos,Haptophyte,Ca,Gonyol,1257827840,NA,NA,NA
+220104_Smp_Ca_C_pos,Haptophyte,Ca,Gonyol,1140479872,NA,NA,NA
+220104_Smp_Cr_A_pos,Haptophyte,Cr,Gonyol,352743328,NA,NA,NA
+220104_Smp_Cr_B_pos,Haptophyte,Cr,Gonyol,246069376,NA,NA,NA
+220104_Smp_Cr_C_pos,Haptophyte,Cr,Gonyol,302621856,NA,NA,NA
+220104_Smp_Cs_A_pos,Haptophyte,Cs,Gonyol,207435840,NA,NA,NA
+220104_Smp_Cs_B_pos,Haptophyte,Cs,Gonyol,189719952,NA,NA,NA
+220104_Smp_Cs_C_pos,Haptophyte,Cs,Gonyol,193998784,NA,NA,NA
+220104_Smp_P3_A_pos,Haptophyte,P3,Gonyol,112883616,NA,NA,NA
+220104_Smp_P3_B_pos,Haptophyte,P3,Gonyol,90779384,NA,NA,NA
+220104_Smp_P3_C_pos,Haptophyte,P3,Gonyol,84469960,NA,NA,NA
+220104_Smp_P5-5_A_pos,Haptophyte,P5,Gonyol,367075616,NA,NA,NA
+220104_Smp_P5-5_B_pos,Haptophyte,P5,Gonyol,338140608,NA,NA,NA
+220104_Smp_P5-5_C_pos,Haptophyte,P5,Gonyol,433324416,NA,NA,NA
+220104_Smp_116-1_A_pos,Haptophyte,116,Homarine,0,Flag,Flag,Smp_Remove
+220104_Smp_116-1_B_pos,Haptophyte,116,Homarine,0,Flag,NA,Smp_Remove
+220104_Smp_116-1_C_pos,Haptophyte,116,Homarine,0,Flag,NA,Smp_Remove
+220104_Smp_371_A_pos,Haptophyte,371,Homarine,97336360,NA,NA,NA
+220104_Smp_371_B_pos,Haptophyte,371,Homarine,107509200,NA,NA,NA
+220104_Smp_371_C_pos,Haptophyte,371,Homarine,85838344,NA,NA,NA
+220104_Smp_2090_A_pos,Haptophyte,2090,Homarine,0,Flag,Flag,Smp_Remove
+220104_Smp_2090_B_pos,Haptophyte,2090,Homarine,0,Flag,NA,Smp_Remove
+220104_Smp_2090_C_pos,Haptophyte,2090,Homarine,0,Flag,NA,Smp_Remove
+220104_Smp_Ca_A_pos,Haptophyte,Ca,Homarine,1344595456,NA,NA,NA
+220104_Smp_Ca_B_pos,Haptophyte,Ca,Homarine,1409528704,NA,NA,NA
+220104_Smp_Ca_C_pos,Haptophyte,Ca,Homarine,1276442496,NA,NA,NA
+220104_Smp_Cr_A_pos,Haptophyte,Cr,Homarine,84379768,NA,NA,NA
+220104_Smp_Cr_B_pos,Haptophyte,Cr,Homarine,77028904,NA,NA,NA
+220104_Smp_Cr_C_pos,Haptophyte,Cr,Homarine,77310472,NA,NA,NA
+220104_Smp_Cs_A_pos,Haptophyte,Cs,Homarine,3881945856,NA,NA,NA
+220104_Smp_Cs_B_pos,Haptophyte,Cs,Homarine,4110402816,NA,NA,NA
+220104_Smp_Cs_C_pos,Haptophyte,Cs,Homarine,3868129792,NA,NA,NA
+220104_Smp_P3_A_pos,Haptophyte,P3,Homarine,0,Flag,NA,Smp_Remove
+220104_Smp_P3_B_pos,Haptophyte,P3,Homarine,0,Flag,NA,Smp_Remove
+220104_Smp_P3_C_pos,Haptophyte,P3,Homarine,0,Flag,Flag,Smp_Remove
+220104_Smp_P5-5_A_pos,Haptophyte,P5,Homarine,0,Flag,NA,Smp_Remove
+220104_Smp_P5-5_B_pos,Haptophyte,P5,Homarine,0,Flag,Flag,Smp_Remove
+220104_Smp_P5-5_C_pos,Haptophyte,P5,Homarine,0,Flag,Flag,Smp_Remove
+220104_Smp_116-1_A_pos,Haptophyte,116,Proline betaine,72002,NA,NA,NA
+220104_Smp_116-1_B_pos,Haptophyte,116,Proline betaine,62279,NA,NA,NA
+220104_Smp_116-1_C_pos,Haptophyte,116,Proline betaine,307933,NA,NA,NA
+220104_Smp_371_A_pos,Haptophyte,371,Proline betaine,7719111,NA,NA,NA
+220104_Smp_371_B_pos,Haptophyte,371,Proline betaine,8574464,NA,NA,NA
+220104_Smp_371_C_pos,Haptophyte,371,Proline betaine,6556413,NA,NA,NA
+220104_Smp_2090_A_pos,Haptophyte,2090,Proline betaine,5628027,NA,NA,NA
+220104_Smp_2090_B_pos,Haptophyte,2090,Proline betaine,5513567,NA,NA,NA
+220104_Smp_2090_C_pos,Haptophyte,2090,Proline betaine,8569874,NA,NA,NA
+220104_Smp_Ca_A_pos,Haptophyte,Ca,Proline betaine,9964321,NA,NA,NA
+220104_Smp_Ca_B_pos,Haptophyte,Ca,Proline betaine,10100699,NA,NA,NA
+220104_Smp_Ca_C_pos,Haptophyte,Ca,Proline betaine,9511728,NA,NA,NA
+220104_Smp_Cr_A_pos,Haptophyte,Cr,Proline betaine,237038672,NA,NA,NA
+220104_Smp_Cr_B_pos,Haptophyte,Cr,Proline betaine,219392640,NA,NA,NA
+220104_Smp_Cr_C_pos,Haptophyte,Cr,Proline betaine,221386752,NA,NA,NA
+220104_Smp_Cs_A_pos,Haptophyte,Cs,Proline betaine,155744960,NA,NA,NA
+220104_Smp_Cs_B_pos,Haptophyte,Cs,Proline betaine,160787088,NA,NA,NA
+220104_Smp_Cs_C_pos,Haptophyte,Cs,Proline betaine,158323728,NA,NA,NA
+220104_Smp_P3_A_pos,Haptophyte,P3,Proline betaine,938816,NA,NA,NA
+220104_Smp_P3_B_pos,Haptophyte,P3,Proline betaine,856694,NA,NA,NA
+220104_Smp_P3_C_pos,Haptophyte,P3,Proline betaine,557531,NA,NA,NA
+220104_Smp_P5-5_A_pos,Haptophyte,P5,Proline betaine,1130130,NA,NA,NA
+220104_Smp_P5-5_B_pos,Haptophyte,P5,Proline betaine,701572,NA,NA,NA
+220104_Smp_P5-5_C_pos,Haptophyte,P5,Proline betaine,642187,NA,NA,NA
+220104_Smp_116-1_A_pos,Haptophyte,116,Trigonelline,1794389,NA,NA,NA
+220104_Smp_116-1_B_pos,Haptophyte,116,Trigonelline,1108398,NA,NA,NA
+220104_Smp_116-1_C_pos,Haptophyte,116,Trigonelline,427969,NA,NA,NA
+220104_Smp_371_A_pos,Haptophyte,371,Trigonelline,2017442,NA,NA,NA
+220104_Smp_371_B_pos,Haptophyte,371,Trigonelline,1296999,NA,NA,NA
+220104_Smp_371_C_pos,Haptophyte,371,Trigonelline,2213897,NA,NA,NA
+220104_Smp_2090_A_pos,Haptophyte,2090,Trigonelline,5298809,NA,NA,NA
+220104_Smp_2090_B_pos,Haptophyte,2090,Trigonelline,4879922,NA,NA,NA
+220104_Smp_2090_C_pos,Haptophyte,2090,Trigonelline,9836192,NA,NA,NA
+220104_Smp_Ca_A_pos,Haptophyte,Ca,Trigonelline,11881943,NA,NA,NA
+220104_Smp_Ca_B_pos,Haptophyte,Ca,Trigonelline,4504786,NA,NA,NA
+220104_Smp_Ca_C_pos,Haptophyte,Ca,Trigonelline,7023368,NA,NA,NA
+220104_Smp_Cr_A_pos,Haptophyte,Cr,Trigonelline,1002009,NA,NA,NA
+220104_Smp_Cr_B_pos,Haptophyte,Cr,Trigonelline,1772126,NA,NA,NA
+220104_Smp_Cr_C_pos,Haptophyte,Cr,Trigonelline,1827204,NA,NA,NA
+220104_Smp_Cs_A_pos,Haptophyte,Cs,Trigonelline,967660,NA,NA,NA
+220104_Smp_Cs_B_pos,Haptophyte,Cs,Trigonelline,3466992,NA,NA,NA
+220104_Smp_Cs_C_pos,Haptophyte,Cs,Trigonelline,3412865,NA,NA,NA
+220104_Smp_P3_A_pos,Haptophyte,P3,Trigonelline,108488,NA,NA,NA
+220104_Smp_P3_B_pos,Haptophyte,P3,Trigonelline,101369,NA,NA,NA
+220104_Smp_P3_C_pos,Haptophyte,P3,Trigonelline,66025,NA,NA,NA
+220104_Smp_P5-5_A_pos,Haptophyte,P5,Trigonelline,6133028,NA,NA,NA
+220104_Smp_P5-5_B_pos,Haptophyte,P5,Trigonelline,4621792,NA,NA,NA
+220104_Smp_P5-5_C_pos,Haptophyte,P5,Trigonelline,6129422,NA,NA,NA
+220104_Smp_116-1_A_pos,Haptophyte,116,Trimethylamine N-oxide,6181,Flag,Flag,Smp_Remove
+220104_Smp_116-1_B_pos,Haptophyte,116,Trimethylamine N-oxide,6181,Flag,Flag,Smp_Remove
+220104_Smp_116-1_C_pos,Haptophyte,116,Trimethylamine N-oxide,6181,Flag,Flag,Smp_Remove
+220104_Smp_371_A_pos,Haptophyte,371,Trimethylamine N-oxide,4323.5,Flag,Flag,Smp_Remove
+220104_Smp_371_B_pos,Haptophyte,371,Trimethylamine N-oxide,4323.5,Flag,Flag,Smp_Remove
+220104_Smp_371_C_pos,Haptophyte,371,Trimethylamine N-oxide,4323.5,Flag,Flag,Smp_Remove
+220104_Smp_2090_A_pos,Haptophyte,2090,Trimethylamine N-oxide,7047,Flag,Flag,Smp_Remove
+220104_Smp_2090_B_pos,Haptophyte,2090,Trimethylamine N-oxide,7047,Flag,Flag,Smp_Remove
+220104_Smp_2090_C_pos,Haptophyte,2090,Trimethylamine N-oxide,63061,NA,NA,NA
+220104_Smp_Ca_A_pos,Haptophyte,Ca,Trimethylamine N-oxide,12963,Flag,Flag,Smp_Remove
+220104_Smp_Ca_B_pos,Haptophyte,Ca,Trimethylamine N-oxide,12963,Flag,Flag,Smp_Remove
+220104_Smp_Ca_C_pos,Haptophyte,Ca,Trimethylamine N-oxide,12963,Flag,Flag,Smp_Remove
+220104_Smp_Cr_A_pos,Haptophyte,Cr,Trimethylamine N-oxide,12963,Flag,Flag,Smp_Remove
+220104_Smp_Cr_B_pos,Haptophyte,Cr,Trimethylamine N-oxide,12963,Flag,Flag,Smp_Remove
+220104_Smp_Cr_C_pos,Haptophyte,Cr,Trimethylamine N-oxide,12963,Flag,Flag,Smp_Remove
+220104_Smp_Cs_A_pos,Haptophyte,Cs,Trimethylamine N-oxide,12963,Flag,Flag,Smp_Remove
+220104_Smp_Cs_B_pos,Haptophyte,Cs,Trimethylamine N-oxide,12963,Flag,Flag,Smp_Remove
+220104_Smp_Cs_C_pos,Haptophyte,Cs,Trimethylamine N-oxide,12963,Flag,Flag,Smp_Remove
+220104_Smp_P3_A_pos,Haptophyte,P3,Trimethylamine N-oxide,1310174,NA,NA,NA
+220104_Smp_P3_B_pos,Haptophyte,P3,Trimethylamine N-oxide,1594952,NA,NA,NA
+220104_Smp_P3_C_pos,Haptophyte,P3,Trimethylamine N-oxide,685803,NA,NA,NA
+220104_Smp_P5-5_A_pos,Haptophyte,P5,Trimethylamine N-oxide,6181,Flag,Flag,Smp_Remove
+220104_Smp_P5-5_B_pos,Haptophyte,P5,Trimethylamine N-oxide,6181,Flag,Flag,Smp_Remove
+220104_Smp_P5-5_C_pos,Haptophyte,P5,Trimethylamine N-oxide,6181,Flag,Flag,Smp_Remove

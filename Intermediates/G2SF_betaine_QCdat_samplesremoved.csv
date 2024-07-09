@@ -1,0 +1,144 @@
+SampID,replicate,Batch,SizeFrac,Blk_type,Compound,Area,min.area.flag,blk.ratio.flag
+S3E15D15,A,G2,full,NA,Glycine betaine,5976833536,NA,NA
+S3E15D15,A,G2,full,NA,Dimethylsulfonioacetate,400646144,NA,NA
+S3E15D15,A,G2,full,NA,beta-Alaninebetaine,929795712,NA,NA
+S3E15D15,A,G2,full,NA,Dimethylsulfoniopropionate,6092083712,NA,NA
+S3E15D15,A,G2,full,NA,Homarine,371331488,NA,NA
+S3E15D15,A,G2,full,NA,Trigonelline,389005504,NA,NA
+S3E15D15,A,G2,full,NA,Proline betaine,173402464,NA,NA
+S3E15D15,A,G2,full,NA,Betonicine,171291440,NA,NA
+S3E15D15,A,G2,full,NA,Gonyol,137496304,NA,NA
+S3E15D15,B,G2,full,NA,Glycine betaine,2963163648,NA,NA
+S3E15D15,B,G2,full,NA,Dimethylsulfonioacetate,172560048,NA,NA
+S3E15D15,B,G2,full,NA,beta-Alaninebetaine,436872544,NA,NA
+S3E15D15,B,G2,full,NA,Dimethylsulfoniopropionate,1618461568,NA,NA
+S3E15D15,B,G2,full,NA,Homarine,204781104,NA,NA
+S3E15D15,B,G2,full,NA,Trigonelline,206641280,NA,NA
+S3E15D15,B,G2,full,NA,Proline betaine,91007920,NA,NA
+S3E15D15,B,G2,full,NA,Betonicine,74463592,NA,NA
+S3E15D15,B,G2,full,NA,Gonyol,83082968,NA,NA
+S3E15D15,C,G2,full,NA,Glycine betaine,4443326464,NA,NA
+S3E15D15,C,G2,full,NA,Dimethylsulfonioacetate,194551424,NA,NA
+S3E15D15,C,G2,full,NA,beta-Alaninebetaine,710387712,NA,NA
+S3E15D15,C,G2,full,NA,Dimethylsulfoniopropionate,2136444672,NA,NA
+S3E15D15,C,G2,full,NA,Homarine,331482944,NA,NA
+S3E15D15,C,G2,full,NA,Trigonelline,291213984,NA,NA
+S3E15D15,C,G2,full,NA,Proline betaine,138514880,NA,NA
+S3E15D15,C,G2,full,NA,Betonicine,110242696,NA,NA
+S3E15D15,C,G2,full,NA,Gonyol,71758576,NA,NA
+S3E15E15,Ds,G2,small,NA,Glycine betaine,1173682560,NA,NA
+S3E15E15,Ds,G2,small,NA,Dimethylsulfonioacetate,40224580,NA,NA
+S3E15E15,Ds,G2,small,NA,beta-Alaninebetaine,224022864,NA,NA
+S3E15E15,Ds,G2,small,NA,Dimethylsulfoniopropionate,248294640,NA,NA
+S3E15E15,Ds,G2,small,NA,Homarine,39996116,NA,NA
+S3E15E15,Ds,G2,small,NA,Trigonelline,135421712,NA,NA
+S3E15E15,Ds,G2,small,NA,Proline betaine,69553696,NA,NA
+S3E15E15,Ds,G2,small,NA,Betonicine,47497088,NA,NA
+S3E15E15,Ds,G2,small,NA,Gonyol,10959135,NA,NA
+S4E16D15,A,G2,full,NA,Glycine betaine,3383257088,NA,NA
+S4E16D15,A,G2,full,NA,Dimethylsulfonioacetate,362665184,NA,NA
+S4E16D15,A,G2,full,NA,beta-Alaninebetaine,511809536,NA,NA
+S4E16D15,A,G2,full,NA,Dimethylsulfoniopropionate,2391332864,NA,NA
+S4E16D15,A,G2,full,NA,Homarine,195792528,NA,NA
+S4E16D15,A,G2,full,NA,Trigonelline,272609056,NA,NA
+S4E16D15,A,G2,full,NA,Proline betaine,86635472,NA,NA
+S4E16D15,A,G2,full,NA,Betonicine,70887432,NA,NA
+S4E16D15,A,G2,full,NA,Gonyol,175234080,NA,NA
+S4E16D15,B,G2,full,NA,Glycine betaine,4912871936,NA,NA
+S4E16D15,B,G2,full,NA,Dimethylsulfonioacetate,397805952,NA,NA
+S4E16D15,B,G2,full,NA,beta-Alaninebetaine,681223808,NA,NA
+S4E16D15,B,G2,full,NA,Dimethylsulfoniopropionate,2921244672,NA,NA
+S4E16D15,B,G2,full,NA,Homarine,292277408,NA,NA
+S4E16D15,B,G2,full,NA,Trigonelline,392017408,NA,NA
+S4E16D15,B,G2,full,NA,Proline betaine,125442864,NA,NA
+S4E16D15,B,G2,full,NA,Betonicine,98067120,NA,NA
+S4E16D15,B,G2,full,NA,Gonyol,129693040,NA,NA
+S4E16D15,C,G2,full,NA,Glycine betaine,3331328768,NA,NA
+S4E16D15,C,G2,full,NA,Dimethylsulfonioacetate,300015488,NA,NA
+S4E16D15,C,G2,full,NA,beta-Alaninebetaine,529860320,NA,NA
+S4E16D15,C,G2,full,NA,Dimethylsulfoniopropionate,1390913920,NA,NA
+S4E16D15,C,G2,full,NA,Homarine,235700096,NA,NA
+S4E16D15,C,G2,full,NA,Trigonelline,311455296,NA,NA
+S4E16D15,C,G2,full,NA,Proline betaine,85557664,NA,NA
+S4E16D15,C,G2,full,NA,Betonicine,63455768,NA,NA
+S4E16D15,C,G2,full,NA,Gonyol,232740480,NA,NA
+S4E16D15,Ds,G2,small,NA,Glycine betaine,1590644096,NA,NA
+S4E16D15,Ds,G2,small,NA,Dimethylsulfonioacetate,119729800,NA,NA
+S4E16D15,Ds,G2,small,NA,beta-Alaninebetaine,256901616,NA,NA
+S4E16D15,Ds,G2,small,NA,Dimethylsulfoniopropionate,309409408,NA,NA
+S4E16D15,Ds,G2,small,NA,Homarine,78005288,NA,NA
+S4E16D15,Ds,G2,small,NA,Trigonelline,149210976,NA,NA
+S4E16D15,Ds,G2,small,NA,Proline betaine,67325208,NA,NA
+S4E16D15,Ds,G2,small,NA,Betonicine,43659876,NA,NA
+S4E16D15,Ds,G2,small,NA,Gonyol,20766706,NA,NA
+S5E28D15,A,G2,full,NA,Glycine betaine,4862282240,NA,NA
+S5E28D15,A,G2,full,NA,Dimethylsulfonioacetate,300604736,NA,NA
+S5E28D15,A,G2,full,NA,beta-Alaninebetaine,440050976,NA,NA
+S5E28D15,A,G2,full,NA,Dimethylsulfoniopropionate,444711872,NA,NA
+S5E28D15,A,G2,full,NA,Homarine,4249678592,NA,NA
+S5E28D15,A,G2,full,NA,Trigonelline,247321872,NA,NA
+S5E28D15,A,G2,full,NA,Proline betaine,49461360,NA,NA
+S5E28D15,A,G2,full,NA,Betonicine,33839720,NA,NA
+S5E28D15,A,G2,full,NA,Gonyol,52226628,NA,NA
+S5E28D15,B,G2,full,NA,Glycine betaine,4992046080,NA,NA
+S5E28D15,B,G2,full,NA,Dimethylsulfonioacetate,323354592,NA,NA
+S5E28D15,B,G2,full,NA,beta-Alaninebetaine,438656000,NA,NA
+S5E28D15,B,G2,full,NA,Dimethylsulfoniopropionate,897636544,NA,NA
+S5E28D15,B,G2,full,NA,Homarine,4340447232,NA,NA
+S5E28D15,B,G2,full,NA,Trigonelline,292564640,NA,NA
+S5E28D15,B,G2,full,NA,Proline betaine,50812960,NA,NA
+S5E28D15,B,G2,full,NA,Betonicine,34398288,NA,NA
+S5E28D15,B,G2,full,NA,Gonyol,51777760,NA,NA
+S5E28D15,C,G2,full,NA,Glycine betaine,6771496448,NA,NA
+S5E28D15,C,G2,full,NA,Dimethylsulfonioacetate,592447680,NA,NA
+S5E28D15,C,G2,full,NA,beta-Alaninebetaine,573090752,NA,NA
+S5E28D15,C,G2,full,NA,Dimethylsulfoniopropionate,196958096,NA,NA
+S5E28D15,C,G2,full,NA,Homarine,5306433024,NA,NA
+S5E28D15,C,G2,full,NA,Trigonelline,403700736,NA,NA
+S5E28D15,C,G2,full,NA,Proline betaine,65511868,NA,NA
+S5E28D15,C,G2,full,NA,Betonicine,40962976,NA,NA
+S5E28D15,C,G2,full,NA,Gonyol,130177408,NA,NA
+S5E28D15,Ds,G2,small,NA,Glycine betaine,3264485376,NA,NA
+S5E28D15,Ds,G2,small,NA,Dimethylsulfonioacetate,53149412,NA,NA
+S5E28D15,Ds,G2,small,NA,beta-Alaninebetaine,297067904,NA,NA
+S5E28D15,Ds,G2,small,NA,Homarine,3807047680,NA,NA
+S5E28D15,Ds,G2,small,NA,Trigonelline,74170472,NA,NA
+S5E28D15,Ds,G2,small,NA,Proline betaine,42828636,NA,NA
+S5E28D15,Ds,G2,small,NA,Betonicine,22964980,NA,NA
+S5E28D15,Ds,G2,small,NA,Gonyol,7427013,NA,NA
+S6E37D15,A,G2,full,NA,Glycine betaine,28161409024,NA,NA
+S6E37D15,A,G2,full,NA,Dimethylsulfonioacetate,4700138496,NA,NA
+S6E37D15,A,G2,full,NA,beta-Alaninebetaine,13495821312,NA,NA
+S6E37D15,A,G2,full,NA,Dimethylsulfoniopropionate,16582791168,NA,NA
+S6E37D15,A,G2,full,NA,Homarine,7932341760,NA,NA
+S6E37D15,A,G2,full,NA,Trigonelline,5067076096,NA,NA
+S6E37D15,A,G2,full,NA,Proline betaine,538851200,NA,NA
+S6E37D15,A,G2,full,NA,Betonicine,641761344,NA,NA
+S6E37D15,A,G2,full,NA,Gonyol,985973888,NA,NA
+S6E37D15,B,G2,full,NA,Glycine betaine,24288196608,NA,NA
+S6E37D15,B,G2,full,NA,Dimethylsulfonioacetate,2752750080,NA,NA
+S6E37D15,B,G2,full,NA,beta-Alaninebetaine,10232329216,NA,NA
+S6E37D15,B,G2,full,NA,Dimethylsulfoniopropionate,9886022656,NA,NA
+S6E37D15,B,G2,full,NA,Homarine,5852804096,NA,NA
+S6E37D15,B,G2,full,NA,Trigonelline,3722513920,NA,NA
+S6E37D15,B,G2,full,NA,Proline betaine,393226048,NA,NA
+S6E37D15,B,G2,full,NA,Betonicine,414218720,NA,NA
+S6E37D15,B,G2,full,NA,Gonyol,1312005504,NA,NA
+S6E37D15,C,G2,full,NA,Glycine betaine,23725473792,NA,NA
+S6E37D15,C,G2,full,NA,Dimethylsulfonioacetate,1904136192,NA,NA
+S6E37D15,C,G2,full,NA,beta-Alaninebetaine,9242299392,NA,NA
+S6E37D15,C,G2,full,NA,Dimethylsulfoniopropionate,3538414848,NA,NA
+S6E37D15,C,G2,full,NA,Homarine,5058710016,NA,NA
+S6E37D15,C,G2,full,NA,Trigonelline,3427937280,NA,NA
+S6E37D15,C,G2,full,NA,Proline betaine,349627616,NA,NA
+S6E37D15,C,G2,full,NA,Betonicine,343862400,NA,NA
+S6E37D15,C,G2,full,NA,Gonyol,1429886720,NA,NA
+S6E37D15,Ds,G2,small,NA,Glycine betaine,5343512576,NA,NA
+S6E37D15,Ds,G2,small,NA,Dimethylsulfonioacetate,411832096,NA,NA
+S6E37D15,Ds,G2,small,NA,beta-Alaninebetaine,2538446080,NA,NA
+S6E37D15,Ds,G2,small,NA,Dimethylsulfoniopropionate,231296416,NA,NA
+S6E37D15,Ds,G2,small,NA,Homarine,1304066432,NA,NA
+S6E37D15,Ds,G2,small,NA,Trigonelline,262425376,NA,NA
+S6E37D15,Ds,G2,small,NA,Proline betaine,130811848,NA,NA
+S6E37D15,Ds,G2,small,NA,Betonicine,181767280,NA,NA
+S6E37D15,Ds,G2,small,NA,Gonyol,40312904,NA,NA

@@ -1,0 +1,112 @@
+---
+title: "Control_Script"
+author: "Joshua Sacks"
+date: "2024-07-01"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Section 1: Data Processing 
+
+A. Distribution and Culture Collection Data
+
+```{r setup, include=FALSE}
+
+#Read in and organize skyline data:
+source("R_Code/Distributions_DataProcessing/Raw_Data_Organization.R")
+
+```
+
+Particulate Metabolite Distributions
+```{r setup, include=FALSE}
+
+#Perform BMIS Normalization:
+source("R_Code/Distributions_DataProcessing/Particulate_BMIS.R")
+
+#Calculate Response Factors and Response Factor Ratios
+source("R_Code/Distributions_DataProcessing/Particulate_RF_RFratios.R")
+
+#Quantify Particulate Data
+source("R_Code/Distributions_DataProcessing/Particulate_Quantification.R")
+
+#Perform Quality Control on Quantified Output
+
+
+
+
+```
+
+
+
+
+Dissolved Metabolite Distributions
+```{r setup, include=FALSE}
+
+#Perform BMIS Normalization:
+source("R_Code/Distributions_DataProcessing/Dissolved_BMIS.R")
+
+#Calculate Response Factors and Response Factor Ratios
+source("R_Code/Distributions_DataProcessing/Dissolved_RF_RFratios.R")
+
+#Quantify Dissolved Data
+
+
+#Perform Quality Control on Quantified Output
+
+```
+
+Culture Metabolite Concentrations
+```{r setup, include=FALSE}
+
+#Perform BMIS Normalization:
+source("R_Code/Distributions_DataProcessing/Raw_Data_Organization.R")
+
+#Calculate Response Factors and Response Factor Ratios
+
+
+#Quantify Particulate Data
+
+
+#Perform Quality Control on Quantified Output
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

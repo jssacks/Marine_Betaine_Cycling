@@ -1,0 +1,24 @@
+﻿IS.Name.Old,IS.Name.New,Match.Old,Match.New,Spike.Fraction,Conc.in.vial.uM
+"DL-Proline, D7","DL-Proline, 2H7",Proline,L-Proline,Spike_Before,1
+"DL-Valine, D8","DL-Valine, 2H8",Valine,L-Valine,Spike_Before,1
+"L-Methionine, D3","L-Methionine, 2H3",Methionine,L-Methionine,Spike_Before,1
+"DL-Histidine, 15N","DL-Histidine, 15N",Histidine,L-Histidine,Spike_Before,2.5
+"DL-Alanine, D3","DL-Alanine, 2H3",Alanine,L-Alanine,Spike_Before,5
+"L-Isoleucine, 15N","L-Isoleucine, 15N",Isoleucine,L-Isoleucine,Spike_Before,0.5
+"Sucrose, 13C","Sucrose, 13C",Sucrose,Sucrose,Spike_Before,5
+"Betaine, 13C5-15N","Glycine betaine, 13C5, 15N",Betaine,Glycine betaine,Spike_Before,1
+"Cytosine, 13C2-15N3","Cytosine, 13C2, 15N3",Cytosine,Cytosine,Spike_Before,2
+"Guanine, 13C-15N2","Guanine, 13C5, 15N",Guanine,Guanine,Spike_Before,2
+"Homarine, D3","Homarine, 2H3",Homarine,Homarine,Spike_Before,4
+"Thymine, D4","Thymine, 2H4",Thymine,Thymine,Spike_After,6
+"Uracil, 15N2-D2",,Uracil,Uracil,Spike_After,8
+"Trehalose, 13C","Trehalose, 13C",Trehalose,Trehalose,Spike_After,5
+"Succinic Acid, D4","Succinic acid, 2H4",Succinic Acid,Succinic acid,Spike_After,10
+"Adenosine Monophosphate, 15N5","AMP, 15N5",Adenosine Monophosphate,Adenosine monophosphate,Spike_After,5
+"Indole 3 Acetic Acid, D5","Indole 3 Acetic Acid, D5",IAA,IAA,Spike_After,5
+"L-Cysteic Acid, D3","L-Cysteic acid, 2H3",L-Cysteic Acid,L-Cysteic acid,Spike_After,1
+"Taurine, D4","Taurine, 2H4",Taurine,Taurine,Spike_After,1
+"L-Phenylalanine, D8","L-Phenylalanine, D8",Phenylalanine ,Phenylalanine ,Spike_After,0.1
+"Riboflavin dioxopyrimidine, 13C4, 15N2","Riboflavin dioxopyrimidine, 13C4, 15N2",Vitamin B2,Vitamin B2,Spike_After,0.1
+"L-Tryptophan, D3","L-Tryptophan, D3",Tryptophan,Tryptophan,Spike_After,0.1
+"Arsenobetaine, 13C2","Arsenobetaine, 13C2",Arsenobetaine,Arsenobetaine,Spike_After,1
