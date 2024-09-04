@@ -44,9 +44,9 @@ vial.quant.dat <- read_csv(hilic.file) %>%
  # left_join(., vol.filt.dat) %>%
  # filter(!is.na(Vol_L)) %>%
   left_join(., rf.dat) %>%
-  mutate(umol.in.vial.ave = Adjusted_Area/RF/RFratio,
-         umol.in.vial.max = Adjusted_Area/RFmin/RFratio,
-         umol.in.vial.min = Adjusted_Area/RFmax/RFratio) 
+  mutate(uM.in.vial.ave = Adjusted_Area/RF/RFratio,
+         uM.in.vial.max = Adjusted_Area/RFmin/RFratio,
+         uM.in.vial.min = Adjusted_Area/RFmax/RFratio) 
 
 
 
@@ -84,14 +84,14 @@ hilic.notnorm.dat <- read_csv(hilic.file.notnorm) %>%
 
 #Quantify using internal standard
 vial.is.quant.dat <- left_join(hilic.notnorm.dat, is.std) %>%
-  mutate(umol.in.vial.ave = Area*IS.Conc.uM/IS.area)
+  mutate(uM.in.vial.ave = Area*IS.Conc.uM/IS.area)
 
 
 smp.quant.dat.all <- vial.quant.dat %>%
-  select(Name, SampID, Batch, umol.in.vial.ave) %>%
+  select(Name, SampID, Batch, uM.in.vial.ave) %>%
   filter(!Name %in% vial.is.quant.dat$Name) %>%
   rbind(., vial.is.quant.dat %>% 
-          select(Name, SampID, Batch, umol.in.vial.ave)) %>%
+          select(Name, SampID, Batch, uM.in.vial.ave)) %>%
   unique()
 
 
@@ -113,8 +113,8 @@ std.formula <- read_csv(stds.file) %>%
 
 samp.quant.dat <- left_join(smp.quant.dat.all, std.formula) %>%
   unique() %>%
-  mutate(uM_C_vial = umol.in.vial.ave*C,
-         uM_N_vial = umol.in.vial.ave*N) %>%
-  select(Name, SampID, Batch, umol.in.vial.ave, uM_C_vial, uM_N_vial)
+  mutate(uM_C_vial = uM.in.vial.ave*C,
+         uM_N_vial = uM.in.vial.ave*N) %>%
+  select(Name, SampID, Batch, uM.in.vial.ave, uM_C_vial, uM_N_vial)
 
 write_csv(samp.quant.dat, file = "Intermediates/Culture_Quant_Output.csv")

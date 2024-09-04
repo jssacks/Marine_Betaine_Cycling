@@ -23,20 +23,17 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 220111_Smp_SA11_A_pos,SA11,Bacteria,Betonicine,516455,NA,NA
 220111_Smp_SA11_B_pos,SA11,Bacteria,Betonicine,619950,NA,NA
 220111_Smp_SA11_C_pos,SA11,Bacteria,Betonicine,188098,NA,NA
-220111_Smp_SA16_A_pos,SA16,Bacteria,Betonicine,31689,Flag,NA
-220111_Smp_SA16_B_pos,SA16,Bacteria,Betonicine,64841,NA,NA
 220111_Smp_SA16_C_pos,SA16,Bacteria,Betonicine,112086,NA,NA
-220111_Smp_SA36_B_pos,SA36,Bacteria,Betonicine,47816,NA,NA
 220111_Smp_SA48_C_pos,SA48,Bacteria,Betonicine,209146,NA,NA
 220111_Smp_SA53_A_pos,SA53,Bacteria,Betonicine,283854,NA,NA
 220111_Smp_SA53_B_pos,SA53,Bacteria,Betonicine,423326,NA,NA
 220111_Smp_SA53_C_pos,SA53,Bacteria,Betonicine,276310,NA,NA
 220111_Smp_SCM1_Exp1_pos,Nmar,Bacteria,Betonicine,445732,NA,NA
 220111_Smp_SCM1_Exp2_pos,Nmar,Bacteria,Betonicine,322151,NA,NA
-220111_Smp_SCM1_Exp3_pos,Nmar,Bacteria,Betonicine,97995,NA,NA
+220111_Smp_SCM1_Exp3_pos,Nmar,Bacteria,Betonicine,97995,Flag,NA
 220111_Smp_SCM1_St1_pos,Nmar,Bacteria,Betonicine,719039,NA,NA
 220111_Smp_SCM1_St2_pos,Nmar,Bacteria,Betonicine,1907398,NA,NA
-220111_Smp_SCM1_St3_pos,Nmar,Bacteria,Betonicine,72509,NA,NA
+220111_Smp_SCM1_St3_pos,Nmar,Bacteria,Betonicine,72509,Flag,NA
 220111_Smp_SCM1_St4_pos,Nmar,Bacteria,Betonicine,1286512,NA,NA
 220111_Smp_SA11_A_pos,SA11,Bacteria,Dimethylsulfoniopropionate,347411,NA,NA
 220111_Smp_SA11_B_pos,SA11,Bacteria,Dimethylsulfoniopropionate,1385408,NA,NA
@@ -45,7 +42,6 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 220111_Smp_SA16_B_pos,SA16,Bacteria,Dimethylsulfoniopropionate,637153,NA,NA
 220111_Smp_SA16_C_pos,SA16,Bacteria,Dimethylsulfoniopropionate,622752,NA,NA
 220111_Smp_SA42_A_pos,SA42,Bacteria,Dimethylsulfoniopropionate,268200944,NA,NA
-220111_Smp_SA44_B_pos,SA44,Bacteria,Dimethylsulfoniopropionate,45527,NA,NA
 220111_Smp_SCM1_St2_pos,Nmar,Bacteria,Dimethylsulfoniopropionate,146851,NA,NA
 220111_Smp_DSS3_A_pos,DSS3,Bacteria,Glycine betaine,1117720448,NA,NA
 220111_Smp_DSS3_B_pos,DSS3,Bacteria,Glycine betaine,1207003648,NA,NA
@@ -73,12 +69,9 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 220111_Smp_DSS3_A_pos,DSS3,Bacteria,Homarine,180672,NA,NA
 220111_Smp_DSS3_B_pos,DSS3,Bacteria,Homarine,105627,NA,NA
 220111_Smp_DSS3_C_pos,DSS3,Bacteria,Homarine,0,Flag,Flag
-220111_Smp_SA53_B_pos,SA53,Bacteria,Homarine,48419,NA,NA
-220111_Smp_SCM1_Exp3_pos,Nmar,Bacteria,Homarine,71264,NA,NA
 220111_Smp_DSS3_A_pos,DSS3,Bacteria,Proline betaine,405051,NA,NA
 220111_Smp_DSS3_B_pos,DSS3,Bacteria,Proline betaine,312119,NA,NA
 220111_Smp_DSS3_C_pos,DSS3,Bacteria,Proline betaine,644170,NA,NA
-220111_Smp_SA7_A_pos,SA7,Bacteria,Proline betaine,47104,NA,NA
 220111_Smp_SA11_A_pos,SA11,Bacteria,Proline betaine,571851,NA,NA
 220111_Smp_SA11_B_pos,SA11,Bacteria,Proline betaine,881154,NA,NA
 220111_Smp_SA11_C_pos,SA11,Bacteria,Proline betaine,288845,NA,NA
@@ -100,7 +93,7 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 220111_Smp_SA55_A_pos,SA55,Bacteria,Proline betaine,125202,NA,NA
 220111_Smp_SA55_B_pos,SA55,Bacteria,Proline betaine,162245,NA,NA
 220111_Smp_SA55_C_pos,SA55,Bacteria,Proline betaine,0,Flag,Flag
-220111_Smp_SA59_A_pos,SA59,Bacteria,Proline betaine,98658,NA,NA
+220111_Smp_SA59_A_pos,SA59,Bacteria,Proline betaine,98658,Flag,NA
 220111_Smp_SA59_B_pos,SA59,Bacteria,Proline betaine,455722,NA,NA
 220111_Smp_SA59_C_pos,SA59,Bacteria,Proline betaine,145591,NA,NA
 220111_Smp_DSS3_A_pos,DSS3,Bacteria,Trigonelline,183076,NA,NA
@@ -111,8 +104,8 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 220111_Smp_SA7_C_pos,SA7,Bacteria,Trigonelline,375196,NA,NA
 220111_Smp_SA11_A_pos,SA11,Bacteria,Trigonelline,219121,NA,NA
 220111_Smp_SA11_B_pos,SA11,Bacteria,Trigonelline,488014,NA,NA
-220111_Smp_SA11_C_pos,SA11,Bacteria,Trigonelline,52134,NA,NA
-220111_Smp_SA16_A_pos,SA16,Bacteria,Trigonelline,49045,NA,NA
+220111_Smp_SA11_C_pos,SA11,Bacteria,Trigonelline,52134,Flag,NA
+220111_Smp_SA16_A_pos,SA16,Bacteria,Trigonelline,49045,Flag,NA
 220111_Smp_SA16_B_pos,SA16,Bacteria,Trigonelline,148252,NA,NA
 220111_Smp_SA16_C_pos,SA16,Bacteria,Trigonelline,177322,NA,NA
 220111_Smp_SA36_A_pos,SA36,Bacteria,Trigonelline,117875,NA,NA
@@ -121,29 +114,19 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 220111_Smp_SA42_A_pos,SA42,Bacteria,Trigonelline,3117552,NA,NA
 220111_Smp_SA44_B_pos,SA44,Bacteria,Trigonelline,4919396,NA,NA
 220111_Smp_SA44_C_pos,SA44,Bacteria,Trigonelline,10935980,NA,NA
-220111_Smp_SA48_A_pos,SA48,Bacteria,Trigonelline,14260,Flag,Flag
-220111_Smp_SA48_B_pos,SA48,Bacteria,Trigonelline,54217,NA,NA
-220111_Smp_SA48_C_pos,SA48,Bacteria,Trigonelline,55504,NA,NA
 220111_Smp_SA55_A_pos,SA55,Bacteria,Trigonelline,2755684,NA,NA
 220111_Smp_SA55_B_pos,SA55,Bacteria,Trigonelline,3495846,NA,NA
 220111_Smp_SA55_C_pos,SA55,Bacteria,Trigonelline,435846,NA,NA
 220111_Smp_SA59_A_pos,SA59,Bacteria,Trigonelline,172834,NA,NA
-220111_Smp_SA59_B_pos,SA59,Bacteria,Trigonelline,96039,NA,NA
+220111_Smp_SA59_B_pos,SA59,Bacteria,Trigonelline,96039,Flag,NA
 220111_Smp_SA59_C_pos,SA59,Bacteria,Trigonelline,394047,NA,NA
 220111_Smp_SA60_A_pos,SA60,Bacteria,Trigonelline,562418,NA,NA
 220111_Smp_SA60_B_pos,SA60,Bacteria,Trigonelline,199827,NA,NA
-220111_Smp_SCM1_Exp3_pos,Nmar,Bacteria,Trigonelline,72656,NA,NA
-220111_Smp_SCM1_St3_pos,Nmar,Bacteria,Trigonelline,70084,NA,NA
 220111_Smp_DSS3_C_pos,DSS3,Bacteria,Trimethylamine N-oxide,107538,NA,NA
-211221_Smp_7803_B_pos,7803,Cyano,beta-Alaninebetaine,69378,NA,NA
 211221_Smp_7803_F_pos,7803,Cyano,beta-Alaninebetaine,1176674,NA,NA
 211221_Smp_8501_D_pos,WH8501,Cyano,beta-Alaninebetaine,107155,NA,NA
 211221_Smp_Nat_C_pos,NATL2A,Cyano,beta-Alaninebetaine,161262,NA,NA
-211221_Smp_1314P_A_pos,1314P,Cyano,Dimethylsulfoniopropionate,64457,NA,NA
-211221_Smp_1314P_B_pos,1314P,Cyano,Dimethylsulfoniopropionate,0,Flag,Flag
-211221_Smp_1314P_C_pos,1314P,Cyano,Dimethylsulfoniopropionate,40880,NA,NA
 211221_Smp_8501_C_pos,WH8501,Cyano,Dimethylsulfoniopropionate,4495409,NA,NA
-211221_Smp_Nat_A_pos,NATL2A,Cyano,Dimethylsulfoniopropionate,75994,NA,NA
 211221_Smp_7803_B_pos,7803,Cyano,Glycine betaine,62598537216,NA,NA
 211221_Smp_7803_F_pos,7803,Cyano,Glycine betaine,59570786304,NA,NA
 211221_Smp_8102_A_pos,8102,Cyano,Glycine betaine,45215076352,NA,NA
@@ -158,8 +141,6 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 211221_Smp_8501_B_pos,WH8501,Cyano,Homarine,37103924,NA,NA
 211221_Smp_8501_C_pos,WH8501,Cyano,Homarine,9860037,NA,NA
 211221_Smp_8501_D_pos,WH8501,Cyano,Homarine,2497887,NA,NA
-211221_Smp_MED4_D_pos,MED4,Cyano,Homarine,64727,NA,NA
-211221_Smp_MED4_E_pos,MED4,Cyano,Homarine,44860,NA,NA
 211221_Smp_MED4_F_pos,MED4,Cyano,Homarine,131341,NA,NA
 211221_Smp_Nat_C_pos,NATL2A,Cyano,Homarine,126317,NA,NA
 211221_Smp_7803_B_pos,7803,Cyano,Proline betaine,444633,NA,NA
@@ -167,7 +148,6 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 211221_Smp_8501_B_pos,WH8501,Cyano,Proline betaine,6567694,NA,NA
 211221_Smp_8501_C_pos,WH8501,Cyano,Proline betaine,10552407,NA,NA
 211221_Smp_8501_D_pos,WH8501,Cyano,Proline betaine,8152022,NA,NA
-211221_Smp_1314P_C_pos,1314P,Cyano,Trigonelline,87856,NA,NA
 211221_Smp_7803_B_pos,7803,Cyano,Trigonelline,1829295,NA,NA
 211221_Smp_7803_F_pos,7803,Cyano,Trigonelline,1603141,NA,NA
 211221_Smp_8102_A_pos,8102,Cyano,Trigonelline,1472175,NA,NA
@@ -185,13 +165,11 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 211215_Smp_Pc55x_C_pos,Pc55x,Diatom,beta-Alaninebetaine,180605,NA,NA
 211215_Smp_Pt_C_pos,Pt,Diatom,beta-Alaninebetaine,625918,NA,NA
 211215_Smp_To_A_pos,To,Diatom,beta-Alaninebetaine,100901,NA,NA
-211215_Smp_To_B_pos,To,Diatom,beta-Alaninebetaine,55928,NA,Flag
+211215_Smp_To_B_pos,To,Diatom,beta-Alaninebetaine,55928,Flag,Flag
 211215_Smp_To_C_pos,To,Diatom,beta-Alaninebetaine,129612,NA,NA
 211215_Smp_Tp_A_pos,Tp,Diatom,beta-Alaninebetaine,7823571,NA,NA
 211215_Smp_Tp_E_pos,Tp,Diatom,beta-Alaninebetaine,4520384,NA,NA
 211215_Smp_Tp_F_pos,Tp,Diatom,beta-Alaninebetaine,5263190,NA,NA
-211215_Smp_Cy_A_pos,Cy,Diatom,Betonicine,55400,NA,NA
-211215_Smp_Np_F_pos,Np,Diatom,Betonicine,49543,NA,NA
 211215_Smp_Pc55x_A_pos,Pc55x,Diatom,Betonicine,4578309,NA,NA
 211215_Smp_Pc55x_B_pos,Pc55x,Diatom,Betonicine,5329917,NA,NA
 211215_Smp_Pc55x_C_pos,Pc55x,Diatom,Betonicine,3465305,NA,NA
@@ -203,12 +181,9 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 211215_Smp_Cy_A_pos,Cy,Diatom,Dimethylsulfonioacetate,43475612,NA,NA
 211215_Smp_Cy_B_pos,Cy,Diatom,Dimethylsulfonioacetate,36717196,NA,NA
 211215_Smp_Cy_C_pos,Cy,Diatom,Dimethylsulfonioacetate,51551808,NA,NA
-211215_Smp_Fc_C_pos,Fc,Diatom,Dimethylsulfonioacetate,69176,NA,NA
 211215_Smp_Pc55x_A_pos,Pc55x,Diatom,Dimethylsulfonioacetate,697698,NA,NA
 211215_Smp_Pc55x_B_pos,Pc55x,Diatom,Dimethylsulfonioacetate,862136,NA,NA
 211215_Smp_Pc55x_C_pos,Pc55x,Diatom,Dimethylsulfonioacetate,345736,NA,NA
-211215_Smp_Pt_C_pos,Pt,Diatom,Dimethylsulfonioacetate,51195,NA,NA
-211215_Smp_Pt_F_pos,Pt,Diatom,Dimethylsulfonioacetate,81422,NA,NA
 211215_Smp_To_A_pos,To,Diatom,Dimethylsulfonioacetate,100055,NA,NA
 211215_Smp_To_B_pos,To,Diatom,Dimethylsulfonioacetate,794618,NA,NA
 211215_Smp_To_C_pos,To,Diatom,Dimethylsulfonioacetate,714535,NA,NA
@@ -252,15 +227,12 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 211215_Smp_Tp_A_pos,Tp,Diatom,Glycine betaine,45504282624,NA,NA
 211215_Smp_Tp_E_pos,Tp,Diatom,Glycine betaine,36474576896,NA,NA
 211215_Smp_Tp_F_pos,Tp,Diatom,Glycine betaine,38890016768,NA,NA
-211215_Smp_Pc55x_C_pos,Pc55x,Diatom,Gonyol,40884,NA,NA
-211215_Smp_Tp_A_pos,Tp,Diatom,Gonyol,47855,NA,NA
 211215_Smp_Cy_A_pos,Cy,Diatom,Homarine,29067038720,NA,NA
 211215_Smp_Cy_B_pos,Cy,Diatom,Homarine,24947228672,NA,NA
 211215_Smp_Cy_C_pos,Cy,Diatom,Homarine,28143636480,NA,NA
 211215_Smp_Fc_A_pos,Fc,Diatom,Homarine,14911909888,NA,NA
 211215_Smp_Fc_B_pos,Fc,Diatom,Homarine,16373026816,NA,NA
 211215_Smp_Fc_C_pos,Fc,Diatom,Homarine,14532635648,NA,NA
-211215_Smp_Np_A_pos,Np,Diatom,Homarine,90415,NA,NA
 211215_Smp_Pc55x_A_pos,Pc55x,Diatom,Homarine,887580544,NA,NA
 211215_Smp_Pc55x_B_pos,Pc55x,Diatom,Homarine,965469888,NA,NA
 211215_Smp_Pc55x_C_pos,Pc55x,Diatom,Homarine,708905600,NA,NA
@@ -278,7 +250,7 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 211215_Smp_Np_A_pos,Np,Diatom,Proline betaine,467144,NA,NA
 211215_Smp_Pc55x_A_pos,Pc55x,Diatom,Proline betaine,583675,NA,NA
 211215_Smp_Pc55x_B_pos,Pc55x,Diatom,Proline betaine,482108,NA,NA
-211215_Smp_Pc55x_C_pos,Pc55x,Diatom,Proline betaine,74123,NA,Flag
+211215_Smp_Pc55x_C_pos,Pc55x,Diatom,Proline betaine,74123,Flag,Flag
 211215_Smp_Pt_C_pos,Pt,Diatom,Proline betaine,8020738,NA,NA
 211215_Smp_Pt_F_pos,Pt,Diatom,Proline betaine,7270267,NA,NA
 211215_Smp_To_A_pos,To,Diatom,Proline betaine,7879172,NA,NA
@@ -302,16 +274,11 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 211215_Smp_Tp_A_pos,Tp,Diatom,Trigonelline,1228255872,NA,NA
 211215_Smp_Tp_E_pos,Tp,Diatom,Trigonelline,815100160,NA,NA
 211215_Smp_Tp_F_pos,Tp,Diatom,Trigonelline,899840448,NA,NA
-211215_Smp_Cy_A_pos,Cy,Diatom,Trimethylamine N-oxide,24627,Flag,Flag
-211215_Smp_Cy_B_pos,Cy,Diatom,Trimethylamine N-oxide,40962,NA,NA
-211215_Smp_Cy_C_pos,Cy,Diatom,Trimethylamine N-oxide,49374,NA,NA
 211215_Smp_Fc_A_pos,Fc,Diatom,Trimethylamine N-oxide,2762878,NA,NA
 211215_Smp_Fc_B_pos,Fc,Diatom,Trimethylamine N-oxide,3225521,NA,NA
 211215_Smp_Fc_C_pos,Fc,Diatom,Trimethylamine N-oxide,2344920,NA,NA
-211215_Smp_Pc55x_A_pos,Pc55x,Diatom,Trimethylamine N-oxide,52664,NA,NA
 211215_Smp_Pt_C_pos,Pt,Diatom,Trimethylamine N-oxide,338624,NA,NA
 211215_Smp_Pt_F_pos,Pt,Diatom,Trimethylamine N-oxide,2090993,NA,NA
-211215_Smp_To_A_pos,To,Diatom,Trimethylamine N-oxide,41415,NA,NA
 211218_Smp_449_A_pos,449,Dino_Green,beta-Alaninebetaine,8012406,NA,NA
 211218_Smp_449_B_pos,449,Dino_Green,beta-Alaninebetaine,12011890,NA,NA
 211218_Smp_449_C_pos,449,Dino_Green,beta-Alaninebetaine,10262347,NA,NA
@@ -326,7 +293,7 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 211218_Smp_2021_B_pos,2021,Dino_Green,beta-Alaninebetaine,13579259,NA,NA
 211218_Smp_2021_C_pos,2021,Dino_Green,beta-Alaninebetaine,7381270,NA,NA
 211218_Smp_3430_A_pos,3430,Dino_Green,beta-Alaninebetaine,115035,NA,NA
-211218_Smp_3430_B_pos,3430,Dino_Green,beta-Alaninebetaine,54588,NA,NA
+211218_Smp_3430_B_pos,3430,Dino_Green,beta-Alaninebetaine,54588,Flag,NA
 211218_Smp_3430_C_pos,3430,Dino_Green,beta-Alaninebetaine,105624,NA,NA
 211218_Smp_449_A_pos,449,Dino_Green,Dimethylsulfoniopropionate,16133916672,NA,NA
 211218_Smp_449_B_pos,449,Dino_Green,Dimethylsulfoniopropionate,18599479296,NA,NA
@@ -408,7 +375,7 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 220104_Smp_371_B_pos,371,Haptophyte,beta-Alaninebetaine,26861864,NA,NA
 220104_Smp_371_C_pos,371,Haptophyte,beta-Alaninebetaine,2385060,NA,NA
 220104_Smp_2090_A_pos,2090,Haptophyte,beta-Alaninebetaine,435673,NA,NA
-220104_Smp_2090_B_pos,2090,Haptophyte,beta-Alaninebetaine,93753,NA,NA
+220104_Smp_2090_B_pos,2090,Haptophyte,beta-Alaninebetaine,93753,Flag,NA
 220104_Smp_2090_C_pos,2090,Haptophyte,beta-Alaninebetaine,699448,NA,NA
 220104_Smp_Ca_A_pos,Ca,Haptophyte,beta-Alaninebetaine,560209664,NA,NA
 220104_Smp_Ca_B_pos,Ca,Haptophyte,beta-Alaninebetaine,590788352,NA,NA
@@ -509,8 +476,6 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 220104_Smp_Cs_A_pos,Cs,Haptophyte,Homarine,3881945856,NA,NA
 220104_Smp_Cs_B_pos,Cs,Haptophyte,Homarine,4110402816,NA,NA
 220104_Smp_Cs_C_pos,Cs,Haptophyte,Homarine,3868129792,NA,NA
-220104_Smp_116-1_A_pos,116,Haptophyte,Proline betaine,72002,NA,NA
-220104_Smp_116-1_B_pos,116,Haptophyte,Proline betaine,62279,NA,NA
 220104_Smp_116-1_C_pos,116,Haptophyte,Proline betaine,307933,NA,NA
 220104_Smp_371_A_pos,371,Haptophyte,Proline betaine,7719111,NA,NA
 220104_Smp_371_B_pos,371,Haptophyte,Proline betaine,8574464,NA,NA
@@ -553,11 +518,10 @@ SampID,Organism,Batch,Compound,Area,min.area.flag,blk.flag
 220104_Smp_Cs_C_pos,Cs,Haptophyte,Trigonelline,3412865,NA,NA
 220104_Smp_P3_A_pos,P3,Haptophyte,Trigonelline,108488,NA,NA
 220104_Smp_P3_B_pos,P3,Haptophyte,Trigonelline,101369,NA,NA
-220104_Smp_P3_C_pos,P3,Haptophyte,Trigonelline,66025,NA,NA
+220104_Smp_P3_C_pos,P3,Haptophyte,Trigonelline,66025,Flag,NA
 220104_Smp_P5-5_A_pos,P5,Haptophyte,Trigonelline,6133028,NA,NA
 220104_Smp_P5-5_B_pos,P5,Haptophyte,Trigonelline,4621792,NA,NA
 220104_Smp_P5-5_C_pos,P5,Haptophyte,Trigonelline,6129422,NA,NA
-220104_Smp_2090_C_pos,2090,Haptophyte,Trimethylamine N-oxide,63061,NA,NA
 220104_Smp_P3_A_pos,P3,Haptophyte,Trimethylamine N-oxide,1310174,NA,NA
 220104_Smp_P3_B_pos,P3,Haptophyte,Trimethylamine N-oxide,1594952,NA,NA
 220104_Smp_P3_C_pos,P3,Haptophyte,Trimethylamine N-oxide,685803,NA,NA

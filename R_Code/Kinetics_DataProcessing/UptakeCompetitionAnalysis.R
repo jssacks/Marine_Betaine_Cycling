@@ -9,7 +9,7 @@ library(rstatix)
 source("Functions.R")
 
 ###inputs
-dat.rate <- read_csv("quantified_uptake_rates.csv")
+dat.rate <- read_csv("Intermediates/quantified_uptake_rates.csv")
 
 
 
@@ -61,6 +61,11 @@ dat.t.res <- dat.t %>%
 
 dat.fig <- dat.comp %>%
   left_join(., dat.t.res)
+
+
+dat.perc.of.control <- dat.comp %>%
+  group_by(cruise, exp) %>%
+  mutate(perc.of.control = mean.rate/mean.rate[treatment == "Gluc"])
   
 ####
 

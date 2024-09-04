@@ -20,7 +20,7 @@ source("R_Code/Distributions_DataProcessing/Raw_Data_Organization.R")
 
 ```
 
-Particulate Metabolite Distributions
+Particulate Metabolite Distributions Dataset
 ```{r setup, include=FALSE}
 
 #Perform BMIS Normalization:
@@ -32,9 +32,8 @@ source("R_Code/Distributions_DataProcessing/Particulate_RF_RFratios.R")
 #Quantify Particulate Data
 source("R_Code/Distributions_DataProcessing/Particulate_Quantification.R")
 
-#Perform Quality Control on Quantified Output
-
-
+#Perform Quality Control 
+source("R_Code/Distributions_DataProcessing/Particulate_QC.R")
 
 
 ```
@@ -51,10 +50,20 @@ source("R_Code/Distributions_DataProcessing/Dissolved_BMIS.R")
 #Calculate Response Factors and Response Factor Ratios
 source("R_Code/Distributions_DataProcessing/Dissolved_RF_RFratios.R")
 
-#Quantify Dissolved Data
+#Calculate Limits of Detection from CX-SPE Blanks
+source("R_Code/Distributions_DataProcessing/Dissolved_Blk_LOD_Calcs.R")
+
+#Perform Quality Control
+source("R_Code/Distributions_DataProcessing/Dissolved_QC.R")
+
+####Quantify Dissolved Data
+#Majority of Data
+source("R_Code/Distributions_DataProcessing/Dissolved_Quantification.R")
+
+#Edge Cases
+source("R_Code/Distributions_DataProcessing/Dissolved_Quant_Edge_Cases.R")
 
 
-#Perform Quality Control on Quantified Output
 
 ```
 
@@ -62,19 +71,68 @@ Culture Metabolite Concentrations
 ```{r setup, include=FALSE}
 
 #Perform BMIS Normalization:
-source("R_Code/Distributions_DataProcessing/Raw_Data_Organization.R")
+source("R_Code/Distributions_DataProcessing/Culture_BMIS.R")
 
 #Calculate Response Factors and Response Factor Ratios
+source("R_Code/Distributions_DataProcessing/Culture_RF_RFratios.R")
 
+#performance Quality Control
+source("R_Code/Distributions_DataProcessing/Culture_QC.R")
 
-#Quantify Particulate Data
-
-
-#Perform Quality Control on Quantified Output
+#Perform Quantification
+source("R_Code/Distributions_DataProcessing/Culture_Quantification.R")
 
 ```
 
 
+Gradients 2 Size Fractionated Data
+```{r setup, include=FALSE}
+
+#Perform BMIS Normalization:
+source("R_Code/Distributions_DataProcessing/G2_SizeFractionated_BMIS.R")
+
+#Perform QC
+source("R_Code/Distributions_DataProcessing/G2SF_QC.R")
+
+```
+
+
+
+Organize And Tidy All Distribution Data:
+```{r setup, include=FALSE}
+
+#
+source("R_Code/Distributions_DataProcessing/Final_QC_and_Organization.R")
+
+```
+
+
+
+
+B. Cycling Data Processing and Analysis
+```{r setup, include=FALSE}
+
+#Calculate Uptake Rates of Labeled Compounds in Experiments from Raw Skyline Output:
+source("R_Code/Kinetics_DataProcessing/Uptake_Rate_Quantification.R")
+
+#Calculate Particulate Environmental Concentrations of Homarine and GBT in Experiments
+source("R_Code/Kinetics_DataProcessing/Enviro_Part_Quantification.R")
+
+#Calculate Kinetic Parameters of Michaelis-Menten Models with Error Estimation using a Monte-Carlo Approach
+source("R_Code/Kinetics_DataProcessing/Kinetics_Calcs.R")
+
+#Calculate Turnover Times using Wright-Hobbie Transformation and Fluxes using Turnover Times and Dissolved Concentrations 
+source("R_Code/Kinetics_DataProcessing/TT_and_Flux_Calcs.R")
+
+###ADD IN SOME SORT OF FINAL ORGANIZING SCRIPT 
+
+#Analyze Uptake Competition Experiments 
+source("R_Code/Kinetics_DataProcessing/UptakeCompetitionAnalysis.R")
+
+#Synthesize Literature Uptake Competition Datasets:
+source("R_Code/Kinetics_DataProcessing/inhib_network_viz.R")
+
+```
 
 
 

@@ -11,7 +11,7 @@ library(tidyverse)
 #Inputs
 
 #Stds and RFs and RFratios
-stds.file <- "Meta_Data/Ingalls_Lab_Data/Ingalls_Lab_Standards_03172023.csv" 
+stds.file <- "Meta_Data/Ingalls_Lab_Standards_03172023.csv" 
 rf.file <- "Intermediates/Particulate_Stds_RFs_RFratios.csv"
 
 #IS
@@ -19,13 +19,15 @@ hilic.is.file <- "Intermediates/particulate_IS_data_raw.csv"
 
 ### area dat
 hilic.file <- "Intermediates/Particulate_HILIC_Pos_BMISed_dat.csv"
-hilic.file.notnorm <- "Intermediates/particulate_betaine_data_raw.csv"
+hilic.file.notnorm <- "Intermediates/particulate_metab_data_raw.csv"
 
 
 ###Sample volume dat:
-g4.vol.file  <- "Meta_Data/Ingalls_Lab_Data/G4_vol_filt.csv"
-g3.vol.file <- "Meta_Data/Ingalls_Lab_Data/G3_vol_filt.csv"
-d1.vol.file <- "Meta_Data/Ingalls_Lab_Data/RC078_metadata.csv"
+vol.file <- "Meta_Data/Vol_filt.csv"
+
+#g4.vol.file  <- "Meta_Data/Ingalls_Lab_Data/G4_vol_filt.csv"
+#g3.vol.file <- "Meta_Data/Ingalls_Lab_Data/G3_vol_filt.csv"
+#d1.vol.file <- "Meta_Data/Ingalls_Lab_Data/RC078_metadata.csv"
 
 
 
@@ -34,34 +36,38 @@ rf.dat <- read_csv(rf.file)
 
 
 ##Pull in and combine volume filtered data:
+vol.filt.dat <- read_csv(vol.file) %>%
+  rename(SampID = Rep)
+
+
 
 #G4
-g4.vol.filt <- read_csv(g4.vol.file) %>%
-  mutate(SampID = paste("220902_Smp_", Samp_ID, sep = "")) %>%
-  rename("Vol_L" = Vol_Filt_L) %>%
-  select(SampID, Vol_L) %>%
-  mutate(Cruise = "TN397")
+#g4.vol.filt <- read_csv(g4.vol.file) %>%
+#  mutate(SampID = paste("220902_Smp_", Samp_ID, sep = "")) %>%
+#  rename("Vol_L" = Vol_Filt_L) %>%
+#  select(SampID, Vol_L) %>%
+#  mutate(Cruise = "TN397")
 
 #G3
-g3.vol.filt <- read_csv(g3.vol.file) %>%
-  rename("SampID" = `Sample ID`,
-         "Vol_L" = `Vol Filtered (L)`) %>%
-  filter(str_detect(SampID, "MU")) %>%
-  mutate(SampID = paste("220628_Smp_", SampID, sep = "")) %>%
-  mutate(Vol_L = as.numeric(str_remove(Vol_L, "L"))) %>%
-  mutate(Cruise = "KM1906")
+#g3.vol.filt <- read_csv(g3.vol.file) %>%
+#  rename("SampID" = `Sample ID`,
+#         "Vol_L" = `Vol Filtered (L)`) %>%
+#  filter(str_detect(SampID, "MU")) %>%
+#  mutate(SampID = paste("220628_Smp_", SampID, sep = "")) %>%
+#  mutate(Vol_L = as.numeric(str_remove(Vol_L, "L"))) %>%
+#  mutate(Cruise = "KM1906")
 
 #D1
-d1.vol.filt <- read_csv(d1.vol.file) %>%
-  filter(sample_type == "METABS") %>%
-  select(sample_id, parent_id, station, depth_m, cast, niskin, vol_filt_l) %>%
-  rename("SampID" = sample_id,
-         "Vol_L" = vol_filt_l) %>%
-  mutate(SampID = paste("221006_Smp_", SampID, sep = "")) %>%
-  select(SampID, Vol_L) %>%
-  mutate(Cruise = "RC078")
+#d1.vol.filt <- read_csv(d1.vol.file) %>%
+#  filter(sample_type == "METABS") %>%
+#  select(sample_id, parent_id, station, depth_m, cast, niskin, vol_filt_l) %>%
+#  rename("SampID" = sample_id,
+#         "Vol_L" = vol_filt_l) %>%
+#  mutate(SampID = paste("221006_Smp_", SampID, sep = "")) %>%
+#  select(SampID, Vol_L) %>%
+#  mutate(Cruise = "RC078")
 
-vol.filt.dat <- rbind(g4.vol.filt, g3.vol.filt, d1.vol.filt)
+#vol.filt.dat <- rbind(g4.vol.filt, g3.vol.filt, d1.vol.filt)
 
 
 
@@ -118,15 +124,18 @@ hilic.notnorm.dat <- read_csv(hilic.file.notnorm) %>%
 vial.is.quant.dat <- left_join(hilic.notnorm.dat, is.std) %>%
   mutate(umol.in.vial.ave = Area*IS.Conc.uM/IS.area) %>%
   left_join(., vol.filt.dat) %>%
-  filter(!is.na(Vol_L)) 
+  filter(!is.na(Vol_L)) #%>%
+ # unite(c(Name), remove = FALSE, col = "cruise_comp")
+
 
 
 
 smp.quant.dat.all <- vial.quant.dat %>%
-  select(Name, SampID, Cruise, umol.in.vial.ave, Vol_L) %>%
-  filter(!Name %in% vial.is.quant.dat$Name) %>%
+  select(Name, SampID, umol.in.vial.ave, Vol_L) %>%
+#  unite(c(Name), remove = FALSE, col = "cruise_comp") %>%
+#  filter(!cruise_comp %in% vial.is.quant.dat$cruise_comp) %>%
   rbind(., vial.is.quant.dat %>% 
-          select(Name, SampID, Cruise, umol.in.vial.ave, Vol_L)) %>%
+          select(Name, SampID, umol.in.vial.ave, Vol_L)) %>%
   mutate(nM.in.smp = umol.in.vial.ave*10^-6*400/(Vol_L)*1000)%>%
   unique()
 
@@ -151,22 +160,8 @@ samp.quant.dat <- left_join(smp.quant.dat.all, std.formula) %>%
   unique() %>%
   mutate(nM_C = nM.in.smp*C,
          nM_N = nM.in.smp*N) %>%
-  select(Name, SampID, Cruise, Vol_L, umol.in.vial.ave, nM.in.smp, nM_C, nM_N)
+  select(Name, SampID, Vol_L, umol.in.vial.ave, nM.in.smp, nM_C, nM_N)
 
 write_csv(samp.quant.dat, file = "Intermediates/Particulate_Quant_Output.csv")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#

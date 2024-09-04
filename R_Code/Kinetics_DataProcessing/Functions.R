@@ -26,12 +26,14 @@ fit_nls <- function(dat.input.rate, dat.input.pred, exp_name) {
   #define model inputs
   x <- dat.exp$treatment_nM   #treatment concentrations
   y <- dat.exp$nM_per_hour   #uptake rates
+  s <- dat.exp$diss_conc_nM %>%
+    unique()
   a_start <- pred.exp$a_pred    #Vmax prediction
   b_start <- pred.exp$b_pred #Ks prediction
   
   #Fit nonlinear equation to data
-  nls.out <- nls(y~(b*(x))/(a+x),start=list(a=a_start,b=b_start),
-                 control = nls.control(printEval = F))
+  nls.out <- nls(y~(b*(x+s))/(a+x+s),start=list(a=a_start,b=b_start),
+                 control = nls.control(maxiter = 500, warnOnly = T))
   
   #Extract model fit parameters from nls.out 
   nls.sum <- summary(nls.out)
@@ -40,8 +42,12 @@ fit_nls <- function(dat.input.rate, dat.input.pred, exp_name) {
     rownames_to_column(var = "x") %>%
     mutate(parameter = case_when(x == "a" ~ "Ks",
                                  x == "b" ~ "Vmax")) %>%
-    mutate(experiment = exp_name) %>%
-    select(experiment, parameter, Estimate)
+    mutate(experiment = exp_name,
+           s_val = s) %>%
+    mutate(sigma = nls.sum$sigma,
+           cor = cor(y, predict(nls.out)),
+           iterations = nls.out$convInfo$finIter) %>%
+    select(experiment, parameter, s_val, Estimate, sigma, cor, iterations)
 }
 
 

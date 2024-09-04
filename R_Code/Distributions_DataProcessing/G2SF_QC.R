@@ -78,14 +78,15 @@ dat.qc.rep <- left_join(samp.id.key, qc.dat) %>%
                                   blk.flag.ratio >= min_perc_replicates ~ "Smp_Remove",
                                 TRUE ~ NA)) %>%
   mutate(blk.imputed.value = blk.ave/2) %>%
-  ungroup()
+  ungroup() %>%
+  filter(Blk_type == "FSW")
 
 ###Create QCed dataset where samples not passing QC are removed
 dat.qc.remove <- samp.id.key %>%
   left_join(., raw.dat) %>%
   left_join(., dat.qc.rep) %>%
   filter(is.na(smp.remove)) %>%
-  select(SampID, replicate, Batch, SizeFrac, Blk_type, Compound, Area, min.area.flag, blk.ratio.flag)
+  select(Rep, SampID, replicate, Batch, SizeFrac, Blk_type, Compound, Area, min.area.flag, blk.ratio.flag)
 
 
 ###Create blk_imputed_value dataset where samples not passing QC have values equal to 1/2 the blank imputed
@@ -94,7 +95,7 @@ dat.qc.impute <- samp.id.key %>%
   left_join(., dat.qc.rep) %>%
   mutate(Area = case_when(blk.ratio.flag == "Flag" | min.area.flag == "Flag" ~ blk.imputed.value,
                           TRUE ~ Area))  %>%
-  select(SampID, replicate, Batch, SizeFrac, Blk_type, Compound, Area, min.area.flag, blk.ratio.flag, smp.remove)
+  select(Rep, SampID, replicate, Batch, SizeFrac, Compound, Area, min.area.flag, blk.ratio.flag, smp.remove)
 
 
 

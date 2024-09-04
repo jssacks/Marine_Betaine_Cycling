@@ -191,7 +191,9 @@ poodat.2 <- left_join(poodat, poodat %>%
 ###
 Matched.IS.dat <- left_join(IS.key, poodat.2) %>%
   mutate(FinalBMIS = MIS,
-         FinalRSD = RSD_ofPoo)
+         FinalRSD = RSD_ofPoo) %>%
+  unite(c(MF, Cruise), remove = FALSE, col = "cruise_comp") %>%
+  filter(!is.na(RSD_ofPoo))
 
 
 #Change the BMIS to "Inj_vol" if the BMIS is not an acceptable -----
@@ -203,7 +205,8 @@ fixedpoodat <- poodat.2 %>%
   filter(MIS == Poo.Picked.IS)%>%
   mutate(FinalBMIS = ifelse((accept_MIS == "FALSE"), "Inj_vol", Poo.Picked.IS), 
          FinalRSD = RSD_ofPoo) %>%
-  filter(!MF %in% Matched.IS.dat$MF) %>%
+  unite(c(MF, Cruise), remove = FALSE, col = "cruise_comp") %>%
+  filter(!cruise_comp %in% Matched.IS.dat$cruise_comp) %>%
   rbind(., Matched.IS.dat)
 
 fixedpoodat.2 <- fixedpoodat %>%

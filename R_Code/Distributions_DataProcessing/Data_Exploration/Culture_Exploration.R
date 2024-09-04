@@ -67,9 +67,49 @@ qced.dat <- read_csv("Intermediates/Culture_betaine_QCdat_samplesremoved.csv") %
   summarize(mean.area = mean(Area)) %>%
   ungroup()
 
-ggplot(qced.dat, aes(x = Compound, y = reorder(Organism, Batch), fill = log10(mean.area))) +
-  geom_tile() +
-  scale_fill_viridis()
+
+
+
+
+####Do hclust:
+#perform clustering:
+library(vegan)
+library(ggdendro)
+library(viridis)
+
+metab.clust.dat <- qced.dat %>%
+  select(Compound, Organism, mean.area) %>%
+  unique() %>%
+  pivot_wider(id_cols = Organism, names_from = Compound, values_from = mean.area) %>%
+  column_to_rownames(var = "Organism") 
+
+#change NAs to 0s
+metab.clust.dat[is.na(metab.clust.dat)] <- 0
+
+metab.clust.dat.norm <- decostand(metab.clust.dat, method = "pa", margin = 2)
+
+metab.dist <- vegdist(metab.clust.dat.norm, method = "euclidean")
+
+clust.out <- hclust(metab.dist, method = "average")
+plot(clust.out)
+dend <- as.dendrogram(clust.out)
+dend.dat <- dendro_data(dend)
+dend.order <- dend.dat$labels %>%
+  rename("order" = x, 
+         "Organism" = label) %>%
+  select(Organism, order)
+
+metab.heatmap.dat <- qced.dat %>%
+  select(Compound, Organism, mean.area) %>%
+  left_join(dend.order)
+
+
+
+ggplot(metab.heatmap.dat, aes(x = Compound, y = reorder(Organism, order), fill = log10(mean.area))) +
+  geom_tile(color = "black") +
+  scale_fill_viridis() +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+  theme_test() 
 
 
 

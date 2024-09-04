@@ -45,7 +45,7 @@ is.dat.full <- read_csv(is.file) %>%
   filter(!str_detect(.$SampID, "Std")) %>%
   filter(!str_detect(.$SampID, "DDA")) %>%
  # filter(!str_detect(.$SampID, "Blk")) %>%
-  filter(!str_detect(SampID, "KM1906_GBT_F2")) %>%
+ # filter(!str_detect(SampID, "KM1906_GBT_F2")) %>%
   filter(!str_detect(MF, "Trimethylamine N-oxide, 2H9"))
 
 
@@ -127,7 +127,7 @@ IS.dat.key.check <- read_csv(hilic.file) %>%
 
 IS.key <- IS.dat.key.check %>%
   select(MF, IS) %>%
-  rename("MIS" = IS) %>%
+  rename("MIS" = IS) 
   
 
 

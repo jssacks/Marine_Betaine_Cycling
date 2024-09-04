@@ -8,7 +8,7 @@ cult.info.file <- "Meta_Data/Ingalls_Lab_Data/Culture_Meta_Data.csv"
 blk.key.file <- "Meta_Data/Ingalls_Lab_Data/Culture_Blk_Match_Key.csv"
 
 #Define QC thresholds
-min.area.threshold <- 40000 #minimum peak area threshold 
+min.area.threshold <- 100000 #minimum peak area threshold 
 min.blk.ratio <- 3  # minimum signal above average blk that a sample must have to pass QC
 min_perc_replicates <- 0.5 #minimum percentage of replicates that a compound must pass QC in to be considered presten  
 
@@ -36,7 +36,7 @@ dat.blks <- raw.dat %>%
   rename("SampID" = Rep) %>%
   filter(str_detect(SampID, "Blk")) %>%
   rename("Blk_ID" = SampID) %>%
-  left_join(., dat.blk.key) %>%
+  left_join(., blk.key) %>%
   group_by(Compound, Organism) %>%
   mutate(Area = replace_na(Area, 0)) %>%
   mutate(mean.blk = mean(Area),
