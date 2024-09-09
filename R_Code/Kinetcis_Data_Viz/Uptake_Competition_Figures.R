@@ -8,73 +8,34 @@ library(ggsci)
 library(igraph)
 library(broom)
 library(rstatix)
+library(network)
+library(GGally)
+
 
 source("Functions.R")
 
 ### define inputs
 
 #uptake competition rate file:
-comp.file <- "Intermediates/quantified_uptake_rates.csv"
+comp.file <- "Intermediates/Uptake_Competition_Analysis_Output.csv"
 
 #uptake competition literature synthesis 
 synth.file <- "Meta_Data/Data_From_Other_Studies/Uptake_Comp_Lit_Synth.csv"
 
 
 
-####Analyze Uptake Rate Data and Create barchart 
-
-##Subset data 
-dat.comp <- read_csv(comp.file) %>%
-  filter(exp == "UCH1") %>%
-  filter(!str_detect(SampID, "Blk")) %>%
-  select(SampID, cruise, exp, treatment, rep, Fragment_mz, nM.per.hour.1) %>%
-  filter(Fragment_mz == 78.0399) %>%
-  filter(!str_detect(SampID, "TN397_UCH1_Hom")) %>%
-  group_by(cruise, treatment) %>%
-  mutate(mean.rate = mean(nM.per.hour.1)) %>%
-  group_by(cruise, exp) %>%
-  mutate(perc.of.control = mean.rate/mean.rate[treatment == "Gluc"])
-  
-
-
-####Run test in separate groups, arrange groups by "control" type compound, 
-# run separate fdr correction on only comparisons we are interested in 
-# join together
-dat.t <- dat.comp %>%
-  arrange(desc(nM.per.hour.1)) %>%
-  group_by(cruise) %>%
-  t_test(nM.per.hour.1~treatment, ref.group = "Gluc")
-
-
-dat.gluc <- data.frame(
-  cruise = c("RC104", "TN397"),
-  treatment = c("Gluc", "Gluc"),
-  signif = c("not significant", "not significant"))
-
-dat.t.res <- dat.t %>%
-  select(cruise, group2, p.adj) %>%
-  mutate(signif = case_when(p.adj > 0.1 ~ "not significant",
-                            p.adj <= 0.1 ~ "significant")) %>%
-  rename("treatment" = group2) %>%
-  select(-p.adj) %>%
-  rbind(dat.gluc)
-
-#combine statistical results with figure data:
-dat.fig <- dat.comp %>%
-  left_join(., dat.t.res)
-
-
 
 
 region.pal <- c("#00887d", "#014d64", "#01a2d9", "#6794a7", "#76c0c1")
 
+dat.fig <- read_csv(comp.file)
 
 
 ##Plot Uptake Competition Experiment
 comp.fig <- ggplot(dat.fig, aes(x = treatment, y = nM.per.hour.1)) +
-  geom_col(aes(x = treatment, y = mean.rate, fill = signif), 
+  geom_col(aes(x = reorder(treatment, order), y = mean.rate, fill = signif), 
            color = "black", size = 0.1, width = 0.6, position = "dodge") +
-  scale_fill_manual(values = c("#76c0c1",  "#00887d")) +
+  scale_fill_manual(values = c("lightgray", "#76c0c1",  "#00887d")) +
   geom_jitter(width = 0.09, shape = 21, fill = "white", size = 2) +
   theme_test() +
   facet_grid(.~cruise, scales = "free_x", space = "free") +
@@ -130,42 +91,9 @@ x.test
 ggsave(x.test, filename = "Figures/Flux_Paper_Figures/net_test.png", scale = 1.5,
        height = 4, width = 4, units = "in")
 
+####
 
-###define nodes
-nodes.b <- dat.inhib %>%
-  select(Compound_Test) %>%
-  unique() %>%
-  rename("node" = Compound_Test)
-
-nodes.a <- dat.inhib %>%
-  select(Compound_inhib) %>%
-  unique() %>%
-  rename("node" = Compound_inhib)
-
-nodes.all <- full_join(nodes.a, nodes.b)
-
-###define edges
-edges <- dat.inhib %>%
-  select(Compound_inhib, Compound_Test, count)
-
-net <- graph_from_data_frame(d=edges, vertices = nodes.all, directed = T)
-
-#Make edge withs proportional to number of experiments
-E(net)$width <- (E(net)$count^1)
-
-###plot network
-set.seed = 124
-
-net.plot <- plot(net, vertex.size = 10, vertex.label.dist = 4, edge.arrow.size = 0.8,
-     vertex.color = "#00887d", edge.color = "gray65", vertex.label.family = "Helvetica",
-     vertex.label.color = "black")
-net.plot
-
-install.packages("GGally")
-library(GGally)
-
-
-
+#####
 test.2 <- ggarrange(NA, comp.fig, NA, NA, NA, NA, NA, x.test, NA,
                     nrow = 3, heights = c(0.45, 0.05, 0.50),
                     ncol = 3, widths = c(0.04, 0.92, 0.04),
@@ -176,6 +104,86 @@ height = 7, width = 6, units = "in", bg = "white")
 
 
 
+
+
+
+####Analyze Uptake Rate Data and Create barchart 
+
+##Subset data 
+#dat.comp <- read_csv(comp.file) %>%
+#  filter(exp == "UCH1") %>%
+#  filter(!str_detect(SampID, "Blk")) %>%
+##  select(SampID, cruise, exp, treatment, rep, Fragment_mz, nM.per.hour.1) %>%
+#  filter(Fragment_mz == 78.0399) %>%
+#  filter(!str_detect(SampID, "TN397_UCH1_Hom")) %>%
+#  group_by(cruise, treatment) %>%
+#  mutate(mean.rate = mean(nM.per.hour.1)) %>%
+#  group_by(cruise, exp) %>%
+#  mutate(perc.of.control = mean.rate/mean.rate[treatment == "Gluc"])
+
+
+
+####Run test in separate groups, arrange groups by "control" type compound, 
+# run separate fdr correction on only comparisons we are interested in 
+# join together
+# dat.t <- dat.comp %>%
+#   arrange(desc(nM.per.hour.1)) %>%
+#   group_by(cruise) %>%
+#   t_test(nM.per.hour.1~treatment, ref.group = "Gluc")
+# 
+# 
+# dat.gluc <- data.frame(
+#   cruise = c("RC104", "TN397"),
+#   treatment = c("Gluc", "Gluc"),
+#   signif = c("not significant", "not significant"))
+# 
+# dat.t.res <- dat.t %>%
+#   select(cruise, group2, p.adj) %>%
+#   mutate(signif = case_when(p.adj > 0.1 ~ "not significant",
+#                             p.adj <= 0.1 ~ "significant")) %>%
+#   rename("treatment" = group2) %>%
+#   select(-p.adj) %>%
+#   rbind(dat.gluc)
+# 
+# #combine statistical results with figure data:
+# dat.fig <- dat.comp %>%
+#   left_join(., dat.t.res)
+
+
+
+# 
+# ###define nodes
+# nodes.b <- dat.inhib %>%
+#   select(Compound_Test) %>%
+#   unique() %>%
+#   rename("node" = Compound_Test)
+# 
+# nodes.a <- dat.inhib %>%
+#   select(Compound_inhib) %>%
+#   unique() %>%
+#   rename("node" = Compound_inhib)
+# 
+# nodes.all <- full_join(nodes.a, nodes.b)
+# 
+# ###define edges
+# edges <- dat.inhib %>%
+#   select(Compound_inhib, Compound_Test, count)
+# 
+# net <- graph_from_data_frame(d=edges, vertices = nodes.all, directed = T)
+# 
+# #Make edge withs proportional to number of experiments
+# E(net)$width <- (E(net)$count^1)
+# 
+# ###plot network
+# set.seed = 124
+# 
+# net.plot <- plot(net, vertex.size = 10, vertex.label.dist = 4, edge.arrow.size = 0.8,
+#      vertex.color = "#00887d", edge.color = "gray65", vertex.label.family = "Helvetica",
+#      vertex.label.color = "black")
+# net.plot
+# 
+# install.packages("GGally")
+#library(GGally)
 
 
 

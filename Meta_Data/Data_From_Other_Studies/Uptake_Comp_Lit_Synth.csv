@@ -2,32 +2,32 @@
 GBT,Glucose,No,78,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
 GBT,Taurine,No,78,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
 GBT,Betonicine,Yes,50,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
-GBT,Proline betaine,Yes,25,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
+GBT,PBT,Yes,25,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
 GBT,Ergothioneine,No,80,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
 GBT,Pipecolate,Yes,30,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
-GBT,Trigonelline,Yes,15,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
+GBT,Trig,Yes,15,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
 GBT,Ectoine,Yes,20,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
 GBT,Arsenobetaine,No,110,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
 GBT,DMSP,Yes,20,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
 GBT,Carnitine,Yes,50,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
 GBT,Trimethylalanine,Yes,50,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
-GBT,Beta-alanine betaine,Yes,45,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
+GBT,B-ABT,Yes,45,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
 GBT,Butyrobetaine,No,70,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
 GBT,TMAO,No,70,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
 GBT,Choline,No,70,"Noell and Giovannoni, 2019",SAR11_HTCC1062,estimated from figure 2
 GBT,Glucose,No,85,"Noell and Giovannoni, 2019",SAR11_HTCC7211,estimated from figure 2
 GBT,Taurine,No,130,"Noell and Giovannoni, 2019",SAR11_HTCC7212,estimated from figure 2
 GBT,Betonicine,Yes,75,"Noell and Giovannoni, 2019",SAR11_HTCC7213,estimated from figure 2
-GBT,Proline betaine,Yes,25,"Noell and Giovannoni, 2019",SAR11_HTCC7214,estimated from figure 2
+GBT,PBT,Yes,25,"Noell and Giovannoni, 2019",SAR11_HTCC7214,estimated from figure 2
 GBT,Ergothioneine,No,60,"Noell and Giovannoni, 2019",SAR11_HTCC7215,estimated from figure 2
 GBT,Pipecolate,No,75,"Noell and Giovannoni, 2019",SAR11_HTCC7216,estimated from figure 2
-GBT,Trigonelline,Yes,15,"Noell and Giovannoni, 2019",SAR11_HTCC7217,estimated from figure 2
+GBT,Trig,Yes,15,"Noell and Giovannoni, 2019",SAR11_HTCC7217,estimated from figure 2
 GBT,Ectoine,Yes,30,"Noell and Giovannoni, 2019",SAR11_HTCC7218,estimated from figure 2
 GBT,Arsenobetaine,No,100,"Noell and Giovannoni, 2019",SAR11_HTCC7219,estimated from figure 2
 GBT,DMSP,Yes,25,"Noell and Giovannoni, 2019",SAR11_HTCC7220,estimated from figure 2
 GBT,Carnitine,No,72,"Noell and Giovannoni, 2019",SAR11_HTCC7221,estimated from figure 2
 GBT,Trimethylalanine,No,72,"Noell and Giovannoni, 2019",SAR11_HTCC7222,estimated from figure 2
-GBT,Beta-alanine betaine,Yes,25,"Noell and Giovannoni, 2019",SAR11_HTCC7223,estimated from figure 2
+GBT,B-ABT,Yes,25,"Noell and Giovannoni, 2019",SAR11_HTCC7223,estimated from figure 2
 GBT,Butyrobetaine,Yes,50,"Noell and Giovannoni, 2019",SAR11_HTCC7224,estimated from figure 2
 GBT,TMAO,No,120,"Noell and Giovannoni, 2019",SAR11_HTCC7225,estimated from figure 2
 GBT,Choline,No,65,"Noell and Giovannoni, 2019",SAR11_HTCC7226,estimated from figure 2
@@ -37,30 +37,30 @@ GBT,Glucose,not_reported,96,"Kiene et al., 1998","estuarine water, Mobile Bay",
 GBT,3-methiolpropionate,not_reported,95,"Kiene et al., 1998","estuarine water, Mobile Bay",
 GBT,Choline,not_reported,89,"Kiene et al., 1998","estuarine water, Mobile Bay",
 GBT,Carnitine,not_reported,84,"Kiene et al., 1998","estuarine water, Mobile Bay",
-GBT,Glutamic acid,not_reported,63,"Kiene et al., 1998","estuarine water, Mobile Bay",
+GBT,Glu,not_reported,63,"Kiene et al., 1998","estuarine water, Mobile Bay",
 GBT,Proline,not_reported,53,"Kiene et al., 1998","estuarine water, Mobile Bay",
-GBT,Trigonelline,not_reported,48,"Kiene et al., 1998","estuarine water, Mobile Bay",
-GBT,Dimethylglycine,not_reported,36,"Kiene et al., 1998","estuarine water, Mobile Bay",
-GBT,Proline betaine,not_reported,31,"Kiene et al., 1998","estuarine water, Mobile Bay",
-GBT,DMS-Ac,not_reported,27,"Kiene et al., 1998","estuarine water, Mobile Bay",
+GBT,Trig,not_reported,48,"Kiene et al., 1998","estuarine water, Mobile Bay",
+GBT,DMG,not_reported,36,"Kiene et al., 1998","estuarine water, Mobile Bay",
+GBT,PBT,not_reported,31,"Kiene et al., 1998","estuarine water, Mobile Bay",
+GBT,DMSA,not_reported,27,"Kiene et al., 1998","estuarine water, Mobile Bay",
 GBT,DMSP,not_reported,20,"Kiene et al., 1998","estuarine water, Mobile Bay",
 DMSP,GBT,not_reported,22,"Kiene et al., 1998","estuarine water, Mobile Bay",estimated from figure 4
-Homarine,DMSP,Yes,43,This Study,Puget Sound,
-Homarine,GBT,Yes,50,This Study,Puget Sound,
-Homarine,Glucose,No,100,This Study,Puget Sound,
-Homarine,TMAO,No,90,This Study,Puget Sound,
-Homarine,Trigonelline,Yes,68,This Study,Puget Sound,
-Homarine,DMSP,Yes,12,This Study,NPSG,
-Homarine,GBT,Yes,16,This Study,NPSG,
-Homarine,Glucose,No,100,This Study,NPSG,
-Homarine,TMAO,Yes,81,This Study,NPSG,
-Homarine,Trigonelline,Yes,23,This Study,NPSG,
+Hom,DMSP,Yes,43,This Study,Puget Sound,
+Hom,GBT,Yes,50,This Study,Puget Sound,
+Hom,Glucose,No,100,This Study,Puget Sound,
+Hom,TMAO,No,90,This Study,Puget Sound,
+Hom,Trig,Yes,68,This Study,Puget Sound,
+Hom,DMSP,Yes,12,This Study,NPSG,
+Hom,GBT,Yes,16,This Study,NPSG,
+Hom,Glucose,No,100,This Study,NPSG,
+Hom,TMAO,Yes,81,This Study,NPSG,
+Hom,Trig,Yes,23,This Study,NPSG,
 Choline,Glucose,not_reported,100,Kiene 1998,"estuarine water, Mobile Bay",
 Choline,Ethanolamine,not_reported,91,Kiene 1998,"estuarine water, Mobile Bay",
 Choline,Proline,not_reported,82,Kiene 1998,"estuarine water, Mobile Bay",
 Choline,Glycine,not_reported,79,Kiene 1998,"estuarine water, Mobile Bay",
-Choline,Dimethylglycine,not_reported,68,Kiene 1998,"estuarine water, Mobile Bay",
-Choline,Proline betaine,not_reported,54,Kiene 1998,"estuarine water, Mobile Bay",
+Choline,DMG,not_reported,68,Kiene 1998,"estuarine water, Mobile Bay",
+Choline,PBT,not_reported,54,Kiene 1998,"estuarine water, Mobile Bay",
 Choline,Carnitine,not_reported,50,Kiene 1998,"estuarine water, Mobile Bay",
 Choline,GBT,not_reported,41,Kiene 1998,"estuarine water, Mobile Bay",
 Choline,DMSP,not_reported,36,Kiene 1998,"estuarine water, Mobile Bay",

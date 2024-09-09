@@ -14,13 +14,16 @@ library(ggpubr)
 exp.loc.file <- "Meta_Data/Ingalls_Lab_Data/Kin_Exp_MetaData.csv"
 region.pal <- c("#014d64", "#01a2d9", "#00887d", "#6794a7")
 
-  
+#load in map data
+world <- ne_countries(scale = "medium", returnclass = "sf")
+
 #load in experiment data:
 exp.loc.dat <- read_csv(exp.loc.file) %>%
   mutate(Region = as.factor(Region)) %>%
   mutate(Region = fct_relevel(Region, c("Gyre", "Equatorial", "Coastal", "NPTZ"))) %>%
   mutate(Compound = str_replace(Compound, "homarine", "Homarine")) %>%
   mutate(Long = -1*abs(Long))
+
 
 big.map <- ggplot(data = world) +
   geom_sf() +

@@ -8,8 +8,8 @@ library(ggpubr)
 library(ggsci)
 library(ggbreak)
 library(png)
-install.packages("cowplot")
 library(cowplot)
+library(ggrepel)
 
 ###Define inputs:
 ####Define inputs:
@@ -95,6 +95,15 @@ k.d.b <- kin.curve.dat %>%
   filter(Cruise_Exp == "RC078_UKG1")
 
 
+label.dat <- k.d.a %>%
+  filter(treatment_nM == 1000) %>%
+  mutate(x = 1000,
+         y = nM_per_hour_noS) %>%
+  select(Cruise_Exp, Region, x, y, Compound) 
+
+
+
+
 
 kin.plot.A <- ggplot(k.d.a, aes(x = treatment_nM, y = nM_per_hour_noS, color = Region, group = Cruise_Exp)) +
   geom_line(size = 1, alpha = 0.8) +
@@ -106,7 +115,18 @@ kin.plot.A <- ggplot(k.d.a, aes(x = treatment_nM, y = nM_per_hour_noS, color = R
   xlab("Spike Concentration (nM)") +
   theme(#strip.background.x = element_blank(),
         strip.text.x = element_text(face = "bold")
-        )
+        ) +
+  xlim(0, 1400) +
+  scale_y_continuous(expand = c(0, NA, NA, NA), limits = c(0, 0.9)) +
+  geom_text_repel(data = label.dat, aes(x = x, y = y, label = Cruise_Exp),
+                   size = 2.5,
+                   xlim = c(1000, 1500),
+                   min.segment.length = 0.01,
+                  color = "black",
+                   segment.color = "black",
+                  segment.size = 0.25)
+  
+  #geom_label(data = label.dat, aes(x = x, y = y, label = Cruise_Exp), size = 1)
 kin.plot.A
 
 kin.plot.B  <- ggplot(k.d.b, aes(x = treatment_nM, y = nM_per_hour_noS)) +
@@ -117,13 +137,14 @@ kin.plot.B  <- ggplot(k.d.b, aes(x = treatment_nM, y = nM_per_hour_noS)) +
   ylab(expression(Uptake~Rate~(nmol~L^-1~day^-1))) +
   xlab("Spike Concentration (nM)") +
   theme(panel.background = element_rect(fill='transparent'), #transparent panel bg
-    plot.background = element_rect(fill='transparent', color=NA))
+    plot.background = element_rect(fill='transparent', color=NA)) +
+  annotate("text", x = 4000, y = 1.5, label = "RC078_UKG1", size = 2.5)
+    
 kin.plot.B
 
 kin.plot.comb.2 <- ggdraw(kin.plot.A) +
   draw_plot(kin.plot.B,
-            x = .2, y = .7, .2, .2, scale = 1.2)
-
+            x = .2, y = .7, .2, .2, scale = 1.2) 
 kin.plot.comb.2
 
 #save plot
