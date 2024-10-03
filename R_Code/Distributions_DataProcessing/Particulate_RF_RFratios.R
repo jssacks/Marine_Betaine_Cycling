@@ -76,3 +76,10 @@ RF.ratios <- RFratio.dat %>%
 RF.RFratios <- left_join(RF.dat, RF.ratios)
 write_csv(RF.RFratios, file = "Intermediates/Particulate_Stds_RFs_RFratios.csv")
 
+ggplot(RF.RFratios, aes(y = Name, x = RF)) +
+  
+  geom_point(aes(y = Name, x = RFmax)) + 
+  geom_point(aes(y = Name, x = RFmin)) + 
+  geom_point(size = 3, color = "blue") +
+  facet_wrap(.~Cruise, scales = "free_x") +
+  scale_x_log10()

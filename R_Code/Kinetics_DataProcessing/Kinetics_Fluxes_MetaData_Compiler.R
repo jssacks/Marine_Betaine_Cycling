@@ -61,11 +61,13 @@ p.conc.dat <- read_csv(part.conc.file) %>%
 
 #Flux data:
 flux.sum <- flux.kin.dat %>%
-  select(cruise_exp, Cruise, exp, Compound, mm_flux_nM_day, mm_flux_sd_nM_day) %>%
+  select(cruise_exp, Cruise, exp, Compound, mm_flux_nM_day, mm_flux_sd_nM_day, Mean.Diss.Conc.nM, SD.Diss.Conc.nM) %>%
   mutate(C = case_when(Compound == "Homarine" ~7,
                        Compound == "GBT" ~ 5)) %>%
   mutate(flux_nM_C_day = mm_flux_nM_day*C,
          flux_sd_C = mm_flux_sd_nM_day*C) %>%
+  mutate(Flux_Perc_of_Diss = (mm_flux_nM_day/Mean.Diss.Conc.nM)*100,
+         Flux_Perc_of_Diss_Error = Flux_Perc_of_Diss*sqrt((mm_flux_sd_nM_day/mm_flux_nM_day)^2+(SD.Diss.Conc.nM/Mean.Diss.Conc.nM)^2)) %>%
   rename("KinExp_ID" = cruise_exp) %>%
   left_join(., p.conc.dat) %>%
   mutate(Flux_Perc_of_Part = (mm_flux_nM_day/mean.part.conc.nM)*100,

@@ -1,14 +1,14 @@
-Cruise,Experiment,Compound,Average Particulate Concentration (nM),Standard Deviation of Particulate Concentration (nM),Daily Flux as Percentage of Particulate Pool (%),Daily Flux as Percentage of Particulate Pool Error (%),Estimated Primary Production (uM C day^-1),Daily Flux as Percentage of Primary Production (%),Daily Flux as Percentage of Primary Production Error (%)
-KM1906,UKG1,GBT,0.461,0.045, 115, 29, 675,0.391,0.092
-KM1906,UKG2,GBT,0.551,0.17, 532,300, 724,2.03,0.94
-RC078,UKG1,GBT, 8.9,1.6, 175, 64,16700,0.467,0.15
-RC104,UKG1,GBT,0.775,0.095, 140, 48,16700,0.0325,0.01
-TN412,UKG,GBT,0.319,0.049, 134, 87,1110,0.192,0.12
-RC078,UKH1,Homarine,1.13,0.13,  31, 13,16700,0.0148,0.006
-RC078,UKH2,Homarine,2.41,0.23,10.9,3.8,16700,0.011,0.0037
-RC104,UKH1,Homarine,0.41,0.077,36.1, 23,16700,0.00621,0.0037
-TN397,UKH1,Homarine,0.0135,0.0028,20.5, 16, 398,0.00488,0.0037
-TN397,UKH2,Homarine,0.029,0.011,22.1, 19, 456,0.00986,0.0073
-TN397,UKH3,Homarine,0.209,0.016,3.19,2.2,1630,0.00285,0.002
-TN397,UKH4,Homarine,0.293,0.035,6.09,1.5,1870,0.00669,0.0015
-TN397,UKH5,Homarine,0.258,0.021,7.17,2.5,1320,0.00982,0.0033
+Cruise,Experiment,Compound,Average Particulate Concentration (nM),Standard Deviation of Particulate Concentration (nM),Daily Flux as Percentage of Dissolved Pool (%),Daily Flux as Percentage of Dissolved Pool Error (%),Daily Flux as Percentage of Particulate Pool (%),Daily Flux as Percentage of Particulate Pool Error (%),Estimated Primary Production (uM C day^-1),Daily Flux as Percentage of Primary Production (%),Daily Flux as Percentage of Primary Production Error (%)
+KM1906,UKG1,GBT,0.461,0.045,7.95,1.8, 115, 27, 675,0.391,0.084
+KM1906,UKG2,GBT,0.551,0.17,32.7, 13, 532,240, 724,2.03,0.67
+RC078,UKG1,GBT, 8.9,1.6,27.8,7.7, 175, 50,16700,0.467,0.1
+RC104,UKG1,GBT,0.775,0.095,10.3,3.2, 140, 44,16700,0.0325,0.0095
+TN412,UKG,GBT,0.319,0.049,90.5, 49, 134, 63,1110,0.192,0.085
+RC078,UKH1,Homarine,1.13,0.13,2.63,0.96,  31, 11,16700,0.0148,0.0047
+RC078,UKH2,Homarine,2.41,0.23,2.12,0.71,10.9,3.8,16700,0.011,0.0037
+RC104,UKH1,Homarine,0.41,0.077,3.61,1.8,36.1, 15,16700,0.00621,0.0022
+TN397,UKH1,Homarine,0.0135,0.0028,4.69,2.9,20.5, 10, 398,0.00488,0.0022
+TN397,UKH2,Homarine,0.029,0.011,3.45,2.2,22.1, 14, 456,0.00986,0.0049
+TN397,UKH3,Homarine,0.209,0.016,1.72,1.1,3.19,1.8,1630,0.00285,0.0016
+TN397,UKH4,Homarine,0.293,0.035,2.01,0.4,6.09,1.3,1870,0.00669,0.0012
+TN397,UKH5,Homarine,0.258,0.021,6.18,1.9,7.17,2.1,1320,0.00982,0.0028

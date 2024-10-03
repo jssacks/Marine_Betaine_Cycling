@@ -37,7 +37,7 @@ env.dat.ord <- env.dat %>%
   left_join(., ord.samp)
 
 ####
-plot.a <- ggplot(env.dat.ord, aes(x = Cruise_Exp, y = Mean.Diss.Conc.nM, fill = reorder(Compound, order.comp))) +
+plot.a <- ggplot(env.dat.ord, aes(x = reorder(Cruise_Exp, -Mean.Diss.Conc.nM), y = Mean.Diss.Conc.nM, fill = reorder(Compound, order.comp))) +
   geom_col(color = "black", size = 0.05, width = 0.7) +
   scale_fill_npg() +
   facet_grid(.~exp.comp, scales = "free_x", space = "free_x") +
@@ -49,7 +49,7 @@ plot.a <- ggplot(env.dat.ord, aes(x = Cruise_Exp, y = Mean.Diss.Conc.nM, fill = 
   scale_y_continuous(expand = c(0, NA, NA, 1000), limits = c(0,160)) 
 plot.a
 
-plot.b <- ggplot(env.dat.ord, aes(x = Cruise_Exp, y = Mean.Diss.Conc.nM, fill = reorder(Compound, order.comp))) +
+plot.b <- ggplot(env.dat.ord, aes(x = reorder(Cruise_Exp, -Mean.Diss.Conc.nM), y = Mean.Diss.Conc.nM, fill = reorder(Compound, order.comp))) +
   geom_col(color = "black", size = 0.05, position = "fill", width = 0.6) +
   scale_fill_npg() +
   facet_grid(.~exp.comp, scales = "free_x", space = "free_x") +

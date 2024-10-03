@@ -102,7 +102,7 @@ wh.flux.dat <- left_join(wh.tt.final, exp.enviro.dat) %>%
   mutate(wh_flux_nM_day = Mean.Diss.Conc.nM/(wh_mean_tt/24),
          wh_flux_sd_nM_day = wh_flux_nM_day*sqrt((SD.Diss.Conc.nM/Mean.Diss.Conc.nM)^2+(wh_sd_tt/wh_mean_tt)^2),
          wh_rel_flux_error = wh_flux_sd_nM_day/wh_flux_nM_day) %>%
-  unite(c(cruise, exp), col = cruise_exp) %>%
+  unite(c(cruise, exp), col = cruise_exp, remove = FALSE) %>%
   mutate(Compound = case_when(str_detect(cruise_exp, "UKH") ~ "Homarine",
                               TRUE ~ "GBT"))
 
@@ -127,16 +127,19 @@ exp.enviro.dat <- read_csv(match.file) %>%
   group_by(KinExp_ID) %>%
   reframe(Mean.Diss.Conc.nM = mean(Diss.Conc.nM),
           SD.Diss.Conc.nM = sd(Diss.Conc.nM)) %>%
-  separate(KinExp_ID, into=c("Cruise", "exp"))
+  separate(KinExp_ID, into=c("cruise", "exp"), remove = FALSE) %>%
+  rename("cruise_exp" = KinExp_ID)
 
 tt.mm.calc.dat <- left_join(exp.enviro.dat, kin.dat) %>%
-  select(Cruise, exp, Mean.Diss.Conc.nM, SD.Diss.Conc.nM, mean_ks, sd_ks, mean_vmax, sd_vamx) %>%
+  select(cruise, exp, Mean.Diss.Conc.nM, SD.Diss.Conc.nM, mean_ks, sd_ks, mean_vmax, sd_vamx) %>%
   mutate(v_insitu = (Mean.Diss.Conc.nM*mean_vmax)/(Mean.Diss.Conc.nM+mean_ks),
          v_insitu_sd = v_insitu*sqrt((SD.Diss.Conc.nM/Mean.Diss.Conc.nM)^2+(sd_vamx/mean_vmax)^2+(sd_ks/mean_ks)^2),
          mm_tt = Mean.Diss.Conc.nM/v_insitu,
          mm_tt_sd = mm_tt*sqrt((SD.Diss.Conc.nM/Mean.Diss.Conc.nM)^2+(v_insitu_sd/v_insitu)^2),
-         mm_flux = Mean.Diss.Conc.nM/mm_tt,
-         mm_flux_sd = mm_flux*sqrt((SD.Diss.Conc.nM/Mean.Diss.Conc.nM)^2+(mm_tt_sd/mm_tt)^2)) %>%
+         mm_flux = v_insitu,
+         mm_flux_sd = v_insitu_sd) %>%
+         #  mm_flux = Mean.Diss.Conc.nM/mm_tt,
+       #  mm_flux_sd = mm_flux*sqrt((SD.Diss.Conc.nM/Mean.Diss.Conc.nM)^2+(mm_tt_sd/mm_tt)^2)) %>%
   mutate(mm_flux_nM_day = mm_flux*24,
          mm_flux_sd_nM_day = mm_flux_sd*24)
 

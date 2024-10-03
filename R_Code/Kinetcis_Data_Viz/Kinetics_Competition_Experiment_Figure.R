@@ -6,9 +6,9 @@
 library(tidyverse)
 library(ggthemes)
 library(ggpubr)
-library(ggsci)
-library(ggbreak)
-library(png)
+#library(ggsci)
+#library(ggbreak)
+#library(png)
 library(cowplot)
 library(ggrepel)
 
@@ -150,7 +150,7 @@ kin.plot.comb.2
 ####Make uptake competition plot:
 #region.pal <- c("#00887d", "#014d64", "#01a2d9", "#6794a7", "#76c0c1")
 
-dat.comp <- read_csv(comp.file)
+dat.fig <- read_csv(comp.file)
 
 
 ##Plot Uptake Competition Experiment
@@ -171,12 +171,12 @@ comp.plot
 
 ###Combine plots together:
 exp.fig <- ggarrange(NA, NA, NA,
-                     NA, kin.plot.comb.2, NA,
-                     NA, NA, NA,
                      NA, comp.plot, NA,
                      NA, NA, NA,
+                     NA, kin.plot.comb.2, NA,
+                     NA, NA, NA,
                      nrow = 5, ncol = 3,
-                     heights = c(0.02, 0.54, 0.04, 0.38, 0.02),
+                     heights = c(0.02, 0.38, 0.04, 0.54, 0.02),
                      widths = c(0.04, 0.92, 0.04),
                      labels = c(NA, NA, NA,
                                 NA, "A", NA,

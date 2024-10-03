@@ -43,14 +43,14 @@ kin.table <- kf.dat %>%
   left_join(., region.dat) %>%
   select(Region, Cruise, exp, Compound, mean.part.conc.nM, sd.part.conc.nM, Mean.Diss.Conc.nM, SD.Diss.Conc.nM, mean_ks, sd_ks, mean_vmax, sd_vamx) %>%
   rename("sd_vmax" = sd_vamx) %>%
-  mutate(Mean.Part.Conc.nM = print(formatC(signif(mean.part.conc.nM, digits=3), digits=3,format="fg")),
-         SD.Part.Conc.nM = print(formatC(signif(sd.part.conc.nM, digits=2), digits=2,format="fg")),
-         Mean.Diss.Conc.nM = print(formatC(signif(Mean.Diss.Conc.nM, digits=3), digits=3,format="fg")),
-         SD.Diss.Conc.nM = print(formatC(signif(SD.Diss.Conc.nM, digits=2), digits=2,format="fg")),
+  mutate(Mean.Part.Conc.nM = print(formatC(signif(round(mean.part.conc.nM, 3), digits=3), digits=3,format="fg")),
+         SD.Part.Conc.nM = print(formatC(signif(round(sd.part.conc.nM,3), digits=2), digits=2,format="fg")),
+         Mean.Diss.Conc.nM = print(formatC(signif(round(Mean.Diss.Conc.nM,3), digits=3), digits=3,format="fg")),
+         SD.Diss.Conc.nM = print(formatC(signif(round(SD.Diss.Conc.nM,3), digits=2), digits=2,format="fg")),
          mean_ks = print(formatC(signif(mean_ks, digits=3), digits=3,format="fg")),
          sd_ks = print(formatC(signif(sd_ks, digits=2), digits=2,format="fg")),
-         mean_vmax = print(formatC(signif(mean_vmax, digits=3), digits=3,format="fg")),
-         sd_vmax = print(formatC(signif(sd_vmax, digits=2), digits=2,format="fg"))) %>%
+         mean_vmax = print(formatC(signif(round(mean_vmax,3), digits=3), digits=3,format="fg")),
+         sd_vmax = print(formatC(signif(round(sd_vmax,3), digits=2), digits=2,format="fg"))) %>%
   mutate(P.Conc.nM = paste(Mean.Part.Conc.nM, SD.Part.Conc.nM, sep = "\u00B1"),
          D.Conc.nM = paste(Mean.Diss.Conc.nM, SD.Diss.Conc.nM, sep = "\u00B1"),
          ks = paste(mean_ks, sd_ks, sep = "\u00B1"),
@@ -79,10 +79,10 @@ flux.table <- kf.dat %>%
          C_flux_nM_day_sd = mm_flux_sd_nM_day*carbon) %>%
   mutate(TT = print(formatC(signif(mm_tt, digits=3), digits=3,format="fg")),
          TT_sd = print(formatC(signif(mm_tt_sd, digits=2), digits=2,format="fg")),
-         flux = print(formatC(signif(mm_flux_nM_day, digits=3), digits=3,format="fg")),
-         flux_sd = print(formatC(signif(mm_flux_sd_nM_day, digits=2), digits=2,format="fg")),
-         c_flux = print(formatC(signif(C_flux_nM_day, digits=3), digits=3,format="fg")),
-         c_flux_sd = print(formatC(signif(C_flux_nM_day_sd, digits=2), digits=2,format="fg"))) %>%
+         flux = print(formatC(signif(round(mm_flux_nM_day,3), digits=3), digits=3,format="fg")),
+         flux_sd = print(formatC(signif(round(mm_flux_sd_nM_day,3), digits=2), digits=2,format="fg")),
+         c_flux = print(formatC(signif(round(C_flux_nM_day,3), digits=3), digits=3,format="fg")),
+         c_flux_sd = print(formatC(signif(round(C_flux_nM_day_sd,3), digits=2), digits=2,format="fg"))) %>%
   mutate(TT = paste(TT, TT_sd, sep = "\u00B1"),
          Flux = paste(flux, flux_sd, sep = "\u00B1"),
          C_Flux = paste(c_flux, c_flux_sd, sep = "\u00B1")) %>%
@@ -122,10 +122,12 @@ write_csv(WH.table, file = "Tables/Flux_Tables/WH_TT_Supplemental_Table.csv")
 
 ###Make Flux in Context Table (Percent of Primary Production, etc.): 
 f.rel.table <- read_csv(f.rel.file) %>%
-  select(Cruise, exp, Compound, mean.part.conc.nM, sd.part.conc.nM, 
+  select(Cruise, exp, Compound, mean.part.conc.nM, sd.part.conc.nM, Flux_Perc_of_Diss, Flux_Perc_of_Diss_Error,
          Flux_Perc_of_Part, Flux_Perc_of_Part_Error, pp.uM.C.perday, flux_Perc_of_PP, flux_Perc_of_PP_Error) %>%
   mutate(mean.part.conc.nM = print(formatC(signif(mean.part.conc.nM, digits=3), digits=3,format="fg")),
          sd.part.conc.nM = print(formatC(signif(sd.part.conc.nM, digits=2), digits=2,format="fg")),
+         Flux_Perc_of_Diss = print(formatC(signif(Flux_Perc_of_Diss, digits=3), digits=3,format="fg")),
+         Flux_Perc_of_Diss_Error = print(formatC(signif(Flux_Perc_of_Diss_Error, digits=2), digits=2,format="fg")),
          Flux_Perc_of_Part = print(formatC(signif(Flux_Perc_of_Part, digits=3), digits=3,format="fg")),
          Flux_Perc_of_Part_Error = print(formatC(signif(Flux_Perc_of_Part_Error, digits=2), digits=2,format="fg")),
          pp.uM.C.perday = print(formatC(signif(pp.uM.C.perday, digits=3), digits=3,format="fg")),
@@ -134,6 +136,8 @@ f.rel.table <- read_csv(f.rel.file) %>%
   rename("Experiment" = exp,
          "Average Particulate Concentration (nM)" = mean.part.conc.nM,
          "Standard Deviation of Particulate Concentration (nM)" = sd.part.conc.nM, 
+         "Daily Flux as Percentage of Dissolved Pool (%)" = Flux_Perc_of_Diss,
+         "Daily Flux as Percentage of Dissolved Pool Error (%)" = Flux_Perc_of_Diss_Error,
          "Daily Flux as Percentage of Particulate Pool (%)" = Flux_Perc_of_Part,
          "Daily Flux as Percentage of Particulate Pool Error (%)" = Flux_Perc_of_Part_Error,
          "Estimated Primary Production (uM C day^-1)" = pp.uM.C.perday,

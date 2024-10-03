@@ -134,16 +134,17 @@ summary(gbt.kt.dconc.lm)
 
 
 ####Look at all betaines + sulfoniums 
+#meta.dat <- read_csv(meta.data.file)
 region.dat <- meta.dat %>%
-  select(cruise_exp, Region) %>%
-  separate(cruise_exp, into = c("Cruise", "exp"))
+  select(KinExp_ID, Region) %>%
+  separate(KinExp_ID, into = c("Cruise", "exp"))
 
 
 enviro.metab.dat <- read_csv(enviro.metab.file)
 
 ##Remove TMAO and calculate total betaine + sulfonium concentration:
 summed.comp.dat <- enviro.metab.dat %>%
-  filter(!Compound == "TMAO") %>%
+  filter(!Compound == "Trimethylamine N-oxide") %>%
   group_by(Cruise, exp) %>%
   reframe(metab.tot.nM = sum(Mean.Diss.Conc.nM),
           metab.tot.nM.uncert = sqrt(sum(SD.Diss.Conc.nM)^2))
@@ -151,6 +152,24 @@ summed.comp.dat <- enviro.metab.dat %>%
 ##join with kinetics data:
 kin.tot.metab.dat <- left_join(summed.comp.dat, flux.kin.dat) %>%
   left_join(., region.dat)
+
+#### Kt-divergence vs. % of total pool data
+kt.conc.dat <- kin.tot.metab.dat %>%
+  mutate(Kt_diff = (mean_ks - Mean.Diss.Conc.nM)/(mean_ks)*100,
+         perc_diss_pool = (Mean.Diss.Conc.nM/metab.tot.nM)*100) %>%
+  select(Cruise, exp, Compound, Kt_diff, perc_diss_pool)
+
+ggplot(kt.conc.dat, aes(x = perc_diss_pool, y = Kt_diff)) +
+  geom_smooth(method = "lm") +
+  geom_point(size = 3, aes(color = Compound)) 
+ # facet_wrap(.~Compound, scales = "free")#+
+ # scale_x_log10() +
+ # scale_y_log10()
+
+
+kt.diff.lm <- lm(Kt_diff ~ perc_diss_pool, data = kt.conc.dat)
+summary(kt.diff.lm)
+
 
 ggplot(kin.tot.metab.dat, aes(x = metab.tot.nM, y = mean_ks)) +
   geom_smooth(alpha = 0.5, method = "lm") +
